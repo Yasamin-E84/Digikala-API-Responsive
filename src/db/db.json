@@ -1,186 +1,172 @@
 {
-  "categories": [
+  "annoying": [
     {
-      "id": "cat_mobile",
-      "title": "موبایل",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "mobile",
-        "viewBox": "0 0 24 24"
-      }
+      "columnTitle": "انتخاب موبایل",
+      "topLink": "همه محصولات موبایل",
+      "sections": [
+        {
+          "title": "گوشی های اپل",
+          "items": ["آیفون 16", "آیفون 17"]
+        },
+        {
+          "title": "برندهای مختلف گوشی موبایل",
+          "items": [
+            "گوشی سامسونگ",
+            "گوشی شیائومی",
+            "گوشی نوکیا",
+            "گوشی ریلمی",
+            "گوشی سایفر",
+            "گوشی آذر",
+            "گوشی تاینیگ فون",
+            "گوشی وکال",
+            "گوشی موتورولا",
+            "گوشی ردتون",
+            "گوشی تی سی ال",
+            "گوشی هواوی",
+            "گوشی داریا",
+            "گوشی گوگل پیکسل",
+            "گوشی جی ال ایکس",
+            "گوشی آلکاتل",
+            "گوشی وان پلاس",
+            "گوشی‌های جنرال لوکس",
+            "گوشی موبایل دوجی",
+            "گوشی HMD",
+            "گوشی پوکو"
+          ]
+        },
+        {
+          "title": "برندهای برتر",
+          "items": ["سامسونگ", "اپل", "ردتون", "آذر", "ریلمی", "اچ ام دی", "تی سی ال"]
+        }
+      ]
     },
     {
-      "id": "cat_laptop",
-      "title": "لپ تاپ",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "electronic",
-        "viewBox": "0 0 24 24"
-      }
+      "columnTitle": "گوشی براساس قیمت",
+      "items": [
+        "گوشی ارزان",
+        "گوشی موبایل قسطی",
+        "گوشی تا 2 میلیون تومان",
+        "گوشی تا 5 میلیون تومان",
+        "گوشی تا 7 میلیون تومان",
+        "گوشی تا 10 میلیون تومان",
+        "گوشی تا 12 میلیون تومان",
+        "گوشی تا 15 میلیون تومان",
+        "گوشی تا 20 میلیون تومان",
+        "گوشی تا 25 میلیون تومان",
+        "گوشی تا 30 میلیون تومان",
+        "گوشی تا 40 میلیون تومان",
+        "گوشی تا 50 میلیون تومان",
+        "گوشی تا 70 میلیون تومان"
+      ],
+      "sections": [
+        {
+          "title": "گوشی براساس عملکرد",
+          "items": [
+            "گوشی گیمینگ",
+            "گوشی 5G",
+            "گوشی دکمه‌ای",
+            "گوشی ضد آب",
+            "گوشی مناسب عکاسی",
+            "گوشی میان رده",
+            "گوشی دانش آموزی",
+            "گوشی پرچمدار",
+            "گوشی دو سیمکارت"
+          ]
+        },
+        {
+          "title": "گوشی براساس حافظه داخلی",
+          "items": [
+            "گوشی 64 گیگابایت",
+            "گوشی 128 گیگابایت",
+            "گوشی 256 گیگابایت",
+            "گوشی 512 گیگابایت",
+            "گوشی یک ترابایت"
+          ]
+        },
+        {
+          "title": "رزولوشن عکس",
+          "items": [
+            "گوشی با دوربین 48 مگاپیکسل",
+            "گوشی با دوربین 50 مگاپیکسل",
+            "گوشی با دوربین 64 مگاپیکسل",
+            "گوشی با دوربین 108 مگاپیکسل"
+          ]
+        }
+      ]
     },
     {
-      "id": "cat_digital_goods",
-      "title": "کالای دیجیتال",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "homeKitchen",
-        "viewBox": "0 0 24 24"
-      }
+      "columnTitle": "لوازم جانبی موبایل",
+      "items": [
+        "شارژر گوشی",
+        "شارژر وایرلس",
+        "شارژر تایپ سی",
+        "کابل شارژ تایپ سی",
+        "قاب گوشی",
+        "گلس گوشی",
+        "شارژر فندکی",
+        "هولدر گوشی موبایل",
+        "کابل شارژ و مبدل",
+        "پاوربانک (شارژر همراه)",
+        "پاور استیشن",
+        "مونوپاد",
+        "کاور ایرپاد",
+        "هولدر گردنی",
+        "فن خنک کننده گوشی",
+        "دسته بازی موبایل"
+      ],
+      "sections": [
+        {
+          "title": "قاب گوشی",
+          "items": [
+            "قاب گوشی سامسونگ",
+            "قاب گوشی آیفون",
+            "قاب گوشی شیائومی",
+            "قاب گوشی ریلمی",
+            "قاب گوشی پوکو",
+            "قاب گوشی وکال"
+          ]
+        },
+        {
+          "title": "هدفون",
+          "items": [
+            "هدفون بی سیم",
+            "هدفون گیمینگ",
+            "هدفون اپل (ایرپاد)",
+            "هدفون بیتس",
+            "هدفون سونی",
+            "هدفون سامسونگ (ایربادز)"
+          ]
+        },
+        {
+          "title": "ساعت و مچ بند هوشمند",
+          "items": ["ساعت هوشمند سامسونگ", "ساعت هوشمند شیائومی"]
+        },
+        {
+          "title": "اپل واچ",
+          "items": ["اپل واچ اولترا 3", "اپل واچ اولترا 2", "اپل واچ 11", "اپل واچ 10", "اپل واچ SE"]
+        }
+      ]
     },
     {
-      "id": "cat_home_kitchen",
-      "title": "خانه و آشپزخانه",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "catHomeElectronic",
-        "viewBox": "0 0 24 25"
-      }
-    },
-    {
-      "id": "cat_home_appliances",
-      "title": "لوازم خانگی برقی",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "catHomeElectronic",
-        "viewBox": "0 0 24 25"
-      }
-    },
-    {
-      "id": "cat_beauty_health",
-      "title": "آرایشی بهداشتی",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "beauty",
-        "viewBox": "0 0 24 24"
-      }
-    },
-    {
-      "id": "cat_vehicles",
-      "title": "خودرو و موتورسیکلت",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "vehicles",
-        "viewBox": "0 0 18 18"
-      }
-    },
-    {
-      "id": "cat_tools_equipment",
-      "title": "ابزار آلات و تجهیزات",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "tools",
-        "viewBox": "0 0 24 24"
-      }
-    },
-    {
-      "id": "cat_fashion",
-      "title": "مد و پوشاک",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "fashion",
-        "viewBox": "0 0 24 24"
-      }
-    },
-    {
-      "id": "cat_gold_silver",
-      "title": "طلا و نقره",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "catJewelry",
-        "viewBox": "0 0 24 24"
-      }
-    },
-    {
-      "id": "cat_medical_health",
-      "title": "تجهیزات پزشکی و سلامت",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "catHealth",
-        "viewBox": "0 0 24 24"
-      }
-    },
-    {
-      "id": "cat_books_stationery_art",
-      "title": "کتاب، لوازم تحریر و هنر",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "bookStationary",
-        "viewBox": "0 0 24 24"
-      }
-    },
-    {
-      "id": "cat_sports_travel",
-      "title": "ورزش و سفر",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "bookStationary",
-        "viewBox": "0 0 24 24"
-      }
-    },
-    {
-      "id": "cat_gift_card",
-      "title": "کارت هدیه و گیفت کارت",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "sportOutdoor",
-        "viewBox": "0 0 24 24"
-      }
-    },
-    {
-      "id": "cat_online_supermarket",
-      "title": "سوپرمارکت آنلاین",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "fresh",
-        "viewBox": "0 0 24 24"
-      }
-    },
-    {
-      "id": "cat_toys_kids_baby",
-      "title": "اسباب بازی، کودک و نوزاد",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "giftCard",
-        "viewBox": "0 0 18 18"
-      }
-    },
-    {
-      "id": "cat_local_products",
-      "title": "محصولات بومی و محلی",
-      "url": "#",
-      "icon": {
-        "type": "svg-symbol",
-        "symbolId": "nativeBusiness",
-        "viewBox": "0 0 24 24"
-      }
+      "columnTitle": "داغ ترین ها",
+      "items": [
+        "آیفون 17",
+        "گوشی S25 سامسونگ",
+        "شیائومی نوت 14",
+        "ردمی نوت 14 پرو",
+        "ردمی نوت 14 پرو پلاس",
+        "گوشی سامسونگ سری s",
+        "گوشی سامسونگ سری a",
+        "گوشی سامسونگ سری m",
+        "داریا باند 5G",
+        "شیائومی 15t",
+        "پوکو x7 پرو",
+        "گلکسی A26",
+        "گلکسی A56",
+        "شارژر آیفون 17",
+        "گلکسی S25 FE",
+        "پوکو f7 پرو"
+      ]
     }
-  ],
-  "meta": {
-    "source": "provided-html-snippet",
-    "defaults": {
-      "url": "#",
-      "iconType": "svg-symbol"
-    },
-    "notes": [
-      "Only items visible in the provided snippet were extracted (SVG <symbol id> + adjacent <p> label).",
-      "Some symbol IDs repeat across different labels (e.g., catHomeElectronic, bookStationary). Kept as-is.",
-      "The snippet appears to contain a mismatched icon/label pair in a couple of places (e.g., کالای دیجیتال uses homeKitchen symbol; کارت هدیه uses sportOutdoor symbol). Kept exactly as provided."
-    ]
-  }
+  ]
 }
