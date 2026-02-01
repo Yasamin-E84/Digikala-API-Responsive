@@ -1,0 +1,186 @@
+{
+  "categories": [
+    {
+      "id": "cat_mobile",
+      "title": "موبایل",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "mobile",
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "id": "cat_laptop",
+      "title": "لپ تاپ",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "electronic",
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "id": "cat_digital_goods",
+      "title": "کالای دیجیتال",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "homeKitchen",
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "id": "cat_home_kitchen",
+      "title": "خانه و آشپزخانه",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "catHomeElectronic",
+        "viewBox": "0 0 24 25"
+      }
+    },
+    {
+      "id": "cat_home_appliances",
+      "title": "لوازم خانگی برقی",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "catHomeElectronic",
+        "viewBox": "0 0 24 25"
+      }
+    },
+    {
+      "id": "cat_beauty_health",
+      "title": "آرایشی بهداشتی",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "beauty",
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "id": "cat_vehicles",
+      "title": "خودرو و موتورسیکلت",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "vehicles",
+        "viewBox": "0 0 18 18"
+      }
+    },
+    {
+      "id": "cat_tools_equipment",
+      "title": "ابزار آلات و تجهیزات",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "tools",
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "id": "cat_fashion",
+      "title": "مد و پوشاک",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "fashion",
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "id": "cat_gold_silver",
+      "title": "طلا و نقره",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "catJewelry",
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "id": "cat_medical_health",
+      "title": "تجهیزات پزشکی و سلامت",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "catHealth",
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "id": "cat_books_stationery_art",
+      "title": "کتاب، لوازم تحریر و هنر",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "bookStationary",
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "id": "cat_sports_travel",
+      "title": "ورزش و سفر",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "bookStationary",
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "id": "cat_gift_card",
+      "title": "کارت هدیه و گیفت کارت",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "sportOutdoor",
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "id": "cat_online_supermarket",
+      "title": "سوپرمارکت آنلاین",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "fresh",
+        "viewBox": "0 0 24 24"
+      }
+    },
+    {
+      "id": "cat_toys_kids_baby",
+      "title": "اسباب بازی، کودک و نوزاد",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "giftCard",
+        "viewBox": "0 0 18 18"
+      }
+    },
+    {
+      "id": "cat_local_products",
+      "title": "محصولات بومی و محلی",
+      "url": "#",
+      "icon": {
+        "type": "svg-symbol",
+        "symbolId": "nativeBusiness",
+        "viewBox": "0 0 24 24"
+      }
+    }
+  ],
+  "meta": {
+    "source": "provided-html-snippet",
+    "defaults": {
+      "url": "#",
+      "iconType": "svg-symbol"
+    },
+    "notes": [
+      "Only items visible in the provided snippet were extracted (SVG <symbol id> + adjacent <p> label).",
+      "Some symbol IDs repeat across different labels (e.g., catHomeElectronic, bookStationary). Kept as-is.",
+      "The snippet appears to contain a mismatched icon/label pair in a couple of places (e.g., کالای دیجیتال uses homeKitchen symbol; کارت هدیه uses sportOutdoor symbol). Kept exactly as provided."
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+
+
+@theme {
+  --breakpoint-desktop: 1024px;
+  --breakpoint-mobile: 10px;
+  --font-Iran: IranYekan;
+  --border-color: #d7d7d7;
+  --spacing-color:#d7d7d7;
+}
+
+@font-face {
+  font-family: IranYekan;
+  src: url(../fonts/iranyekanwebregular.e31c09af.woff2);
+}
+@layer utilities {
+  .direction-ltr {
+    direction: ltr;
+  }
+  .direction-rtl {
+    direction: rtl;
+  }
+}
+.custom-scroll {
+  width: 300px;
+  height: 200px;
+  overflow-y: auto; /* خیلی مهم */
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* کل اسکرول‌بار */
+.custom-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* پس‌زمینه اسکرول‌بار */
+.custom-scroll::-webkit-scrollbar-track {
+  background: lightpink;
+  border-radius: 10px;
+}
+
+/* خود اسکرول (thumb) */
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* hover */
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
