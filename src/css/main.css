@@ -50,3 +50,51 @@
   background: #555;
 }
 
+.locswiper {
+  position: relative;
+  padding-inline: 52px;
+}
+
+.locswiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #d1d5db;
+  border-radius: 9999px;
+  background: #ffffff;
+  padding: 15px;
+  box-sizing: border-box;
+  color: #7e8187 !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-weight: 900;
+  font-size: 10px;
+}
+
+.swiper-button-prev {
+  right: 0;
+  left: auto;
+}
+
+.swiper-button-next {
+  left: 0;
+  right: auto;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  transition: all 0.25s ease;
+}
+
+.swiper-button-disabled {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.8);
+  pointer-events: none;
+}

@@ -16,68 +16,100 @@
     <main class="absolute z-1">
       <div class="cover-bg hidden w-screen absolute h-screen bg-black/20"></div>
       <div
-        class="cover-bg-full hidden w-screen absolute h-screen bg-black/20 z-2"
+        class="cover-bg-loc-full hidden transition-all duration-300 w-screen absolute h-screen bg-black/30 z-2"
       ></div>
       <div
-        class="loc-modal hidden w-115 bg-white rounded-lg p-4 absolute top-15 z-3 right-[50%] translate-x-[50%] flex flex-col gap-5 justify-start items-center transition-all duration-300 h-auto overflow-y-auto"
+        class="loc-modal hidden w-115 h-[82vh] bg-white rounded-lg absolute top-15 z-3 right-[50%] translate-x-[50%] flex-col gap-1 justify-start items-center transition-all duration-300 overflow-hidden"
       >
-        <div class="flex w-full justify-between items-center">
-          <span class="font-Iran font-semibold">انتخاب شهر</span>
-          <svg
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            xmlns="http://www.w3.org/2000/svg"
-            data-cro-id="city-close-modal-icon-button"
-            data-test-id="close-modal-icon-button"
-            style="
-              width: 24px;
-              height: 24px;
-              fill: var(--color-icon-high-emphasis);
-            "
-            width="24"
-            height="24"
-          >
-            <defs>
-              <symbol
-                id="close"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-              >
+        <div
+          class="loc-top w-full flex-col flex gap-4 justify-start items-center p-4"
+        >
+          <div class="flex w-full justify-between items-center">
+            <span class="font-Iran font-semibold">انتخاب شهر</span>
+            <svg
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns="http://www.w3.org/2000/svg"
+              data-cro-id="city-close-modal-icon-button"
+              data-test-id="close-modal-icon-button"
+              style="
+                width: 24px;
+                height: 24px;
+                fill: var(--color-icon-high-emphasis);
+              "
+              width="24"
+              height="24"
+              class="loc-close cursor-pointer"
+            >
+              <defs>
+                <symbol
+                  id="close"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M18.364 7.05L16.95 5.636 12 10.586l-4.95-4.95L5.636 7.05l4.95 4.95-4.95 4.95 1.414 1.414 4.95-4.95 4.95 4.95 1.414-1.414-4.95-4.95 4.95-4.95z"
+                    clip-rule="evenodd"
+                  ></path>
+                </symbol>
+              </defs>
+              <g>
                 <path
                   fill-rule="evenodd"
                   d="M18.364 7.05L16.95 5.636 12 10.586l-4.95-4.95L5.636 7.05l4.95 4.95-4.95 4.95 1.414 1.414 4.95-4.95 4.95 4.95 1.414-1.414-4.95-4.95 4.95-4.95z"
                   clip-rule="evenodd"
                 ></path>
-              </symbol>
-            </defs>
-            <g>
-              <path
-                fill-rule="evenodd"
-                d="M18.364 7.05L16.95 5.636 12 10.586l-4.95-4.95L5.636 7.05l4.95 4.95-4.95 4.95 1.414 1.414 4.95-4.95 4.95 4.95 1.414-1.414-4.95-4.95 4.95-4.95z"
-                clip-rule="evenodd"
-              ></path>
-            </g>
-          </svg>
+              </g>
+            </svg>
+          </div>
+          <hr class="w-full border border-[#eaeaec]" />
         </div>
-        <hr class="w-full border border-[#eaeaec]" />
 
-        <div class="loc-scroll overscroll-y-auto h-[60vh] w-full flex flex-col gap-4 justify-start items-center">
+        <div
+          class="loc-scroll relative h-[85%] w-full overflow-y-auto p-3 pt-0 flex flex-col gap-4 justify-start items-center"
+        >
           <div
-            class="searchcity sticky bg-[#f0f0f1] h-11 w-full gap-2 flex flex-row-reverse justify-start items-center px-4 rounded-sm"
+            class="searchcity sticky top-0 z-10 w-full bg-white flex-col flex gap-2 justify-start items-center"
           >
-            <input
-              class="h-11 w-full gap-4 flex justify-start items-center pb-2 transition-all duration-300 rounded-sm placeholder:text-[#b4b6ba] placeholder:font-Iran placeholder:text-[12px] outline-none border-none"
-              placeholder="جستجو در استان‌ها و شهرهای ایران"
+            <div class="bg-[#f0f0f1] h-11 w-full gap-2 flex flex-row-reverse justify-start items-center px-4 rounded-sm">
+              <input
+                class="h-11 w-full gap-4 flex justify-start items-center pb-2 transition-all duration-300 rounded-sm placeholder:text-[#b4b6ba] placeholder:font-Iran placeholder:text-[12px] outline-none border-none"
+                placeholder="جستجو در استان‌ها و شهرهای ایران"
+              />
+              <img src="./src/img/Header/searchbar-logo.svg" alt="" />
+            </div>
+            <hr
+              class="w-full mt-1.5 border border-[#eaeaec] loc-divider hideen"
             />
-            <img src="./src/img/Header/searchbar-logo.svg" alt="" />
           </div>
           <span class="font-Iran text-[14px] text-[#5c5c5c]"
             >برای مشاهده تخفیف‌ها و کالا‌های قابل ارسال به شهرتان، آن را انتخاب
             کنید.
           </span>
-          <span class="font-Iran text-md font-bold w-full text-right">شهرهای پرتکرار</span>
+          <span class="font-Iran text-md font-bold w-full text-right"
+            >شهرهای پرتکرار</span
+          >
+          <div class="location-swiper w-full">
+            <section class="mx-auto w-full">
+              <div class="swiper locswiper w-full">
+                <div class="swiper-wrapper locswiperkid cursor-pointer w-full">
+                  <!--db.json/api-->
+                </div>
+                <div class="swiper-button-prev city-prev"></div>
+                <div class="swiper-button-next city-next"></div>
+              </div>
+            </section>
+
+            <script type="module" src="/src/js/main.js"></script>
+          </div>
+          <div
+            class="cities-list w-full flex-col flex gap-2 justify-start items-center"
+          >
+            <!--db.json/api-->
+          </div>
         </div>
       </div>
-      <!--#region header-->
+      <!--#region header-desktop-->
       <header
         class="w-full h-40 mobile:hidden desktop:block bg-white shadow shadow-slate-400 relative"
       >
@@ -516,7 +548,13 @@
         </div>
         <!--#endregion header-category-->
       </header>
-      <!--#endregion header-->
+      <!--#endregion header-desktop-->
+      
+      <!--#region header-mobile-->
+      <header>
+
+      </header>
+      <!--#endregion header-mobile-->
     </main>
     <div class="bg-close bg-black/20 w-full h-screen absolute z-0 hidden"></div>
 
