@@ -1,11 +1,13 @@
+import { getDB } from "../api";
+
+const res = await getDB();
+
 import Swiper from "swiper";
 import { Navigation } from "swiper/modules";
 
 import "swiper/css";
 async function MSearch() {
   try {
-    let data = await fetch("http://localhost:5173/db.json");
-    let res = await data.json();
     const searchHot = res.HotSearh.map((item) => {
       return `
     <div class="swiper-slide cursor-pointer !flex !flex-row !items-center gap-2 !w-auto rounded-full border border-gray-300 bg-white py-2 px-2">

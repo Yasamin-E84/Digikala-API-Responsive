@@ -1,7 +1,9 @@
+import { getDB } from "../api";
+
+const res = await getDB();
+
 async function Services() {
   try {
-    let data = await fetch("http://localhost:5173/db.json");
-    let res = await data.json();
 
     const services = res.services.map((item) => {
       return `

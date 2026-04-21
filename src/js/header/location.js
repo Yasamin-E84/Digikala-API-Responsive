@@ -1,3 +1,7 @@
+import { getDB } from "../api";
+
+const res = await getDB();
+
 import Swiper from "swiper";
 import { Navigation } from "swiper/modules";
 
@@ -36,9 +40,6 @@ function Location() {
 }
 
 try {
-  let data = await fetch("http://localhost:5173/db.json");
-  let res = await data.json();
-
   const locSwiper = res.locationCity.map((item) => {
     return `
                   <div
@@ -56,8 +57,6 @@ try {
 }
 
 try {
-  let data = await fetch("http://localhost:5173/db.json");
-  let res = await data.json();
 
   const citiesList = res.cities.map((item) => {
     return `

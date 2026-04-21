@@ -1,3 +1,7 @@
+import { getDB } from "../api";
+
+const res = await getDB();
+
 import Swiper from "swiper";
 import { Navigation } from "swiper/modules";
 
@@ -6,8 +10,6 @@ import "swiper/css/navigation";
 
 async function Story() {
   try {
-    let data = await fetch("http://localhost:5173/db.json");
-    let res = await data.json();
 
     const storySwiper = res.Story.map((item) => {
       return `

@@ -253,14 +253,15 @@ const icons = {
     </svg>
   `,
 };
+import { getDB } from "../api";
+
+const res = await getDB();
 async function Annoying() {
   try {
-    const response = await fetch("http://localhost:5173/db.json");
-    const res = await response.json();
 
     const megaMenuHTML = `
       <div
-        class="annoying hidden group-hover/grand:block transition-all duration-200 h-[65vh] absolute top-full right-0 overflow-x-visible"
+        class="annoying hidden group-hover/grand:block transition-all duration-200 h-[65vh] absolute top-full right-0 overflow-x-visible z-10"
       >
         <div
           class="direction direction-ltr h-full overflow-y-scroll scroll-smooth overflow-x-visible"
