@@ -5362,5 +5362,93 @@
     { "city": "سمنان", "province": "سمنان" },
     { "city": "شاهرود", "province": "سمنان" },
     { "city": "دامغان", "province": "سمنان" }
+  ],
+  "services": [
+    {
+      "Simg": "./src/img/Header/mobile/s-1.png",
+      "Stitle": "سرویس‌ها"
+    },
+    {
+      "Simg": "./src/img/Header/mobile/s-2.png",
+      "Stitle": "دیجی‌کالا"
+    },
+    {
+      "Simg": "./src/img/Header/mobile/s-3.png",
+      "Stitle": "۴۵ دقیقه‌ای"
+    },
+    {
+      "Simg": "./src/img/Header/mobile/s-4.png",
+      "Stitle": "طلای دیجیتال"
+    },
+    {
+      "Simg": "./src/img/Header/mobile/s-5.png",
+      "Stitle": "سوپرمارکت"
+    },
+    {
+      "Simg": "./src/img/Header/mobile/s-6.png",
+      "Stitle": "اعتبار خرید"
+    }
+  ],
+  "HotSearh": [
+    { "title": "گوشی موبایل" },
+    { "title": "لپ تاپ" },
+    { "title": "هدفون" },
+    { "title": "ساعت هوشمند" },
+    { "title": "کفش مردانه" },
+    { "title": "کفش زنانه" },
+    { "title": "لباس مردانه" },
+    { "title": "لباس زنانه" },
+    { "title": "عطر و ادکلن" },
+    { "title": "محصولات آرایشی و بهداشتی" }
+  ],
+  "Story": [
+    {
+      "text": "بالش طبی هوشمند مدل ...",
+      "img": "./src/img/Story/img-1.jpg"
+    },
+    {
+      "text": "انواع ماسک اتومات جو...",
+      "img": "./src/img/Story/img-2.jpg"
+    },
+    {
+      "text": "پروژکتور انکر مدل A2...",
+      "img": "./src/img/Story/img-3.jpg"
+    },
+    {
+      "text": "تا قبل عید پوستتو نج...",
+      "img": "./src/img/Story/img-4.jpg"
+    },
+    {
+      "text": "چرا لانچر نت باکس مت...",
+      "img": "./src/img/Story/img-5.jpg"
+    },
+    {
+      "text": "جارو شارژی ارزون!",
+      "img": "./src/img/Story/img-6.jpg"
+    },
+    {
+      "text": "منقل روزینکس",
+      "img": "./src/img/Story/img-7.jpg"
+    },
+    {
+      "text": "یه بخاری بخاری دوقول...",
+      "img": "./src/img/Story/img-8.jpg"
+    },
+    {
+      "text": "ساخت فلش انگشتی!",
+      "img": "./src/img/Story/img-9.jpg"
+    },
+    {
+      "text": "مراحل پاک کردن آرایش",
+      "img": "./src/img/Story/img-10.jpg"
+    },
+    {
+      "text": "انواع منگنه‌کوب دستی",
+      "img": "./src/img/Story/img-11.jpg"
+    },
+    {
+      "text": "مقایسه‌ی نت باکس پرس",
+      "img": "./src/img/Story/img-12.jpg"
+    }
   ]
 }

@@ -62,12 +62,12 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-  width: 42px;
-  height: 42px;
+  width: 30px;
+  height: 30px;
   border: 1px solid #d1d5db;
   border-radius: 9999px;
   background: #ffffff;
-  padding: 15px;
+  padding: 13px;
   box-sizing: border-box;
   color: #7e8187 !important;
 }

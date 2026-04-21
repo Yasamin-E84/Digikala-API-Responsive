@@ -42,9 +42,9 @@ try {
   const locSwiper = res.locationCity.map((item) => {
     return `
                   <div
-                    class="swiper-slide flex h-14 items-center justify-between rounded-full border border-gray-300 min-w-20   bg-white py-2 px-1 text-md font-semibold text-slate-700"
+                    class="swiper-slide flex h-14 items-center justify-between rounded-full border border-gray-300 !w-auto bg-white py-2 px-1 text-md font-semibold text-slate-700"
                   >
-                    <span class="font-Iran text-sm">${item.city}</span>
+                    <span class="font-Iran desktop:text-sm mobile:text-[12px]">${item.city}</span>
                     <img src="./src/img/Header/left-black.svg" alt="">
                   </div>
         `;

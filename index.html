@@ -13,19 +13,26 @@
   </head>
 
   <body>
-    <main class="absolute z-1">
+    <main
+      class="absolute z-1 w-full flex justify-center items-center flex-col gap-4"
+    >
+      <!--#region essentials-->
       <div class="cover-bg hidden w-screen absolute h-screen bg-black/20"></div>
       <div
         class="cover-bg-loc-full hidden transition-all duration-300 w-screen absolute h-screen bg-black/30 z-2"
       ></div>
+      <!-- #region location-modal -->
       <div
-        class="loc-modal hidden w-115 h-[82vh] bg-white rounded-lg absolute top-15 z-3 right-[50%] translate-x-[50%] flex-col gap-1 justify-start items-center transition-all duration-300 overflow-hidden"
+        class="loc-modal hidden desktop:w-115 desktop:h-[82vh] bg-white rounded-lg absolute desktop:top-15 z-3 desktop:right-[50%] desktop:translate-x-[50%] desktop:translate-y-0 flex-col gap-1 justify-start items-center transition-all duration-300 overflow-hidden mobile:translate-y-[50%] mobile:h-[75vh] mobile:w-full mobile:absolute"
       >
         <div
           class="loc-top w-full flex-col flex gap-4 justify-start items-center p-4"
         >
           <div class="flex w-full justify-between items-center">
-            <span class="font-Iran font-semibold">انتخاب شهر</span>
+            <span
+              class="font-Iran font-semibold mobile:text-[14px] desktop:text-[16px]"
+              >انتخاب شهر</span
+            >
             <svg
               xmlns:xlink="http://www.w3.org/1999/xlink"
               xmlns="http://www.w3.org/2000/svg"
@@ -66,12 +73,14 @@
         </div>
 
         <div
-          class="loc-scroll relative h-[85%] w-full overflow-y-auto p-3 pt-0 flex flex-col gap-4 justify-start items-center"
+          class="loc-scroll relative h-[85%] w-full overflow-y-auto p-3 pt-0 flex flex-col gap-4 justify-start items-center scroll-smooth"
         >
           <div
-            class="searchcity sticky top-0 z-10 w-full bg-white flex-col flex gap-2 justify-start items-center"
+            class="searchcity sticky top-0 z-10 w-full bg-white flex-col flex gap-2 justify-start items-center mobile:rounded-full"
           >
-            <div class="bg-[#f0f0f1] h-11 w-full gap-2 flex flex-row-reverse justify-start items-center px-4 rounded-sm">
+            <div
+              class="bg-[#f0f0f1] mobile:rounded-full h-11 w-full gap-2 flex flex-row-reverse justify-start items-center px-4 rounded-sm"
+            >
               <input
                 class="h-11 w-full gap-4 flex justify-start items-center pb-2 transition-all duration-300 rounded-sm placeholder:text-[#b4b6ba] placeholder:font-Iran placeholder:text-[12px] outline-none border-none"
                 placeholder="جستجو در استان‌ها و شهرهای ایران"
@@ -82,7 +91,8 @@
               class="w-full mt-1.5 border border-[#eaeaec] loc-divider hideen"
             />
           </div>
-          <span class="font-Iran text-[14px] text-[#5c5c5c]"
+          <span
+            class="font-Iran desktop:text-[14px] mobile:text-[12px] text-right w-full text-[#5c5c5c]"
             >برای مشاهده تخفیف‌ها و کالا‌های قابل ارسال به شهرتان، آن را انتخاب
             کنید.
           </span>
@@ -109,6 +119,50 @@
           </div>
         </div>
       </div>
+      <!-- #endregion location-modal -->
+      <!--#region MSearch-popup-->
+      <div
+        class="w-screen h-screen bg-white fixed top-0 left-0 z-50 flex flex-col gap-4 justify-start items-center py-1 px-4 transition-all rounded-sm duration-500 MSearch-popup translate-y-full invisible opacity-0 pointer-events-none"
+      >
+        <div class="flex justify-center items-center gap-4 w-full">
+          <img
+            src="./src/img/Header/mobile/back.svg"
+            alt=""
+            class="close-MSearch-popup cursor-pointer w-6 h-6"
+          />
+          <div
+            class="w-full h-11 flex justify-start items-center p-4 rounded-full border border-[#d7d7d7] gap-4"
+          >
+            <img src="./src/img/Header/searchbar-logo.svg" alt="" class="w-6" />
+            <input
+              type="text"
+              placeholder="جستجو در همه کالاها"
+              class="w-full h-6 outline-none border-none placeholder:font-Iran placeholder:text-[14px] placeholder:font-semibold placeholder:text-[#a2a4a9]"
+            />
+          </div>
+        </div>
+        <!--#region hot-search-->
+        <div
+          class="hot-search w-full flex flex-col gap-4 justify-start items-center"
+        >
+          <div class="flex justify-between items-center w-full">
+            <div class="flex justify-center items-center gap-3">
+              <img src="./src/img/Header/search-hot.svg" alt="" />
+              <span class="font-Iran text-sm font-semibold text-[#5c5c5c]"
+                >جستجوی های پرطرفدار</span
+              >
+            </div>
+          </div>
+          <div class="swiper Search-hot-swiper w-full">
+            <div class="swiper-wrapper hot-wrapper">
+              <!--db.json/api-->
+            </div>
+          </div>
+        </div>
+        <!--#endregion hot-search-->
+      </div>
+      <!--#endregion MSearch-popup-->
+      <!--#endregion essentials-->
       <!--#region header-desktop-->
       <header
         class="w-full h-40 mobile:hidden desktop:block bg-white shadow shadow-slate-400 relative"
@@ -119,316 +173,362 @@
             ><img
               src="./src/img/Header/Banner.jpg"
               alt=""
-              class="h-full w-auto"
+              class="h-full w-full object-cover"
           /></a>
         </div>
         <!--#endregion header-banner-->
-        <!--#region header-search-->
         <div
-          class="search flex py-2 w-full relative px-4 gap-6 justify-start items-center"
+          class="header-container max-w-450 w-full mx-auto flex-col gap-2 justify-start items-center"
         >
-          <!--#region header-search-logo-->
-          <div class="logo w-48.75 h-7.5">
-            <a href="index.html"
-              ><img
-                src="./src/img/Header/logo.png"
-                alt=""
-                class="w-48.75 h-7.5"
-            /></a>
-          </div>
-          <!--#endregion header-search-logo-->
-
-          <!--#region header-search-searchbar-->
-          <div class="searchbar min-w-150 w-[60%] h-auto relative">
-            <!--#region header-search-searchbar-console-->
-            <div
-              class="console bg-[#f0f0f1] h-11 w-150 gap-4 flex justify-start items-center px-4 rounded-sm"
-            >
-              <img src="./src/img/Header/searchbar-logo.svg" alt="" />
-              <span class="text-[#a2a3a8] font-Iran text-sm">جستجو</span>
-            </div>
-            <!--#endregion header-search-searchbar-console-->
-            <!--#region header-search-searchbar-history-->
-            <div
-              class="history absolute top-0 hidden gap-5 w-150 p-4 bg-white rounded-xl shadow shadow-[#e9e9e9] flex-col justify-center items-center"
-            >
-              <div
-                class="history-search w-full border-b border-[#56d0df] rounded-md h-11 p-2"
-              >
-                <input
-                  type="text"
-                  class="font-Iran w-full text-sm text-[#b4b6ba] outline-none border-none"
-                  placeholder="جستجو در همه کالاها"
-                />
-              </div>
-              <div class="px-5">
-                <a
-                  href="#"
-                  class="cursor-default"
-                  title="پارتنرشیپ-چرم مشهد - سرچ بار"
-                  ><img
-                    src="./src/img/Header/search-img.gif"
-                    alt=""
-                    class="rounded-xl"
-                /></a>
-              </div>
-              <div
-                class="hot-search flex flex-col gap-4 w-full justify-center items-start"
-              >
-                <div
-                  class="hot-search-title flex gap-4 cursor-pointer justify-center items-center"
-                >
-                  <img src="./src/img/Header/search-hot.svg" alt="" />
-                  <span class="font-Iran font-bold text-[#4b4c6e]"
-                    >جستجوهای پرطرفدار</span
-                  >
-                </div>
-                <div
-                  class="hot-search-subjects flex gap-2 justify-center items-center"
-                >
-                  <div
-                    class="rounded-full justify-between items-center flex border border-[#d7d7d7] p-2 gap-1"
-                  >
-                    <span class="font-Iran text-sm">لیپ گلاس</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style="width: 24px; height: 24px; fill: #4b4c6e"
-                      width="24"
-                      height="24"
-                    >
-                      <defs>
-                        <symbol
-                          id="chevronLeft"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-                          ></path>
-                        </symbol>
-                      </defs>
-                      <g>
-                        <path
-                          d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-                        ></path>
-                      </g>
-                    </svg>
-                  </div>
-                  <div
-                    class="rounded-full justify-between items-center flex border border-[#d7d7d7] p-2 gap-1"
-                  >
-                    <span class="font-Iran text-sm">چراغ مطالعه</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style="width: 24px; height: 24px; fill: #4b4c6e"
-                      width="24"
-                      height="24"
-                    >
-                      <defs>
-                        <symbol
-                          id="chevronLeft"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-                          ></path>
-                        </symbol>
-                      </defs>
-                      <g>
-                        <path
-                          d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-                        ></path>
-                      </g>
-                    </svg>
-                  </div>
-                  <div
-                    class="rounded-full justify-between items-center flex border border-[#d7d7d7] p-2 gap-1"
-                  >
-                    <span class="font-Iran text-sm">ژل ابرو</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style="width: 24px; height: 24px; fill: #4b4c6e"
-                      width="24"
-                      height="24"
-                    >
-                      <defs>
-                        <symbol
-                          id="chevronLeft"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-                          ></path>
-                        </symbol>
-                      </defs>
-                      <g>
-                        <path
-                          d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-                        ></path>
-                      </g>
-                    </svg>
-                  </div>
-                  <div
-                    class="rounded-full justify-between items-center flex border border-[#d7d7d7] p-2 gap-1"
-                  >
-                    <span class="font-Iran text-sm">تلویزیون</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style="width: 24px; height: 24px; fill: #4b4c6e"
-                      width="24"
-                      height="24"
-                    >
-                      <defs>
-                        <symbol
-                          id="chevronLeft"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-                          ></path>
-                        </symbol>
-                      </defs>
-                      <g>
-                        <path
-                          d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-                        ></path>
-                      </g>
-                    </svg>
-                  </div>
-                  <div
-                    class="rounded-full justify-between items-center flex border border-[#d7d7d7] p-2 gap-1"
-                  >
-                    <span class="text-sm font-sans">s25</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      style="width: 24px; height: 24px; fill: #4b4c6e"
-                      width="24"
-                      height="24"
-                    >
-                      <defs>
-                        <symbol
-                          id="chevronLeft"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-                          ></path>
-                        </symbol>
-                      </defs>
-                      <g>
-                        <path
-                          d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
-                        ></path>
-                      </g>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--#endregion header-search-searchbar-history-->
-          </div>
-          <!--#endregion header-search-searchbar-->
-
-          <!--#region header-search-account-->
+          <!--#region header-search-->
           <div
-            class="account w-62.75 h-11 flex justify-center items-center gap-4"
+            class="search flex py-2 w-full relative px-4 gap-6 justify-start items-center"
           >
-            <div class="notif">
-              <a href="#">
-                <svg
-                  width="24px"
-                  height="24px"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
+            <!--#region header-search-logo-->
+            <div class="logo w-48.75 h-7.5">
+              <a href="index.html"
+                ><img
+                  src="./src/img/Header/logo.png"
+                  alt=""
+                  class="w-48.75 h-7.5"
+              /></a>
+            </div>
+            <!--#endregion header-search-logo-->
+
+            <!--#region header-search-searchbar-->
+            <div class="searchbar min-w-150 w-[60%] h-auto relative">
+              <!--#region header-search-searchbar-console-->
+              <div
+                class="console bg-[#f0f0f1] h-11 w-150 gap-4 flex justify-start items-center px-4 rounded-sm"
+              >
+                <img src="./src/img/Header/searchbar-logo.svg" alt="" />
+                <span class="text-[#a2a3a8] font-Iran text-sm">جستجو</span>
+              </div>
+              <!--#endregion header-search-searchbar-console-->
+              <!--#region header-search-searchbar-history-->
+              <div
+                class="history absolute top-0 hidden gap-5 w-150 p-4 bg-white rounded-xl shadow shadow-[#e9e9e9] flex-col justify-center items-center"
+              >
+                <div
+                  class="history-search w-full border-b border-[#56d0df] rounded-md h-11 p-2"
                 >
-                  <title />
-                  <g id="Complete">
-                    <g id="bell">
-                      <g>
-                        <path
-                          d="M18.9,11.2s0-8.7-6.9-8.7-6.9,8.7-6.9,8.7v3.9L2.5,17.5h19l-2.6-2.4Z"
-                          fill="none"
-                          stroke="#686768"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                        />
-                        <path
-                          d="M14.5,20.5s-.5,1-2.5,1-2.5-1-2.5-1"
-                          fill="none"
-                          stroke="#686768"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                        />
+                  <input
+                    type="text"
+                    class="font-Iran w-full text-sm text-[#b4b6ba] outline-none border-none"
+                    placeholder="جستجو در همه کالاها"
+                  />
+                </div>
+                <div class="px-5">
+                  <a
+                    href="#"
+                    class="cursor-default"
+                    title="پارتنرشیپ-چرم مشهد - سرچ بار"
+                    ><img
+                      src="./src/img/Header/search-img.gif"
+                      alt=""
+                      class="rounded-xl"
+                  /></a>
+                </div>
+                <div
+                  class="hot-search flex flex-col gap-4 w-full justify-center items-start"
+                >
+                  <div
+                    class="hot-search-title flex gap-4 cursor-pointer justify-center items-center"
+                  >
+                    <img src="./src/img/Header/search-hot.svg" alt="" />
+                    <span class="font-Iran font-bold text-[#4b4c6e]"
+                      >جستجوهای پرطرفدار</span
+                    >
+                  </div>
+                  <div
+                    class="hot-search-subjects flex gap-2 justify-center items-center"
+                  >
+                    <div
+                      class="rounded-full justify-between items-center flex border border-[#d7d7d7] p-2 gap-1"
+                    >
+                      <span class="font-Iran text-sm">لیپ گلاس</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        style="width: 24px; height: 24px; fill: #4b4c6e"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="chevronLeft"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g>
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div
+                      class="rounded-full justify-between items-center flex border border-[#d7d7d7] p-2 gap-1"
+                    >
+                      <span class="font-Iran text-sm">چراغ مطالعه</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        style="width: 24px; height: 24px; fill: #4b4c6e"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="chevronLeft"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g>
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div
+                      class="rounded-full justify-between items-center flex border border-[#d7d7d7] p-2 gap-1"
+                    >
+                      <span class="font-Iran text-sm">ژل ابرو</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        style="width: 24px; height: 24px; fill: #4b4c6e"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="chevronLeft"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g>
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div
+                      class="rounded-full justify-between items-center flex border border-[#d7d7d7] p-2 gap-1"
+                    >
+                      <span class="font-Iran text-sm">تلویزیون</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        style="width: 24px; height: 24px; fill: #4b4c6e"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="chevronLeft"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g>
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div
+                      class="rounded-full justify-between items-center flex border border-[#d7d7d7] p-2 gap-1"
+                    >
+                      <span class="text-sm font-sans">s25</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        style="width: 24px; height: 24px; fill: #4b4c6e"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="chevronLeft"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g>
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--#endregion header-search-searchbar-history-->
+            </div>
+            <!--#endregion header-search-searchbar-->
+
+            <!--#region header-search-account-->
+            <div
+              class="account w-62.75 h-11 flex justify-center items-center gap-4"
+            >
+              <div class="notif">
+                <a href="#">
+                  <svg
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title />
+                    <g id="Complete">
+                      <g id="bell">
+                        <g>
+                          <path
+                            d="M18.9,11.2s0-8.7-6.9-8.7-6.9,8.7-6.9,8.7v3.9L2.5,17.5h19l-2.6-2.4Z"
+                            fill="none"
+                            stroke="#686768"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                          />
+                          <path
+                            d="M14.5,20.5s-.5,1-2.5,1-2.5-1-2.5-1"
+                            fill="none"
+                            stroke="#686768"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                          />
+                        </g>
                       </g>
                     </g>
-                  </g>
-                </svg>
-              </a>
-            </div>
-            <div
-              class="login flex justify-center items-center border border-[#d7d7d7] w-33.5 h-10 rounded-lg"
-            >
-              <button
-                class="w-full h-full p-2 flex justify-center items-center gap-2"
+                  </svg>
+                </a>
+              </div>
+              <div
+                class="login flex justify-center items-center border border-[#d7d7d7] w-33.5 h-10 rounded-lg"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  style="width: 24px; height: 24px; fill: #686768"
-                  width="24"
-                  height="24"
+                <button
+                  class="w-full h-full p-2 flex justify-center items-center gap-2"
                 >
-                  <defs>
-                    <symbol
-                      id="registerationSignIn"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                    >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="width: 24px; height: 24px; fill: #686768"
+                    width="24"
+                    height="24"
+                  >
+                    <defs>
+                      <symbol
+                        id="registerationSignIn"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </symbol>
+                    </defs>
+                    <g>
                       <path
                         fill-rule="evenodd"
                         d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z"
                         clip-rule="evenodd"
                       ></path>
-                    </symbol>
-                  </defs>
-                  <g>
-                    <path
-                      fill-rule="evenodd"
-                      d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </g>
-                </svg>
-                <div class="flex justify-center items-center gap-1">
-                  <span class="text-sm font-Iran">ورود</span>
-                  <span class="text-sm font-Iran font-bold">|</span>
-                  <span class="text-sm font-Iran">ثبت‌نام</span>
-                </div>
-              </button>
+                    </g>
+                  </svg>
+                  <div class="flex justify-center items-center gap-1">
+                    <span class="text-sm font-Iran">ورود</span>
+                    <span class="text-sm font-Iran font-bold">|</span>
+                    <span class="text-sm font-Iran">ثبت‌نام</span>
+                  </div>
+                </button>
+              </div>
+              <div class="w-0 h-8 border-r border-r-[#d7d7d7]"></div>
+              <div class="cart">
+                <a href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="width: 24px; height: 24px; fill: #686768"
+                    width="24"
+                    height="24"
+                  >
+                    <defs>
+                      <symbol
+                        id="cartOff"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </symbol>
+                    </defs>
+                    <g>
+                      <path
+                        fill-rule="evenodd"
+                        d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </div>
             </div>
-            <div class="w-0 h-8 border-r border-r-[#d7d7d7]"></div>
-            <div class="cart">
-              <a href="#">
+            <!--#endregion header-search-account-->
+          </div>
+          <!--#endregion header-search-->
+          <!--#region header-category-->
+          <div
+            class="category h-10 w-full bg-white px-4 flex justify-between items-center"
+          >
+            <!--#region header-category-navbar-->
+            <div class="w-204.25 px py-0 flex justify-start items-center gap-4">
+              <!--#region header-category-items-->
+              <div
+                class="items-categories group/grand flex justify-center items-center relative p-2 gap-1 cursor-pointer"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  style="width: 24px; height: 24px; fill: #686768"
+                  style="width: 18px; height: 18px; fill: #4e525b"
                   width="24"
                   height="24"
                 >
                   <defs>
                     <symbol
-                      id="cartOff"
+                      id="hamburgerMenu"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                     >
                       <path
                         fill-rule="evenodd"
-                        d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                        d="M19 8V6H5v2h14zm0 3v2H5v-2h14zm0 5v2H5v-2h14z"
                         clip-rule="evenodd"
                       ></path>
                     </symbol>
@@ -436,125 +536,149 @@
                   <g>
                     <path
                       fill-rule="evenodd"
-                      d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                      d="M19 8V6H5v2h14zm0 3v2H5v-2h14zm0 5v2H5v-2h14z"
                       clip-rule="evenodd"
                     ></path>
                   </g>
                 </svg>
-              </a>
-            </div>
-          </div>
-          <!--#endregion header-search-account-->
-        </div>
-        <!--#endregion header-search-->
-        <!--#region header-category-->
-        <div
-          class="category h-10 w-full bg-white px-4 flex justify-between items-center"
-        >
-          <!--#region header-category-navbar-->
-          <div class="w-204.25 px py-0 flex justify-start items-center gap-4">
-            <!--#region header-category-items-->
-            <div
-              class="items-categories group/grand flex justify-center items-center relative p-2 gap-1 cursor-pointer"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                style="width: 18px; height: 18px; fill: #4e525b"
-                width="24"
-                height="24"
-              >
-                <defs>
-                  <symbol
-                    id="hamburgerMenu"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M19 8V6H5v2h14zm0 3v2H5v-2h14zm0 5v2H5v-2h14z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </symbol>
-                </defs>
-                <g>
-                  <path
-                    fill-rule="evenodd"
-                    d="M19 8V6H5v2h14zm0 3v2H5v-2h14zm0 5v2H5v-2h14z"
-                    clip-rule="evenodd"
-                  ></path>
-                </g>
-              </svg>
-              <span class="font-Iran font-bold text-[#574a6d] text-sm mt-2"
-                >دسته‌بندی کالاها</span
-              >
+                <span class="font-Iran font-bold text-[#574a6d] text-sm mt-2"
+                  >دسته‌بندی کالاها</span
+                >
 
-              <!--#region header-category-items-annoying-->
-              <div class="mega-menu-container"></div>
-              <!--#endregion header-category-items-annoying-->
-            </div>
-            <div class="border-r border-[#d6d5d5] h-4 mt-1"></div>
-            <!--#endregion header-category-items-->
-            <nav
-              class="navigation flex justify-center items-center gap-4"
-            ></nav>
-            <div class="border-r border-[#d6d5d5] h-4 mt-1"></div>
-            <div class="addons flex justify-between items-center w-48">
-              <div
-                class="nav-items cursor-pointer items-end flex justify-end gap-2 h-10 flex-col group"
-              >
-                <a class="flex items-center gap-1" href="#">
-                  <span class="font-Iran text-[12px] text-[#3f3f3f]">
-                    سوالی دارید؟
-                  </span>
-                </a>
+                <!--#region header-category-items-annoying-->
+                <div class="mega-menu-container"></div>
+                <!--#endregion header-category-items-annoying-->
+              </div>
+              <div class="border-r border-[#d6d5d5] h-4 mt-1"></div>
+              <!--#endregion header-category-items-->
+              <nav
+                class="navigation flex justify-center items-center gap-4"
+              ></nav>
+              <div class="border-r border-[#d6d5d5] h-4 mt-1"></div>
+              <div class="addons flex justify-between items-center w-48">
                 <div
-                  class="underline w-3 h-0.5 opacity-0 bg-[#ed1944] rounded-full group-hover:opacity-100 group-hover:w-full transition-all duration-300"
-                ></div>
+                  class="nav-items cursor-pointer items-end flex justify-end gap-2 h-10 flex-col group"
+                >
+                  <a class="flex items-center gap-1" href="#">
+                    <span class="font-Iran text-[12px] text-[#3f3f3f]">
+                      سوالی دارید؟
+                    </span>
+                  </a>
+                  <div
+                    class="underline w-3 h-0.5 opacity-0 bg-[#ed1944] rounded-full group-hover:opacity-100 group-hover:w-full transition-all duration-300"
+                  ></div>
+                </div>
+                <div
+                  class="nav-items cursor-pointer items-end flex justify-end gap-2 h-10 flex-col group"
+                >
+                  <a class="flex items-center gap-1" href="#">
+                    <span class="font-Iran text-[12px] text-[#3f3f3f]">
+                      در دیجی‌کالا بفروشید!
+                    </span>
+                  </a>
+                  <div
+                    class="underline w-3 h-0.5 opacity-0 bg-[#ed1944] rounded-full group-hover:opacity-100 group-hover:w-full transition-all duration-300"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <!--#endregion header-category-navbar-->
+            <!--#region header-category-province-->
+            <div
+              class="location group w-33.25 h-full flex justify-between relative items-center"
+            >
+              <div
+                class="location-choose w-33.25 h-full flex justify-between items-center cursor-pointer"
+              >
+                <img src="./src/img/Header/location.svg" alt="" class="w-5" />
+                <span class="font-Iran text-xs text-[#574a6d]">
+                  ارسال به تهران، تهران
+                </span>
               </div>
               <div
-                class="nav-items cursor-pointer items-end flex justify-end gap-2 h-10 flex-col group"
+                class="loc-hover group-hover:block hidden absolute max-w-[320px] w-80 text-center p-3 rounded-sm top-full left-0 bg-[#3f4064] shadow-lg font-Iran text-[12px] text-white before:content-[''] before:absolute before:-top-1.5 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0 before:border-l-6 before:border-r-6 before:border-b-6 before:border-l-transparent before:border-r-transparent before:border-b-[#3f4064]"
               >
-                <a class="flex items-center gap-1" href="#">
-                  <span class="font-Iran text-[12px] text-[#3f3f3f]">
-                    در دیجی‌کالا بفروشید!
-                  </span>
-                </a>
-                <div
-                  class="underline w-3 h-0.5 opacity-0 bg-[#ed1944] rounded-full group-hover:opacity-100 group-hover:w-full transition-all duration-300"
-                ></div>
+                در حال مشاهده سرویس‌ها، کالا‌ها و تخفیف‌های «تهران»
               </div>
             </div>
+            <!--#endregion header-category-province-->
           </div>
-          <!--#endregion header-category-navbar-->
-          <!--#region header-category-province-->
-          <div
-            class="location group w-33.25 h-full flex justify-between relative items-center"
-          >
-            <div
-              class="location-choose w-33.25 h-full flex justify-between items-center cursor-pointer"
-            >
-              <img src="./src/img/Header/location.svg" alt="" class="w-5" />
-              <span class="font-Iran text-xs text-[#574a6d]">
-                ارسال به تهران، تهران
-              </span>
-            </div>
-            <div
-              class="loc-hover group-hover:block hidden absolute max-w-[320px] w-80 text-center p-3 rounded-sm top-full left-0 bg-[#3f4064] shadow-lg font-Iran text-[12px] text-white before:content-[''] before:absolute before:-top-1.5 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0 before:border-l-6 before:border-r-6 before:border-b-6 before:border-l-transparent before:border-r-transparent before:border-b-[#3f4064]"
-            >
-              در حال مشاهده سرویس‌ها، کالا‌ها و تخفیف‌های «تهران»
-            </div>
-          </div>
-          <!--#endregion header-category-province-->
+          <!--#endregion header-category-->
         </div>
-        <!--#endregion header-category-->
       </header>
       <!--#endregion header-desktop-->
-      
-      <!--#region header-mobile-->
-      <header>
 
+      <!--#region header-mobile-->
+      <header class="w-full mobile:block desktop:hidden h-60">
+        <!--#region header-Mbanner-->
+        <div class="w-full h-10">
+          <img
+            src="./src/img/Header/mobile/banner.jpg"
+            alt=""
+            class="h-full w-full object-cover"
+          />
+        </div>
+        <!--#endregion header-Mbanner-->
+        <!--#region header-Mservices-->
+        <div
+          class="services w-full flex justify-center items-center gap-2 p-2 my-2"
+        >
+          <!--db.json/api-->
+        </div>
+        <!--#endregion header-Mservices-->
+        <!--#region header-MSearch-->
+        <div
+          class="MSearch h-11 w-full flex justify-between items-center gap-2 p-2 my-2"
+        >
+          <div
+            class="MSearch-console rounded-full w-full bg-white h-10 p-4 flex justify-between items-center"
+          >
+            <div class="flex justify-center items-center gap-2">
+              <img src="./src/img/Header/searchbar-logo.svg" alt="" />
+              <div class="flex justify-center items-center p-1 gap-1">
+                <span
+                  class="font-Iran text-sm font-bold text-[#a7aaae] cursor-default"
+                  >جستجو در</span
+                >
+                <img
+                  src="./src/img/Header/mobile/digikala.svg"
+                  alt=""
+                  class="h-4"
+                />
+              </div>
+            </div>
+            <img src="./src/img/Header/mobile/camera.png" alt="" class="h-6" />
+          </div>
+          <div
+            class="notif p-2.5 rounded-full bg-white border border-[#d7d7d7]"
+          >
+            <img src="./src/img/Header/mobile/notif.svg" alt="" />
+          </div>
+        </div>
+        <!--#endregion header-MSearch-->
+        <div
+          class="MLocation w-full flex justify-start items-center px-2 gap-1 my-2"
+        >
+          <img src="./src/img/Header/location.svg" alt="" class="w-4" />
+          <span class="font-Iran text-xs text-[#574a6d]"
+            >تحویل به به استان تهران، شهر تهران</span
+          >
+          <img src="./src/img/Header/left-black.svg" alt="" class="w-4" />
+        </div>
       </header>
       <!--#endregion header-mobile-->
+
+      <!--#region story-->
+      <div class="story w-full h-40 max-w-370 px-4 mobile:hidden desktop:block">
+        <div class="swiper Story">
+          <div class="swiper-wrapper story-wrapper">
+            <!--db.json/api-->
+          </div>
+          <div class="swiper-button-next story-next"></div>
+          <div class="swiper-button-prev story-prev"></div>
+        </div>
+      </div>
+      <!--#endregion story-->
     </main>
     <div class="bg-close bg-black/20 w-full h-screen absolute z-0 hidden"></div>
 
