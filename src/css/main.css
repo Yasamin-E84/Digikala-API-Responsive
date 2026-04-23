@@ -6,11 +6,16 @@
   --font-Iran: IranYekan;
   --border-color: #d7d7d7;
   --spacing-color: #d7d7d7;
+  --font-number:NumberFarsi;
 }
 
 @font-face {
   font-family: IranYekan;
   src: url(../fonts/iranyekanwebregular.e31c09af.woff2);
+}
+@font-face {
+  font-family: NumberFarsi;
+  src: url(../fonts/PersianPageNumber-Bold.ttf);
 }
 
 @layer utilities {
@@ -115,4 +120,13 @@
   background-color: #d7d7d7;
   width: 5px;
   height: 5px;
+}
+/* hide scrollbar but keep scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE/Edge */
+  scrollbar-width: none;     /* Firefox */
 }

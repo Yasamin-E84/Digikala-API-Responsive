@@ -5475,7 +5475,7 @@
     {
       "id": 207170,
       "src": "./src/img/slider/img-3.jpg",
-      "Msrc": "./src/img/slider/M3.jpg",  
+      "Msrc": "./src/img/slider/M3.jpg",
       "title": "پارتنرشیپ-ادز",
       "link": "#"
     },
@@ -5542,6 +5542,553 @@
       "title": "خونه مینیمال - وب",
       "link": "#"
     }
-  ]
+  ],
+  "list": [
+    {
+      "icon": "./src/img/category/img-1.png",
+      "text": "ارسال‌فوری خواربار",
+      "url": "#"
+    },
+    {
+      "icon": "./src/img/category/img-2.png",
+      "text": "طلای دیجیتال",
+      "url": "#"
+    },
+    {
+      "icon": "./src/img/category/img-3.png",
+      "text": "پلاس",
+      "url": "#"
+    },
+    {
+      "icon": "./src/img/category/img-4.png",
+      "text": "وام‌بانکی دیجی‌پی",
+      "url": "#"
+    },
+    {
+      "icon": "./src/img/category/img-5.png",
+      "text": "استایل بهاری",
+      "url": "#"
+    },
+    {
+      "icon": "./src/img/category/img-6.png",
+      "text": "انتخاب پاوربانک",
+      "url": "#"
+    },
+    {
+      "icon": "./src/img/category/img-8.png",
+      "text": "تقویم 1405",
+      "url": "#"
+    },
+    {
+      "icon": "./src/img/category/img-9.png",
+      "text": "نصب اپ",
+      "url": "#"
+    },
+    {
+      "icon": "./src/img/category/img-10.png",
+      "text": "فروشنده شوید",
+      "url": "#"
+    }
+  ],
+  "listModal": [
+    {
+      "icon": "./src/img/category/modal/img-1.png",
+      "text": "ارسال فوری خواربار",
+      "link": "#"
+    },
+    {
+      "icon": "./src/img/category/modal/img-2.png",
+      "text": "وام‌بانکی دیجی‌پی",
+      "link": "#"
+    },
+    {
+      "icon": "./src/img/category/modal/img-3.png",
+      "text": "استایل بهاری",
+      "link": "#"
+    },
+    {
+      "icon": "./src/img/category/modal/img-4.png",
+      "text": "انتخاب پاوربانک",
+      "link": "#"
+    },
+    {
+      "icon": "./src/img/category/modal/img-5.png",
+      "text": "تقویم 1405",
+      "link": "#"
+    },
+    {
+      "icon": "./src/img/category/modal/img-6.png",
+      "text": "نصب اپ",
+      "link": "#"
+    },
+    {
+      "icon": "./src/img/category/modal/img-7.png",
+      "text": "فروشنده شوید",
+      "link": "#"
+    },
+    {
+      "icon": "./src/img/category/modal/img-8.png",
+      "text": "پیشنهاد هفته",
+      "link": "#"
+    },
+    {
+      "icon": "./src/img/category/modal/img-9.png",
+      "text": "برق و شارژی",
+      "link": "#"
+    },
+    {
+      "icon": "./src/img/category/modal/img-10.png",
+      "text": "خریدحضوری ازدیجی‌کالا",
+      "link": "#"
+    },
+    {
+      "icon": "./src/img/category/modal/img-11.png",
+      "text": "سوپرمارکت",
+      "link": "#"
+    },
+    {
+      "icon": "./src/img/category/modal/img-12.png",
+      "text": "دیجی‌کلاب",
+      "link": "#"
+    }
+  ],
+  "modalService": [
+    {
+      "pic": "./src/img/category/modal/pic-1.png",
+      "title": "طلای دیجیتال",
+      "text": "",
+      "link": "#"
+    },
+    {
+      "pic": "./src/img/category/modal/pic-2.png",
+      "title": "پلاس",
+      "text": "خریدی سریع‌تر و راحت‌تر و ارزان‌تر از دیجی‌کالا",
+      "link": "#"
+    },
+    {
+      "pic": "./src/img/category/modal/pic-3.png",
+      "title": "خرید قسطی",
+      "text": "خرید قسطی گوشی موبایل، لپ‌تاپ، طلا و لوازم خانگی",
+      "link": "#"
+    },
+    {
+      "pic": "./src/img/category/modal/pic-4.png",
+      "title": "دیجی‌کالا مهر",
+      "text": "همه چیز برای این روزا",
+      "link": "#"
+    },
+    {
+      "pic": "./src/img/category/modal/pic-5.png",
+      "title": "همکاری در فروش دیجی کالا",
+      "text": "کسب درآمد از همکاری در فروش محصولات دیجی‌کالا از طریق تولید محتوا",
+      "link": "#"
+    },
+    {
+      "pic": "./src/img/category/modal/pic-6.png",
+      "title": "دیجی‌کالا بیزینس",
+      "text": "پلتفرم اختصاصی فروش عمده موبایل و کالای دیجیتال",
+      "link": "#"
+    },
+    {
+      "pic": "./src/img/category/modal/pic-7.png",
+      "title": "پیندو",
+      "text": "ثبت آگهی برای کالا و خدمات",
+      "link": "#"
+    },
+    {
+      "pic": "./src/img/category/modal/pic-8.png",
+      "title": "بومی‌محلی",
+      "text": "محصولات بومی و محلی با هدف توانمندسازی کسب‌وکارهای خرد شهری و روستایی در خانواده دیجی‌کالا ایجاد شده و میزبان محصولات اصیل و متفاوتی از چهارگوشه ایران است.",
+      "link": "#"
+    },
+    {
+      "pic": "./src/img/category/modal/pic-9.png",
+      "title": "دیجی‌کالا سرویس",
+      "text": "گارانتی و خدمات پس از فروش دیجی‌کالا",
+      "link": "#"
+    },
+    {
+      "pic": "./src/img/category/modal/pic-10.png",
+      "title": "فیدیبو",
+      "text": "خرید کتاب و دانلود کتاب الکترونیک",
+      "link": "#"
+    }
+  ],
+  "incredible": [
+    {
+      "border": true,
+      "img": "./src/img/inc/img-1.jpg",
+      "title": "ساندبار هیسکا مدل B203",
+      "discount": "۲۴٪",
+      "newPrice": "۸,۹۹۰,۰۰۰",
+      "oldPrice": "۱۱,۹۰۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "./src/img/inc/img-2.jpg",
+      "title": "ماساژور برقی ریمکس مدل RM-8787",
+      "discount": "۴۵٪",
+      "newPrice": "۶,۶۰۰,۰۰۰",
+      "oldPrice": "۱۲,۰۰۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "./src/img/inc/img-3.jpg",
+      "title": "کنسول بازی سونی مدل PlayStation 5 Slim Digital",
+      "discount": "۱۱٪",
+      "newPrice": "۹۷,۹۹۹,۰۰۰",
+      "oldPrice": "۱۱۰,۰۰۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "./src/img/inc/img-4.jpg",
+      "title": "ماشین لباسشویی ۹ کیلوگرم اتوماتیک دیپوینت",
+      "discount": "۳۰٪",
+      "newPrice": "۶۵,۵۰۰,۰۰۰",
+      "oldPrice": "۹۳,۴۷۷,۱۰۰"
+    },
+    {
+      "border": false,
+      "img": "./src/img/inc/img-5.jpg",
+      "title": "گردنبند طلا ۱۸ عیار زنانه با زنجیر حلقه‌ای",
+      "discount": "۱۴٪",
+      "newPrice": "۱۴,۹۵۵,۵۵۰",
+      "oldPrice": "۱۷,۳۴۱,۰۴۰"
+    },
+    {
+      "border": false,
+      "img": "./src/img/inc/img-6.jpg",
+      "title": "هواپز فیلیپس مدل NA230/00",
+      "discount": "۱۳٪",
+      "newPrice": "۱۴,۷۹۰,۰۰۰",
+      "oldPrice": "۱۷,۰۰۰,۰۰۰"
+    },
 
+    {
+      "border": false,
+      "img": "./src/img/inc/img-7.jpg",
+      "title": "جارو رباتیک شیائومی مدل S40",
+      "discount": "۷٪",
+      "newPrice": "۳۱,۴۹۹,۰۰۰",
+      "oldPrice": "۳۴,۰۰۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "./src/img/inc/img-8.jpg",
+      "title": "ماشین اصلاح موی صورت و بدن بانوان مدل T1",
+      "discount": "۴۰٪",
+      "newPrice": "۸۳۷,۰۰۰",
+      "oldPrice": "۱,۳۹۵,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "./src/img/inc/img-9.jpg",
+      "title": "خمیر دندان سفیدکننده میسویک مدل X-13",
+      "discount": "۳۴٪",
+      "newPrice": "۲۷۷,۷۰۰",
+      "oldPrice": "۴۲۱,۹۰۰"
+    },
+    {
+      "border": false,
+      "img": "./src/img/inc/img-10.jpg",
+      "title": "جارو رباتیک شیائومی مدل H40",
+      "discount": "۴٪",
+      "newPrice": "۴۳,۹۹۰,۰۰۰",
+      "oldPrice": "۴۶,۰۰۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "./src/img/inc/img-11.jpg",
+      "title": "تونر پاک‌کننده صورت لورآل مدل مولتی اکتیو",
+      "discount": "۴۰٪",
+      "newPrice": "۱۷۵,۶۸۰",
+      "oldPrice": "۲۹۲,۸۰۰"
+    },
+    {
+      "border": false,
+      "img": "./src/img/inc/img-12.jpg",
+      "title": "تبلت اپل مدل iPad 11 2025 Wi-Fi 128GB",
+      "discount": "۳٪",
+      "newPrice": "۵۸,۹۹۹,۰۰۰",
+      "oldPrice": "۶۱,۰۰۰,۰۰۰"
+    }
+  ],
+  "ads": [
+    {
+      "title": "پارتنرشیپ کاسیو",
+      "img": "./src/img/ads/img-1.jpg"
+    },
+    {
+      "title": "پارتنرشیپ سافتلن",
+      "img": "./src/img/ads/img-2.jpg"
+    },
+    {
+      "title": "همراه اول",
+      "img": "./src/img/ads/img-3.jpg"
+    },
+    {
+      "title": "محبوب ترین کنسول بازی در دیجی کالا",
+      "img": "./src/img/ads/img-4.jpg"
+    }
+  ],
+  "amazing": [
+    {
+      "img": "./src/img/amazing/img-1.png",
+      "discount": "35%"
+    },
+    {
+      "img": "./src/img/amazing/img-2.png",
+      "discount": "30%"
+    },
+    {
+      "img": "./src/img/amazing/img-3.png",
+      "discount": "30%"
+    },
+    {
+      "img": "./src/img/amazing/img-4.png",
+      "discount": "30%"
+    },
+    {
+      "img": "./src/img/amazing/img-5.png",
+      "discount": "30%"
+    },
+    {
+      "img": "./src/img/amazing/img-6.png",
+      "discount": "25%"
+    }
+  ],
+  "ads2": [
+    {
+      "title": "خرید سرماه آرایش و بهداشتی",
+      "img": "./src/img/ads/img-5.jpg"
+    },
+    {
+      "title": "پارتنرشیپ تی سی اچ",
+      "img": "./src/img/ads/img-6.jpg"
+    },
+    {
+      "title": "انواع کفش های مردانه و زنانه",
+      "img": "./src/img/ads/img-7.jpg"
+    },
+    {
+      "title": "کولر اقتصادی",
+      "img": "./src/img/ads/img-8.jpg"
+    }
+  ],
+  "amazingmobile": [
+    {
+      "border": true,
+      "title": "شامپو تقویت کننده و ضد ریزش مو آرت وینا مدل کافئین حجم 250 میلی لیتر",
+      "img": "./src/img/amazing/mobile/img-1.jpg",
+      "discount": "۶۸٪",
+      "newPrice": "۴۷۳,۳۰۰",
+      "oldPrice": "۱,۴۸۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "شامپو مو آنالوکس مدل Hydrolyzed Milk مناسب انواع مو حجم 500 میلی لیتر",
+      "img": "./src/img/amazing/mobile/img-2.jpg",
+      "discount": "۶۸٪",
+      "newPrice": "۵۳۳,۰۰۰",
+      "oldPrice": "۱,۶۸۵,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "مسواک اسپارکل مدل s4 با برس متوسط مجموعه 4 عددی",
+      "img": "./src/img/amazing/mobile/img-3.jpg",
+      "discount": "۶۸٪",
+      "newPrice": "۱۸۹,۰۰۰",
+      "oldPrice": "۵۹۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "شامپو ضد شوره مو آرت وینا مدل جوانه گندم حجم 250 میلی لیتر",
+      "img": "./src/img/amazing/mobile/img-4.jpg",
+      "discount": "۶۶٪",
+      "newPrice": "۴۷۹,۹۰۰",
+      "oldPrice": "۱,۴۳۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "سمنو سنتر - 499 گرم",
+      "img": "./src/img/amazing/mobile/img-5.jpg",
+      "discount": "۵۷٪",
+      "newPrice": "۱۰۹,۵۰۰",
+      "oldPrice": "۲۵۳,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "کیسه زباله مدل ضخیم 140.120 بسته 20 عددی",
+      "img": "./src/img/amazing/mobile/img-6.jpg",
+      "discount": "۵۶٪",
+      "newPrice": "۹۶۳,۸۰۰",
+      "oldPrice": "۲,۱۹۸,۹۰۰"
+    },
+    {
+      "border": false,
+      "title": "نمک صورتی هیمالیا پودر شادراج - 1100 گرم",
+      "img": "./src/img/amazing/mobile/img-7.jpg",
+      "discount": "۵۵٪",
+      "newPrice": "۱۰۰,۰۰۰",
+      "oldPrice": "۲۲۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "سمنو سنتر - 299 گرم",
+      "img": "./src/img/amazing/mobile/img-8.jpg",
+      "discount": "۵۳٪",
+      "newPrice": "۷۹,۵۰۰",
+      "oldPrice": "۱۶۹,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "کرم محافظ پای کودک الوینا مدل زینک اکساید 14% حجم 75 میلی لیتر",
+      "img": "./src/img/amazing/mobile/img-9.jpg",
+      "discount": "۵۲٪",
+      "newPrice": "۲۰۸,۹۸۰",
+      "oldPrice": "۴۳۳,۹۰۰"
+    },
+    {
+      "border": false,
+      "title": "سوهان گزی با جوانه گندم حاج محمد قربانی - 1000 گرم",
+      "img": "./src/img/amazing/mobile/img-10.jpg",
+      "discount": "۴۸٪",
+      "newPrice": "۴۲۵,۰۰۰",
+      "oldPrice": "۸۲۵,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "شامپو تقویت کننده مو وچه مدل CYSTEINE B6 مناسب برای موهای خشک حجم 250 میلی لیتر",
+      "img": "./src/img/amazing/mobile/img-11.jpg",
+      "discount": "۴۶٪",
+      "newPrice": "۲۵۷,۰۴۰",
+      "oldPrice": "۴۷۶,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "خوشبوکننده هوا مدل WINTER حجم 250 میلی لیتر",
+      "img": "./src/img/amazing/mobile/img-12.jpg",
+      "discount": "۴۵٪",
+      "newPrice": "۶۸۷,۵۰۰",
+      "oldPrice": "۱,۲۵۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "مسواک زبان پاک کن جی یو ام",
+      "img": "./src/img/amazing/mobile/img-13.jpg",
+      "discount": "۴۵٪",
+      "newPrice": "۱,۳۶۹,۰۰۰",
+      "oldPrice": "۲,۴۹۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "نقل ساده سوجوق طاها - 245 گرم مجموعه 2 عددی",
+      "img": "./src/img/amazing/mobile/img-14.jpg",
+      "discount": "۴۴٪",
+      "newPrice": "۱۶۸,۰۰۰",
+      "oldPrice": "۳۰۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "عسل پت پارس کندو - 1 کیلوگرم",
+      "img": "./src/img/amazing/mobile/img-15.jpg",
+      "discount": "۴۴٪",
+      "newPrice": "۶۹۹,۰۰۰",
+      "oldPrice": "۱,۲۵۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "نمک آبی سمنان آسیابدار شادراج - 160 گرم",
+      "img": "./src/img/amazing/mobile/img-16.jpg",
+      "discount": "۴۳٪",
+      "newPrice": "۳۹۰,۰۰۰",
+      "oldPrice": "۶۹۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "چای ماچا فلوریست - 1 کیلوگرم",
+      "img": "./src/img/amazing/mobile/img-17.jpg",
+      "discount": "۴۲٪",
+      "newPrice": "۶,۹۶۰,۰۰۰",
+      "oldPrice": "۱۲,۰۰۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "شامپو مو لافارر مدل کراتینه مناسب برای موهای رنگ شده و کراتین شده حجم 200 میلی‌لیتر",
+      "img": "./src/img/amazing/mobile/img-18.jpg",
+      "discount": "۴۲٪",
+      "newPrice": "۴۹۳,۵۲۰",
+      "oldPrice": "۸۵۰,۹۰۰"
+    },
+    {
+      "border": false,
+      "title": "شامپو تقویت‌کننده و ضد ریزش مو فولیکا حجم 200 میلی‌لیتر",
+      "img": "./src/img/amazing/mobile/img-19.jpg",
+      "discount": "۴۱٪",
+      "newPrice": "۱۴۷,۰۰۰",
+      "oldPrice": "۲۵۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "title": "نقل دارچینی سوجوق طاها - 250 گرم بسته 2 عددی",
+      "img": "./src/img/amazing/mobile/img-20.jpg",
+      "discount": "۴۰٪",
+      "newPrice": "۱۸۰,۰۰۰",
+      "oldPrice": "۳۰۰,۰۰۰"
+    }
+  ],
+  "grouping": [
+    { "id":1, "title": "موبایل", "img": "./src/img/grouping/img-1.jpg" },
+    { "id":2, "title": "سلامت و پزشکی", "img": "./src/img/grouping/img-2.jpg" },
+
+    { "id":3, "title": "لپ تاپ", "img": "./src/img/grouping/img-3.jpg" },
+    { "id":4, "title": "ابزارآلات و تجهیزات", "img": "./src/img/grouping/img-4.jpg" },
+
+    { "id":5, "title": "کالای دیجیتال", "img": "./src/img/grouping/img-5.jpg" },
+    { "id":6, "title": "کتاب و هنر", "img": "./src/img/grouping/img-6.jpg" },
+
+    { "id":7, "title": "خانه و آشپزخانه", "img": "./src/img/grouping/img-7.jpg" },
+    { "id":8, "title": "ورزش و سفر", "img": "./src/img/grouping/img-8.jpg" },
+
+    { "id":9, "title": "لوازم خانگی برقی", "img": "./src/img/grouping/img-9.jpg" },
+    {
+      "id":10, "title": "کارت هدیه و گیفت کارت",
+      "img": "./src/img/grouping/img-10.jpg"
+    },
+
+    { "id":11, "title": "آرایشی بهداشتی", "img": "./src/img/grouping/img-11.jpg" },
+    { "id":12, "title": "سوپر مارکت آنلاین", "img": "./src/img/grouping/img-12.jpg" },
+
+    { "id":13, "title": "مد و پوشاک", "img": "./src/img/grouping/img-13.jpg" },
+    {
+      "id":14, "title": "اسباب بازی، کودک و نوزاد",
+       "img": "./src/img/grouping/img-14.jpg"
+    },
+
+    { "id":15, "title": "طلا و نقره", "img": "./src/img/grouping/img-15.jpg" },
+    { "id":16, "title": "محصولات بومی و محلی", "img": "./src/img/grouping/img-16.jpg" },
+
+    { "id":17, "title": "خودرو و موتورسیکلت", "img": "./src/img/grouping/img-17.jpg" },
+    { "id":18, "title": "پت شاپ", "img": "./src/img/grouping/img-18.jpg" }
+  ],
+  "partner": [
+    {
+      "mobile": true,
+      "title": "پارتنرشیپ ری بن",
+      "img": "./src/img/partner/img-1.jpg"
+    },
+    {
+      "mobile": false,
+      "title": "پارتنرشیپ نوآکسا",
+      "img": "./src/img/partner/img-2.jpg"
+    }],
+  "partner2": [
+    {
+      "title": "پارتنرشیپ مایا ماهک",
+      "img": "./src/img/partner/img-3.jpg"
+    },
+    {
+      "title": "چراغ قوه، چراغ اضطراری و هدلامپ",
+      "img": "./src/img/partner/img-4.jpg"
+    }]
 }

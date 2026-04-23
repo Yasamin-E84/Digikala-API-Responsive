@@ -57,7 +57,6 @@ try {
 }
 
 try {
-
   const citiesList = res.cities.map((item) => {
     return `
                   <div class="cities w-full flex justify-between items-center py-2 border-b border-[#eaeaec] pb-2">
@@ -80,23 +79,24 @@ const locOpen = document.querySelector(".location-choose");
 const locClose = document.querySelector(".loc-close");
 const bgCover = document.querySelector(".cover-bg-loc-full");
 
-
-
 function openModal() {
   locModal.classList.remove("hidden");
   bgCover.classList.remove("hidden");
+  bgCover.classList.remove("hidden");
+  document.body.classList.add("overflow-hidden");
 }
 
 function closeModal() {
   locModal.classList.add("hidden");
   bgCover.classList.add("hidden");
+  bgCover.classList.add("hidden");
+  document.body.classList.remove("overflow-hidden");
 }
 
 locOpen.addEventListener("click", openModal);
 locClose.addEventListener("click", closeModal);
 
 bgCover.addEventListener("click", closeModal);
-
 
 const locScroll = document.querySelector(".loc-scroll");
 const locDivider = document.querySelector(".loc-divider");

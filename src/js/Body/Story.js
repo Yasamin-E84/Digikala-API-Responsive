@@ -10,7 +10,6 @@ import "swiper/css/navigation";
 
 async function Story() {
   try {
-
     const storySwiper = res.Story.map((item) => {
       return `
         <div class="swiper-slide">
