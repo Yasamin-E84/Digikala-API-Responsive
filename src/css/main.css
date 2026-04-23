@@ -5,25 +5,29 @@
   --breakpoint-mobile: 10px;
   --font-Iran: IranYekan;
   --border-color: #d7d7d7;
-  --spacing-color:#d7d7d7;
+  --spacing-color: #d7d7d7;
 }
 
 @font-face {
   font-family: IranYekan;
   src: url(../fonts/iranyekanwebregular.e31c09af.woff2);
 }
+
 @layer utilities {
   .direction-ltr {
     direction: ltr;
   }
+
   .direction-rtl {
     direction: rtl;
   }
 }
+
 .custom-scroll {
   width: 300px;
   height: 200px;
-  overflow-y: auto; /* خیلی مهم */
+  overflow-y: auto;
+  /* خیلی مهم */
   padding: 10px;
   border: 1px solid #ccc;
 }
@@ -87,6 +91,7 @@
   left: 0;
   right: auto;
 }
+
 .swiper-button-prev,
 .swiper-button-next {
   transition: all 0.25s ease;
@@ -97,4 +102,17 @@
   visibility: hidden;
   transform: scale(0.8);
   pointer-events: none;
+}
+
+.slider .swiper-pagination-bullet-active {
+  background-color: white;
+  width: 20px !important;
+  border-radius: 9999px;
+  height: 5px;
+}
+
+.slider .swiper-pagination-bullet {
+  background-color: #d7d7d7;
+  width: 5px;
+  height: 5px;
 }

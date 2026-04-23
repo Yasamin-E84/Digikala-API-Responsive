@@ -14,7 +14,7 @@
 
   <body>
     <main
-      class="absolute z-1 w-full flex justify-center items-center flex-col gap-4"
+      class="absolute z-1 w-full flex justify-center items-center flex-col desktop:gap-4 overflow-hidden"
     >
       <!--#region essentials-->
       <div class="cover-bg hidden w-screen absolute h-screen bg-black/20"></div>
@@ -596,7 +596,7 @@
                 </span>
               </div>
               <div
-                class="loc-hover group-hover:block hidden absolute max-w-[320px] w-80 text-center p-3 rounded-sm top-full left-0 bg-[#3f4064] shadow-lg font-Iran text-[12px] text-white before:content-[''] before:absolute before:-top-1.5 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0 before:border-l-6 before:border-r-6 before:border-b-6 before:border-l-transparent before:border-r-transparent before:border-b-[#3f4064]"
+                class="loc-hover group-hover:block hidden absolute max-w-[320px] w-80 text-center p-3 rounded-sm top-full left-0 bg-[#3f4064] shadow-lg font-Iran text-[12px] text-white before:content-[''] before:absolute before:-top-1.5 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0 before:border-l-6 before:border-r-6 before:border-b-6 before:border-l-transparent before:border-r-transparent before:border-b-[#3f4064] z-10"
               >
                 در حال مشاهده سرویس‌ها، کالا‌ها و تخفیف‌های «تهران»
               </div>
@@ -609,7 +609,7 @@
       <!--#endregion header-desktop-->
 
       <!--#region header-mobile-->
-      <header class="w-full mobile:block desktop:hidden h-60">
+      <header class="w-full mobile:block desktop:hidden h-60 bg-[#f2f3f5]">
         <!--#region header-Mbanner-->
         <div class="w-full h-10">
           <img
@@ -669,7 +669,7 @@
       <!--#endregion header-mobile-->
 
       <!--#region story-->
-      <div class="story w-full h-40 max-w-370 px-4 mobile:hidden desktop:block">
+      <div class="story max-w-370 w-7xl px-4 mobile:hidden desktop:block ">
         <div class="swiper Story">
           <div class="swiper-wrapper story-wrapper">
             <!--db.json/api-->
@@ -679,8 +679,23 @@
         </div>
       </div>
       <!--#endregion story-->
+
+      <!--#region slider-->
+      <div class="slider max-w-420 w-full bg-[#f2f3f5] py-4">
+        <div class="swiper Slider w-full">
+          <div class="swiper-wrapper w-full slider-wrapper">
+            <!--db.json/api-->
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next slider-next"></div>
+          <div class="swiper-button-prev slider-prev"></div>
+        </div>
+      </div>
+      <!--#endregion slider-->
     </main>
-    <div class="bg-close bg-black/20 w-full h-screen absolute z-0 hidden"></div>
+    <div
+      class="bg-close bg-black/20 w-screen h-screen absolute z-0 hidden"
+    ></div>
 
     <script type="module" src="./src/js/main.js"></script>
   </body>

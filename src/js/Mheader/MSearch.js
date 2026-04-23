@@ -6,6 +6,7 @@ import Swiper from "swiper";
 import { Navigation } from "swiper/modules";
 
 import "swiper/css";
+
 async function MSearch() {
   try {
     const searchHot = res.HotSearh.map((item) => {

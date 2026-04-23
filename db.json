@@ -5365,26 +5365,32 @@
   ],
   "services": [
     {
+      "active": false,
       "Simg": "./src/img/Header/mobile/s-1.png",
       "Stitle": "سرویس‌ها"
     },
     {
+      "active": true,
       "Simg": "./src/img/Header/mobile/s-2.png",
       "Stitle": "دیجی‌کالا"
     },
     {
+      "active": false,
       "Simg": "./src/img/Header/mobile/s-3.png",
       "Stitle": "۴۵ دقیقه‌ای"
     },
     {
+      "active": false,
       "Simg": "./src/img/Header/mobile/s-4.png",
       "Stitle": "طلای دیجیتال"
     },
     {
+      "active": false,
       "Simg": "./src/img/Header/mobile/s-5.png",
       "Stitle": "سوپرمارکت"
     },
     {
+      "active": false,
       "Simg": "./src/img/Header/mobile/s-6.png",
       "Stitle": "اعتبار خرید"
     }
@@ -5450,5 +5456,92 @@
       "text": "مقایسه‌ی نت باکس پرس",
       "img": "./src/img/Story/img-12.jpg"
     }
+  ],
+  "slider": [
+    {
+      "id": 207493,
+      "src": "./src/img/slider/img-1.gif",
+      "Msrc": "./src/img/slider/M1.gif",
+      "title": "طلا بدون سود بدون اجرت",
+      "link": "#"
+    },
+    {
+      "id": 207110,
+      "src": "./src/img/slider/img-2.jpg",
+      "Msrc": "./src/img/slider/M2.jpg",
+      "title": "پارتنرشیپ-چرم مشهد",
+      "link": "#"
+    },
+    {
+      "id": 207170,
+      "src": "./src/img/slider/img-3.jpg",
+      "Msrc": "./src/img/slider/M3.jpg",  
+      "title": "پارتنرشیپ-ادز",
+      "link": "#"
+    },
+    {
+      "id": 205248,
+      "src": "./src/img/slider/img-4.jpg",
+      "Msrc": "./src/img/slider/M4.jpg",
+      "title": "اقلام ضروری",
+      "link": "#"
+    },
+    {
+      "id": 207476,
+      "src": "./src/img/slider/img-5.jpg",
+      "Msrc": "./src/img/slider/M5.jpg",
+      "title": "انواع پوشاک زنانه و مردانه",
+      "link": "#"
+    },
+    {
+      "id": 206747,
+      "src": "./src/img/slider/img-6.jpg",
+      "Msrc": "./src/img/slider/M6.jpg",
+      "title": "خرید طلای دیجیتال",
+      "link": "#"
+    },
+    {
+      "id": 206919,
+      "src": "./src/img/slider/img-7.jpg",
+      "Msrc": "./src/img/slider/M7.jpg",
+      "title": "بهترین گوشی‌های شیائومی",
+      "link": "#"
+    },
+    {
+      "id": 207477,
+      "src": "./src/img/slider/img-8.jpg",
+      "Msrc": "./src/img/slider/M8.jpg",
+      "title": "خرید سرماه سلامت پزشکی",
+      "link": "#"
+    },
+    {
+      "id": 207481,
+      "src": "./src/img/slider/img-9.jpg",
+      "Msrc": "./src/img/slider/M9.jpg",
+      "title": "موبایل اقتصادی",
+      "link": "#"
+    },
+    {
+      "id": 207483,
+      "src": "./src/img/slider/img-10.jpg",
+      "Msrc": "./src/img/slider/M10.jpg",
+      "title": "لپ‌تاپ‌های متناسب",
+      "link": "#"
+    },
+    {
+      "id": 207427,
+      "src": "./src/img/slider/img-11.jpg",
+      "Msrc": "./src/img/slider/M11.jpg",
+      "title": "خانه سبز - وب",
+      "link": "#"
+    },
+    {
+      "id": 207431,
+      "src": "./src/img/slider/img-12.jpg",
+      "Msrc": "./src/img/slider/M12.jpg",
+      "title": "خونه مینیمال - وب",
+      "link": "#"
+    }
   ]
+
 }

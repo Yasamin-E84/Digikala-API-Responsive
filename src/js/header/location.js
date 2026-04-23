@@ -79,10 +79,6 @@ const locModal = document.querySelector(".loc-modal");
 const locOpen = document.querySelector(".location-choose");
 const locClose = document.querySelector(".loc-close");
 const bgCover = document.querySelector(".cover-bg-loc-full");
-console.log(locModal);
-console.log(locOpen);
-console.log(locClose);
-console.log(bgCover);
 
 
 

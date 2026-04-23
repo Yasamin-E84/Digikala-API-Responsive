@@ -1,4 +1,5 @@
 import "../css/output.css";
+import Slider from "./Body/Slider";
 import Story from "./Body/Story";
 import Annoying from "./header/annoying";
 import Search from "./header/console";
@@ -17,3 +18,4 @@ Services();
 MSearch();
 Mlocation();
 Story();
+Slider();
