@@ -6038,38 +6038,76 @@
     }
   ],
   "grouping": [
-    { "id":1, "title": "موبایل", "img": "./src/img/grouping/img-1.jpg" },
-    { "id":2, "title": "سلامت و پزشکی", "img": "./src/img/grouping/img-2.jpg" },
-
-    { "id":3, "title": "لپ تاپ", "img": "./src/img/grouping/img-3.jpg" },
-    { "id":4, "title": "ابزارآلات و تجهیزات", "img": "./src/img/grouping/img-4.jpg" },
-
-    { "id":5, "title": "کالای دیجیتال", "img": "./src/img/grouping/img-5.jpg" },
-    { "id":6, "title": "کتاب و هنر", "img": "./src/img/grouping/img-6.jpg" },
-
-    { "id":7, "title": "خانه و آشپزخانه", "img": "./src/img/grouping/img-7.jpg" },
-    { "id":8, "title": "ورزش و سفر", "img": "./src/img/grouping/img-8.jpg" },
-
-    { "id":9, "title": "لوازم خانگی برقی", "img": "./src/img/grouping/img-9.jpg" },
+    { "id": 1, "title": "موبایل", "img": "./src/img/grouping/img-1.jpg" },
     {
-      "id":10, "title": "کارت هدیه و گیفت کارت",
+      "id": 2,
+      "title": "سلامت و پزشکی",
+      "img": "./src/img/grouping/img-2.jpg"
+    },
+
+    { "id": 3, "title": "لپ تاپ", "img": "./src/img/grouping/img-3.jpg" },
+    {
+      "id": 4,
+      "title": "ابزارآلات و تجهیزات",
+      "img": "./src/img/grouping/img-4.jpg"
+    },
+
+    {
+      "id": 5,
+      "title": "کالای دیجیتال",
+      "img": "./src/img/grouping/img-5.jpg"
+    },
+    { "id": 6, "title": "کتاب و هنر", "img": "./src/img/grouping/img-6.jpg" },
+
+    {
+      "id": 7,
+      "title": "خانه و آشپزخانه",
+      "img": "./src/img/grouping/img-7.jpg"
+    },
+    { "id": 8, "title": "ورزش و سفر", "img": "./src/img/grouping/img-8.jpg" },
+
+    {
+      "id": 9,
+      "title": "لوازم خانگی برقی",
+      "img": "./src/img/grouping/img-9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "کارت هدیه و گیفت کارت",
       "img": "./src/img/grouping/img-10.jpg"
     },
 
-    { "id":11, "title": "آرایشی بهداشتی", "img": "./src/img/grouping/img-11.jpg" },
-    { "id":12, "title": "سوپر مارکت آنلاین", "img": "./src/img/grouping/img-12.jpg" },
-
-    { "id":13, "title": "مد و پوشاک", "img": "./src/img/grouping/img-13.jpg" },
     {
-      "id":14, "title": "اسباب بازی، کودک و نوزاد",
-       "img": "./src/img/grouping/img-14.jpg"
+      "id": 11,
+      "title": "آرایشی بهداشتی",
+      "img": "./src/img/grouping/img-11.jpg"
+    },
+    {
+      "id": 12,
+      "title": "سوپر مارکت آنلاین",
+      "img": "./src/img/grouping/img-12.jpg"
     },
 
-    { "id":15, "title": "طلا و نقره", "img": "./src/img/grouping/img-15.jpg" },
-    { "id":16, "title": "محصولات بومی و محلی", "img": "./src/img/grouping/img-16.jpg" },
+    { "id": 13, "title": "مد و پوشاک", "img": "./src/img/grouping/img-13.jpg" },
+    {
+      "id": 14,
+      "title": "اسباب بازی، کودک و نوزاد",
+      "img": "./src/img/grouping/img-14.jpg"
+    },
 
-    { "id":17, "title": "خودرو و موتورسیکلت", "img": "./src/img/grouping/img-17.jpg" },
-    { "id":18, "title": "پت شاپ", "img": "./src/img/grouping/img-18.jpg" }
+    { "id": 15, "title": "طلا و نقره", "img": "./src/img/grouping/img-15.jpg" },
+    {
+      "id": 16,
+      "title": "محصولات بومی و محلی",
+      "img": "./src/img/grouping/img-16.jpg"
+    },
+
+    {
+      "id": 17,
+      "title": "خودرو و موتورسیکلت",
+      "img": "./src/img/grouping/img-17.jpg"
+    },
+    { "id": 18, "title": "پت شاپ", "img": "./src/img/grouping/img-18.jpg" }
   ],
   "partner": [
     {
@@ -6081,7 +6119,8 @@
       "mobile": false,
       "title": "پارتنرشیپ نوآکسا",
       "img": "./src/img/partner/img-2.jpg"
-    }],
+    }
+  ],
   "partner2": [
     {
       "title": "پارتنرشیپ مایا ماهک",
@@ -6090,5 +6129,354 @@
     {
       "title": "چراغ قوه، چراغ اضطراری و هدلامپ",
       "img": "./src/img/partner/img-4.jpg"
-    }]
+    }
+  ],
+  "brands": [
+    {
+      "title": "پریل",
+      "img": "./src/img/brands/img-1.png"
+    },
+    {
+      "title": "پرسیل",
+      "img": "./src/img/brands/img-2.png"
+    },
+    {
+      "title": "چرم مشهد",
+      "img": "./src/img/brands/img-3.png"
+    },
+    {
+      "title": "آداتا",
+      "img": "./src/img/brands/img-4.png"
+    },
+    {
+      "title": "چینی زرین ایران",
+      "img": "./src/img/brands/img-6.png"
+    },
+    {
+      "title": "پنتر",
+      "img": "./src/img/brands/img-7.png"
+    },
+    {
+      "title": "ایکس ویژن",
+      "img": "./src/img/brands/img-8.png"
+    },
+    {
+      "title": "پمینا",
+      "img": "./src/img/brands/img-9.png"
+    },
+    {
+      "title": "نتربیت",
+      "img": "./src/img/brands/img-10.png"
+    },
+    {
+      "title": "هوآوی",
+      "img": "./src/img/brands/img-11.png"
+    },
+    {
+      "title": "یوروویتال",
+      "img": "./src/img/brands/img-12.png"
+    },
+    {
+      "title": "لافارر",
+      "img": "./src/img/brands/img-13.png"
+    },
+    {
+      "title": "شیائومی",
+      "img": "./src/img/brands/img-14.png"
+    },
+    {
+      "title": "مای",
+      "img": "./src/img/brands/img-15.png"
+    },
+    {
+      "title": "سامسونگ",
+      "img": "./src/img/brands/img-16.png"
+    },
+    {
+      "title": "اکتیو",
+      "img": "./src/img/brands/img-17.png"
+    },
+    {
+      "title": "ساعی",
+      "img": "./src/img/brands/img-18.png"
+    },
+    {
+      "title": "کاله",
+      "img": "./src/img/brands/img-19.png"
+    },
+    {
+      "title": "ویتالیر",
+      "img": "./src/img/brands/img-20.png"
+    },
+    {
+      "title": "فولیکا",
+      "img": "./src/img/brands/img-21.png"
+    },
+    {
+      "title": "",
+      "img": "./src/img/brands/img-22.png"
+    },
+    {
+      "title": "",
+      "img": "./src/img/brands/img-23.png"
+    }
+  ],
+  "options": [
+    {
+      "title": "جوراب مردانه",
+      "subtitle": "بر اساس سلیقه شما",
+      "url": "#",
+      "images": [
+        "./src/img/options/img-1.jpg",
+        "./src/img/options/img-2.jpg",
+        "./src/img/options/img-3.jpg",
+        "./src/img/options/img-4.jpg"
+      ]
+    },
+    {
+      "title": "لپ تاپ و الترابوک",
+      "subtitle": "بر اساس سلیقه شما",
+      "url": "#",
+      "images": [
+        "./src/img/options/img-5.jpg",
+        "./src/img/options/img-6.jpg",
+        "./src/img/options/img-7.jpg",
+        "./src/img/options/img-8.jpg"
+      ]
+    },
+    {
+      "title": "سایر لوازم خودرو",
+      "subtitle": "بر اساس سلیقه شما",
+      "url": "#",
+      "images": [
+        "./src/img/options/img-9.jpg",
+        "./src/img/options/img-10.jpg",
+        "./src/img/options/img-11.jpg",
+        "./src/img/options/img-12.jpg"
+      ]
+    },
+    {
+      "title": "واکس، پولیش و تمیزکننده خودرو",
+      "subtitle": "بر اساس سلیقه شما",
+      "url": "#",
+      "images": [
+        "./src/img/options/img-13.jpg",
+        "./src/img/options/img-14.jpg",
+        "./src/img/options/img-15.jpg",
+        "./src/img/options/img-16.jpg"
+      ]
+    }
+  ],
+  "optionsM1": [
+    {
+      "title": "جوراب ساق بلند مردانه لنتر مدل ساده کد orkid - 012 رنگ سفید بسته 12 عددی",
+      "img": "./src/img/options/mobile/1/img-1.jpg",
+      "discount": "۵٪",
+      "oldPrice": "۹۰۰,۰۰۰",
+      "newPrice": "۸۵۵,۰۰۰"
+    },
+    {
+      "title": "جوراب ساق بلند مردانه سیرداش مدل 110 بسته 6 عددی",
+      "img": "./src/img/options/mobile/1/img-2.jpg",
+      "discount": "۶۵٪",
+      "oldPrice": "۲,۶۸۹,۰۰۰",
+      "newPrice": "۹۴۹,۰۰۰"
+    },
+    {
+      "title": "جوراب ساق بلند مردانه لنتر مدل ساده کد SAM رنگ مشکی مجموعه 12 عددی",
+      "img": "./src/img/options/mobile/1/img-3.jpg",
+      "discount": "۵٪",
+      "oldPrice": "۸۸۰,۰۰۰",
+      "newPrice": "۸۳۵,۰۰۰"
+    },
+    {
+      "title": "جوراب ساق بلند مردانه سیرداش مدل 134 بسته 6 عددی",
+      "img": "./src/img/options/mobile/1/img-4.jpg",
+      "discount": "۶۵٪",
+      "oldPrice": "۲,۶۸۹,۰۰۰",
+      "newPrice": "۹۴۹,۰۰۰"
+    },
+    {
+      "title": "جوراب ساق بلند مردانه سیرداش مدل 185 بسته 6 عددی",
+      "img": "./src/img/options/mobile/1/img-5.jpg",
+      "discount": "۶۵٪",
+      "oldPrice": "۲,۶۸۹,۰۰۰",
+      "newPrice": "۹۴۹,۰۰۰"
+    },
+    {
+      "title": "جوراب ساق کوتاه مردانه لنتر مدل مچی کد RING-06 مجموعه 6 عددی",
+      "img": "./src/img/options/mobile/1/img-6.jpg",
+      "discount": "۹٪",
+      "oldPrice": "۴۸۰,۰۰۰",
+      "newPrice": "۴۳۵,۰۰۰"
+    },
+    {
+      "title": "جوراب ساق بلند مردانه تن پوش هنگامه مدل کش اسپرت حوله‌ای کد TO01",
+      "img": "./src/img/options/mobile/1/img-7.jpg",
+      "newPrice": "۲۹۰,۰۰۰"
+    },
+    {
+      "title": "جوراب مچی مردانه پاوین مدل میکس مجموعه 6 عددی",
+      "img": "./src/img/options/mobile/1/img-8.jpg",
+      "newPrice": "۳۸۰,۰۰۰"
+    },
+    {
+      "title": "جوراب ساق بلند مردانه سیرداش مدل 008 بسته 6 عددی",
+      "img": "./src/img/options/mobile/1/img-9.jpg",
+      "discount": "۶۵٪",
+      "oldPrice": "۲,۶۸۹,۰۰۰",
+      "newPrice": "۹۴۹,۰۰۰"
+    }
+  ],
+  "optionsM2": [
+    {
+      "title": "لپ تاپ 15.6 اینچی لنوو مدل V15 G2 IJL-Celeron N4500-8GB DDR4-256GB SSD-TN - کاستوم شده",
+      "img": "./src/img/options/mobile/2/img-1.jpg",
+      "newPrice": "۴۵,۹۰۰,۰۰۰"
+    },
+    {
+      "title": "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad Slim 3 15IRU8-i3 1315U-8GB LPDDR5 4800MHz-256GB SSD-TN",
+      "img": "./src/img/options/mobile/2/img-2.jpg",
+      "discount": "۶٪",
+      "oldPrice": "۶۳,۰۰۰,۰۰۰",
+      "newPrice": "۵۸,۹۹۹,۰۰۰"
+    },
+    {
+      "title": "لپ تاپ 15.6 اینچی لنوو مدل V15 G2 IJL-Celeron N4500-4GB DDR4-256GB SSD-TN",
+      "img": "./src/img/options/mobile/2/img-3.jpg",
+      "discount": "۳٪",
+      "oldPrice": "۴۸,۰۰۰,۰۰۰",
+      "newPrice": "۴۶,۵۶۰,۰۰۰"
+    },
+    {
+      "title": "لپ تاپ 15.6 اینچی لنوو مدل LOQ 15IRX9-i7 13650HX-24GB DDR5 4800MHz-512GB SSD-RTX3050 6GB-FHD 144Hz",
+      "img": "./src/img/options/mobile/2/img-4.jpg",
+      "newPrice": "۱۷۵,۹۰۰,۰۰۰"
+    },
+    {
+      "title": "لپ تاپ 15.6 اینچی لنوو مدل V15 G4 IRU-i3 1315U-8GB DDR4 3200MHz-256GB SSD-TN",
+      "img": "./src/img/options/mobile/2/img-5.jpg",
+      "newPrice": "۶۵,۷۰۰,۰۰۰"
+    },
+    {
+      "title": "لپ تاپ 15.6 اینچی ایسوس مدل Vivobook 15 F1504VA-NJ826-i7 1355U-16GB DDR4 3200MHz-512GB SSD-TN-Fingerprint-Backlit",
+      "img": "./src/img/options/mobile/2/img-6.jpg",
+      "newPrice": "۱۰۷,۹۹۰,۰۰۰"
+    },
+    {
+      "title": "لپ تاپ 15.6 اینچی لنوو مدل V15 G4 AMN-Athlon Silver 7120U-8GB LPDDR5-256GB SSD-TN",
+      "img": "./src/img/options/mobile/2/img-7.jpg",
+      "newPrice": "۵۴,۵۰۰,۰۰۰"
+    },
+    {
+      "title": "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad 1 15IJL7-Celeron N4500-8GB DDR4 2933MHz-256GB SSD-TN FHD",
+      "img": "./src/img/options/mobile/2/img-8.jpg",
+      "discount": "۴٪",
+      "oldPrice": "۴۶,۲۰۰,۰۰۰",
+      "newPrice": "۴۴,۴۹۹,۰۰۰"
+    },
+    {
+      "title": "لپ تاپ 14 اینچی ایسوس مدل Vivobook Go 14 E410KA-CL464-Celeron N4500-4GB DDR4 3200MHz-64GB eMMC-TN-W",
+      "img": "./src/img/options/mobile/2/img-9.jpg",
+      "newPrice": "۳۷,۵۰۰,۰۰۰"
+    }
+  ],
+  "optionsM3": [
+    {
+      "title": "سوییچ یاب آی کیو مدل Key Finder کد Smart-25",
+      "img": "./src/img/options/mobile/3/img-1.jpg",
+      "discount": "۲۶٪",
+      "oldPrice": "۴,۰۰۰,۰۰۰",
+      "newPrice": "۲,۹۶۰,۰۰۰"
+    },
+    {
+      "title": "سوییچ یاب آی کیو مدل Key Finder کد Smart-b25",
+      "img": "./src/img/options/mobile/3/img-2.jpg",
+      "discount": "۲۶٪",
+      "oldPrice": "۴,۰۰۰,۰۰۰",
+      "newPrice": "۲,۹۶۰,۰۰۰"
+    },
+    {
+      "title": "کلید یاب آی کیو مدل Key Finder کد Smart-r25",
+      "img": "./src/img/options/mobile/3/img-3.jpg",
+      "newPrice": "۵,۰۰۰,۰۰۰"
+    },
+    {
+      "title": "آینه وسط خودرو مدل استیل کد 54",
+      "img": "./src/img/options/mobile/3/img-4.jpg",
+      "newPrice": "۹۹۹,۰۰۰"
+    },
+    {
+      "title": "لوله خرطومی سیم کشی خودرو طاووس کابل پارسیان مدل تی 130/5",
+      "img": "./src/img/options/mobile/3/img-5.jpg",
+      "newPrice": "۳۳۰,۰۰۰"
+    },
+    {
+      "title": "خار میل جک صندوق خودرو مدل per02 مناسب برای پراید بسته چهار عددی",
+      "img": "./src/img/options/mobile/3/img-6.jpg",
+      "newPrice": "۹۵,۰۰۰"
+    },
+    {
+      "title": "استیکر خودرو کد 427",
+      "img": "./src/img/options/mobile/3/img-7.jpg",
+      "newPrice": "۸۵,۰۰۰"
+    },
+    {
+      "title": "کابل اتصال باتری خودرو طاووس کابل پارسیان مدل 110 دابل پلاس اف 7",
+      "img": "./src/img/options/mobile/3/img-8.jpg",
+      "newPrice": "۴,۵۰۰,۰۰۰"
+    },
+    {
+      "title": "کاردک شیشه دودی خودرو کد k110110",
+      "img": "./src/img/options/mobile/3/img-9.jpg",
+      "newPrice": "۴۱۸,۰۰۰"
+    }
+  ],
+  "optionsM4": [
+    {
+      "title": "مایع پولیش بدنه خودرو ساب سازان مدل K74 حجم 1000 میلی لیتر",
+      "img": "./src/img/options/mobile/4/img-1.jpg",
+      "newPrice": "۱,۶۵۰,۰۰۰"
+    },
+    {
+      "title": "اسپری پولیش داشبورد خودرو کاسپین مدل کوهستان جدید حجم 300 میلی‌ لیتر",
+      "img": "./src/img/options/mobile/4/img-2.jpg",
+      "newPrice": "۲۳۹,۰۰۰"
+    },
+    {
+      "title": "اسپری تمیز کننده و براق کننده لاستیک جردن حجم 650 میلی لیتر",
+      "img": "./src/img/options/mobile/4/img-3.jpg",
+      "newPrice": "۲۶۰,۰۰۰"
+    },
+    {
+      "title": "اسپری داشبورد خودرو کاسپین مدل Lavender حجم 300 میلی لیتر بسته 3 عددی",
+      "img": "./src/img/options/mobile/4/img-4.jpg",
+      "newPrice": "۷۴۴,۶۵۰" 
+    },
+    {
+      "title": "اسپری تمیز کننده و براق کننده لاستیک خودرو گتسان مدل G-7130 حجم 500 میلی لیتر",
+      "img": "./src/img/options/mobile/4/img-5.jpg",
+      "newPrice": "۶۵۵,۹۱۰"
+    },
+    {
+      "title": "ژل براق کننده لاستیک خودرو فونیکس مدل WET_BLACK حجم 500 میلی لیتر",
+      "img": "./src/img/options/mobile/4/img-6.jpg",
+      "newPrice": "۳۲۰,۰۰۰"
+    },
+    {
+      "title": "اسپری تمیز کننده لاستیک خودرو جردن کد r1j1 به همراه واکس داشبورد",
+      "img": "./src/img/options/mobile/4/img-7.jpg",
+      "newPrice": "۳۹۲,۵۰۰"
+    },
+    {
+      "title": "واکس داشبورد ماشین رستاک حجم 150 میلی لیتر",
+      "img": "./src/img/options/mobile/4/img-8.jpg",
+      "newPrice": "۲۱۰,۰۰۰"
+    },
+    {
+      "title": "واکس و محافظ لاستیک خودرو مدل نانو حجم 300 میلی لیتر",
+      "img": "./src/img/options/mobile/4/img-9.jpg",
+      "newPrice": "۷۳۰,۰۰۰"
+    }
+  ]
 }

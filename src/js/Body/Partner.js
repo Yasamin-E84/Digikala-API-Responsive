@@ -5,7 +5,7 @@ async function Partner() {
         const res = await getDB();
         const partner = res.partner.map((item) => {
             return `
-                <div class="${item.mobile ? "mobile:block desktop:block" : "mobile:hidden desktop:block"} desktop:rounded-2xl mobile:rounded-lg overflow-hidden cursor-pointer ${item.mobile ? "w-[95%]" :"w-[49%]"} " title="${item.title}">
+                <div class="${item.mobile ? "mobile:block desktop:block" : "mobile:hidden desktop:block"} desktop:rounded-2xl mobile:rounded-lg overflow-hidden cursor-pointer ${item.mobile ? "mobile:w-[95%] desktop:w-[49%]" :"mobile:w-[95%] desktop:w-[49%]"} " title="${item.title}">
                     <img src="${item.img}" alt="${item.title}" class="w-full object-cover">
                 </div>
             `;
