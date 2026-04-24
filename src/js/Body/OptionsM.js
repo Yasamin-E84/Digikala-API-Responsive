@@ -63,6 +63,12 @@ async function OptionsM() {
     document.querySelector(".optionsM4").innerHTML = makeOptionCards(
       res.optionsM4 || []
     );
+    document.querySelector(".optionsM5").innerHTML = makeOptionCards(
+      res.optionsM5 || []
+    );
+    document.querySelector(".optionsM6").innerHTML = makeOptionCards(
+      res.optionsM6 || []
+    );
   } catch (error) {
     console.log(error.message);
   }

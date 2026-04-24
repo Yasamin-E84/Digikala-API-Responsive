@@ -18,6 +18,7 @@ import Partner from "./Body/Partner";
 import Brands from "./Body/Brands";
 import Options from "./Body/Options";
 import OptionsM from "./Body/OptionsM";
+import Indemand from "./Body/Indemand";
 
 Annoying();
 Setting();
@@ -38,3 +39,4 @@ Partner();
 Brands();
 Options();
 OptionsM();
+Indemand();

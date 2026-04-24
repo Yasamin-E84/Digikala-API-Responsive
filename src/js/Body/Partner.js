@@ -27,5 +27,19 @@ async function Partner() {
     } catch (error) {
         console.log(error.message);
     }
+    try {
+        let res = await getDB();
+        let partnerMobile1 = res.partner.map((item) => {
+          return `
+            <div class="w-[95%] border border-[#eaeaec] rounded-lg overflow-hidden cursor-pointer ${item.id == 2 ?"block":"hidden"}">
+              <img src="${item.img}" alt="" title="${item.title}" class="w-full h-full object-cover" />
+            </div>
+          `;
+        });
+        document.querySelector(".partner-mobile-1").innerHTML = partnerMobile1.join("");
+      } catch (error) {
+        console.log(error.message);
+        
+      }
 }
 export default Partner;

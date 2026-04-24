@@ -274,6 +274,9 @@
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
   }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
   }
@@ -358,6 +361,9 @@
   .h-15 {
     height: calc(var(--spacing) * 15);
   }
+  .h-16 {
+    height: calc(var(--spacing) * 16);
+  }
   .h-18 {
     height: calc(var(--spacing) * 18);
   }
@@ -382,6 +388,9 @@
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
+  .h-50 {
+    height: calc(var(--spacing) * 50);
+  }
   .h-60 {
     height: calc(var(--spacing) * 60);
   }
@@ -393,6 +402,9 @@
   }
   .h-200 {
     height: calc(var(--spacing) * 200);
+  }
+  .h-\[0px\] {
+    height: 0px;
   }
   .h-\[7px\] {
     height: 7px;
@@ -406,11 +418,17 @@
   .h-\[70px\] {
     height: 70px;
   }
+  .h-\[80px\] {
+    height: 80px;
+  }
   .h-\[85\%\] {
     height: 85%;
   }
   .h-\[85vh\] {
     height: 85vh;
+  }
+  .h-\[86px\] {
+    height: 86px;
   }
   .h-\[100px\] {
     height: 100px;
@@ -423,6 +441,9 @@
   }
   .h-\[140px\] {
     height: 140px;
+  }
+  .h-\[150px\] {
+    height: 150px;
   }
   .h-\[200\] {
     height: 200;
@@ -463,6 +484,9 @@
   .\!w-35 {
     width: calc(var(--spacing) * 35) !important;
   }
+  .\!w-\[00px\] {
+    width: 00px !important;
+  }
   .\!w-\[120px\] {
     width: 120px !important;
   }
@@ -477,6 +501,15 @@
   }
   .\!w-\[160px\] {
     width: 160px !important;
+  }
+  .\!w-\[300px\] {
+    width: 300px !important;
+  }
+  .\!w-\[350px\] {
+    width: 350px !important;
+  }
+  .\!w-\[400px\] {
+    width: 400px !important;
   }
   .\!w-auto {
     width: auto !important;
@@ -523,8 +556,14 @@
   .w-13 {
     width: calc(var(--spacing) * 13);
   }
+  .w-14 {
+    width: calc(var(--spacing) * 14);
+  }
   .w-16 {
     width: calc(var(--spacing) * 16);
+  }
+  .w-18 {
+    width: calc(var(--spacing) * 18);
   }
   .w-20 {
     width: calc(var(--spacing) * 20);
@@ -594,6 +633,9 @@
   }
   .w-\[25\%\] {
     width: 25%;
+  }
+  .w-\[45\%\] {
+    width: 45%;
   }
   .w-\[48\%\] {
     width: 48%;
@@ -673,11 +715,23 @@
   .max-w-\[320px\] {
     max-width: 320px;
   }
+  .min-w-8 {
+    min-width: calc(var(--spacing) * 8);
+  }
   .min-w-150 {
     min-width: calc(var(--spacing) * 150);
   }
+  .min-w-\[245px\] {
+    min-width: 245px;
+  }
+  .min-w-\[260px\] {
+    min-width: 260px;
+  }
   .min-w-max {
     min-width: max-content;
+  }
+  .flex-1 {
+    flex: 1;
   }
   .flex-shrink {
     flex-shrink: 1;
@@ -941,6 +995,9 @@
   .bg-\[\#ed1944\] {
     background-color: #ed1944;
   }
+  .bg-\[\#ef4056\] {
+    background-color: #ef4056;
+  }
   .bg-\[\#f0f0f1\] {
     background-color: #f0f0f1;
   }
@@ -949,6 +1006,12 @@
   }
   .bg-\[\#f5f5f5\] {
     background-color: #f5f5f5;
+  }
+  .bg-\[\#f6f6f6\] {
+    background-color: #f6f6f6;
+  }
+  .bg-\[\#f8f8f8\] {
+    background-color: #f8f8f8;
   }
   .bg-black {
     background-color: var(--color-black);
@@ -1100,6 +1163,9 @@
   .pb-2 {
     padding-bottom: calc(var(--spacing) * 2);
   }
+  .pl-2 {
+    padding-left: calc(var(--spacing) * 2);
+  }
   .pl-3 {
     padding-left: calc(var(--spacing) * 3);
   }
@@ -1136,6 +1202,9 @@
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
+  .text-\[8px\] {
+    font-size: 8px;
+  }
   .text-\[10px\] {
     font-size: 10px;
   }
@@ -1157,9 +1226,25 @@
   .text-\[22px\] {
     font-size: 22px;
   }
+  .text-\[24px\] {
+    font-size: 24px;
+  }
+  .text-\[26px\] {
+    font-size: 26px;
+  }
+  .text-\[28px\] {
+    font-size: 28px;
+  }
+  .text-\[36px\] {
+    font-size: 36px;
+  }
   .leading-6 {
     --tw-leading: calc(var(--spacing) * 6);
     line-height: calc(var(--spacing) * 6);
+  }
+  .leading-7 {
+    --tw-leading: calc(var(--spacing) * 7);
+    line-height: calc(var(--spacing) * 7);
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -1515,6 +1600,11 @@
       left: calc(var(--spacing) * 0);
     }
   }
+  .mobile\:mt-0 {
+    @media (width >= 10px) {
+      margin-top: calc(var(--spacing) * 0);
+    }
+  }
   .mobile\:mt-6 {
     @media (width >= 10px) {
       margin-top: calc(var(--spacing) * 6);
@@ -1553,6 +1643,11 @@
   .mobile\:min-h-22 {
     @media (width >= 10px) {
       min-height: calc(var(--spacing) * 22);
+    }
+  }
+  .mobile\:w-6 {
+    @media (width >= 10px) {
+      width: calc(var(--spacing) * 6);
     }
   }
   .mobile\:w-30 {
@@ -1631,6 +1726,11 @@
       fill: var(--color-black);
     }
   }
+  .mobile\:px-2 {
+    @media (width >= 10px) {
+      padding-inline: calc(var(--spacing) * 2);
+    }
+  }
   .mobile\:py-3 {
     @media (width >= 10px) {
       padding-block: calc(var(--spacing) * 3);
@@ -1662,6 +1762,21 @@
       font-size: 14px;
     }
   }
+  .mobile\:text-\[18px\] {
+    @media (width >= 10px) {
+      font-size: 18px;
+    }
+  }
+  .mobile\:text-\[22px\] {
+    @media (width >= 10px) {
+      font-size: 22px;
+    }
+  }
+  .mobile\:text-\[24px\] {
+    @media (width >= 10px) {
+      font-size: 24px;
+    }
+  }
   .desktop\:top-1\/2 {
     @media (width >= 1024px) {
       top: calc(1/2 * 100%);
@@ -1675,6 +1790,16 @@
   .desktop\:mt-0 {
     @media (width >= 1024px) {
       margin-top: calc(var(--spacing) * 0);
+    }
+  }
+  .desktop\:mt-4 {
+    @media (width >= 1024px) {
+      margin-top: calc(var(--spacing) * 4);
+    }
+  }
+  .desktop\:mt-6 {
+    @media (width >= 1024px) {
+      margin-top: calc(var(--spacing) * 6);
     }
   }
   .desktop\:block {
@@ -1779,6 +1904,11 @@
       justify-content: space-between;
     }
   }
+  .desktop\:justify-center {
+    @media (width >= 1024px) {
+      justify-content: center;
+    }
+  }
   .desktop\:gap-4 {
     @media (width >= 1024px) {
       gap: calc(var(--spacing) * 4);
@@ -1859,6 +1989,21 @@
   .desktop\:text-\[22px\] {
     @media (width >= 1024px) {
       font-size: 22px;
+    }
+  }
+  .desktop\:text-\[24px\] {
+    @media (width >= 1024px) {
+      font-size: 24px;
+    }
+  }
+  .desktop\:text-\[26px\] {
+    @media (width >= 1024px) {
+      font-size: 26px;
+    }
+  }
+  .desktop\:text-\[28px\] {
+    @media (width >= 1024px) {
+      font-size: 28px;
     }
   }
   .desktop\:font-semibold {
