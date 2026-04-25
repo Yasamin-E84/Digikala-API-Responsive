@@ -23,6 +23,7 @@ import chosen from "./Body/chosen";
 import Hot from "./Body/Hot";
 import Blog from "./Body/Blog";
 import Footer from "./Body/Footer";
+import "./fixedButton";
 
 Annoying();
 Setting();

@@ -6983,5 +6983,58 @@
     { "img": "./src/img/footer/img13.svg", "href": "#" },
     { "img": "./src/img/footer/img14.svg", "href": "#" }
   ]
-}
+  },
+  "fixedSupermarket": {
+    "buttonTitle": "سوپرمارکت",
+    "buttonTagline": "تنوع بالا و پرتخفیف",
+    "basketIcon": "./src/img/fixed-button/basket-svgrepo-com.svg",
+    "modalTitle": "یکی از سوپرمارکت های زیر را انتخاب کنید",
+    "modalSubtitle": "فقط در شهر های تهران و کرج",
+    "cards": [
+      {
+        "href": "#",
+        "title": "پرتخفیف و متنوع",
+        "titleIcon": "./src/img/fixed-button/svgexport-24.svg",
+        "tag": {
+          "icon": "./src/img/fixed-button/truck.svg",
+          "text": "ارسال سریع",
+          "variant": "green"
+        },
+        "illustration": "./src/img/fixed-button/right.png"
+      },
+      {
+        "href": "#",
+        "title": "ارسال فوری",
+        "titleIcon": "./src/img/fixed-button/svgexport-24.svg",
+        "tag": {
+          "icon": "./src/img/fixed-button/clock.svg",
+          "text": "۴۵ دقیقه‌ای",
+          "variant": "orange"
+        },
+        "illustration": "./src/img/fixed-button/left.png"
+      }
+    ]
+  },
+  "fixedHelp": {
+    "icon": "./src/img/fixed-button/svgexport-27.svg",
+    "mobileFloatingText": "پشتیبانی آنلاین",
+    "headerTitle": "پشتیبانی آنلاین",
+    "greeting": "سلام 👋👋",
+    "intro": "اینجا می‌توانید تعدادی از پرسش های متداول را ببینید یا در صورت تمایل با ما آنلاین گفتگو کنید!",
+    "faq": [
+      {
+        "question": "چگونه میتوانیم یک پروفایل جدید ایجاد کنم؟",
+        "answer": "در وب سایت روی گزینه \"ثبت نام\" کلیک کنید. میتوانید با استفاده از شماره موبایل ثبت نام خود را انجام دهید. (کد فعال سازی برایتان پیامک میشود .) بعد از وارد نمودن کد فعالسازی ، ثبت نام انجام می شود. سپس روی گزینه تکمیل اطلاعات کلیک و اطلاعات خود را تکمیل نمایید."
+      },
+      {
+        "question": "چطور در دیجی کالا سفارش خود را ثبت کنم ؟",
+        "answer": "بعد از ورود به پروفایل ، کالای مدنظر خود را به سبد خرید اضافه کنید ، پس از انتخاب آدرس میتوانید نوع پرداخت خود را انتخاب کنید.بعد از اتمام ثبت سفارش ، سیستم کد سفارش شما را نمایش خواهد داد."
+      },
+      {
+        "question": "کالایی را که در طرح پیشنهاد شگفت انگیز می باشد می توان با تعداد بیش از یک عدد خریداری کرد؟",
+        "answer": "به دلیل اینکه طرح پیشنهاد شگفت انگیز یک طرح تشویقی خرید است، دیجی‌کالا تعهدی در قبال سفارش‏‌های تعدادی ندارد و در صورتی که امکان فروش بیشتر از یک عدد وجود داشته باشد، لازم با مشتری انجام خواهد شد."
+      }
+    ],
+    "callUs": { "label": "تماس با ما", "href": "#" }
+  }
 }
