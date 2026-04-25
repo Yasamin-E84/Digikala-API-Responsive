@@ -5,10 +5,10 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-async function Indemand() {
+async function Hot() {
   try {
     const res = await getDB();
-    const data = res.indemand || [];
+    const data = res.hot || [];
     let desktopSlides = "";
 
     for (let i = 0; i < data.length; i += 3) {
@@ -57,14 +57,14 @@ async function Indemand() {
       `;
     }
 
-    document.querySelector(".indemand-wrapper").innerHTML = desktopSlides;
+    document.querySelector(".hot-wrapper").innerHTML = desktopSlides;
   } catch (error) {
     console.log(error.message);
   }
 
   try {
     const res = await getDB();
-    const data = res.indemand || [];
+    const data = res.hot || [];
     let mobileSlides = "";
 
     for (let i = 0; i < data.length; i += 3) {
@@ -116,26 +116,26 @@ async function Indemand() {
       `;
     }
 
-    document.querySelector(".indemand-mobile-wrapper").innerHTML = mobileSlides;
+    document.querySelector(".hot-mobile-wrapper").innerHTML = mobileSlides;
   } catch (error) {
     console.log(error.message);
   }
 
-  new Swiper(".indemand-swiper", {
+  new Swiper(".hot-swiper", {
     modules: [Navigation],
     slidesPerView: 3.3,
     spaceBetween: 20,
     navigation: {
-      nextEl: ".indemand-next",
-      prevEl: ".indemand-prev",
+      nextEl: ".hot-next",
+      prevEl: ".hot-prev",
     },
   });
 
-  new Swiper(".indemand-mobile-swiper", {
+  new Swiper(".hot-mobile-swiper", {
     slidesPerView: 1.2,
     spaceBetween: 10,
   });
 }
 
-export default Indemand;
+    export default Hot;
 

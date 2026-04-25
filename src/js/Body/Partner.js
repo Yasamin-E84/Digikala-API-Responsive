@@ -41,5 +41,19 @@ async function Partner() {
         console.log(error.message);
         
       }
+    try {
+        let res = await getDB();
+        let partnerMobile2 = res.partner2.map((item) => {
+          return `
+            <div class="w-[95%] border border-[#eaeaec] rounded-lg overflow-hidden cursor-pointer">
+              <img src="${item.img}" alt="" title="${item.title}" class="w-full h-full object-cover" />
+            </div>
+          `;
+        });
+        document.querySelector(".partner-mobile-2").innerHTML = partnerMobile2.join("");
+      } catch (error) {
+        console.log(error.message);
+        
+      }
 }
 export default Partner;

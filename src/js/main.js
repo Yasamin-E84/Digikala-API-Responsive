@@ -19,6 +19,9 @@ import Brands from "./Body/Brands";
 import Options from "./Body/Options";
 import OptionsM from "./Body/OptionsM";
 import Indemand from "./Body/Indemand";
+import chosen from "./Body/chosen";
+import Hot from "./Body/Hot";
+import Blog from "./Body/Blog";
 
 Annoying();
 Setting();
@@ -40,3 +43,6 @@ Brands();
 Options();
 OptionsM();
 Indemand();
+chosen();
+Hot();
+Blog();

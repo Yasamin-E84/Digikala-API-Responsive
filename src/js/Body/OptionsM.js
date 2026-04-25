@@ -51,24 +51,23 @@ function makeOptionCards(data) {
 async function OptionsM() {
   try {
     const res = await getDB();
-    document.querySelector(".optionsM1").innerHTML = makeOptionCards(
-      res.optionsM1 || []
-    );
-    document.querySelector(".optionsM2").innerHTML = makeOptionCards(
-      res.optionsM2 || []
-    );
-    document.querySelector(".optionsM3").innerHTML = makeOptionCards(
-      res.optionsM3 || []
-    );
-    document.querySelector(".optionsM4").innerHTML = makeOptionCards(
-      res.optionsM4 || []
-    );
-    document.querySelector(".optionsM5").innerHTML = makeOptionCards(
-      res.optionsM5 || []
-    );
-    document.querySelector(".optionsM6").innerHTML = makeOptionCards(
-      res.optionsM6 || []
-    );
+    const sections = [
+      { className: ".optionsM1", data: res.optionsM1 || [] },
+      { className: ".optionsM2", data: res.optionsM2 || [] },
+      { className: ".optionsM3", data: res.optionsM3 || [] },
+      { className: ".optionsM4", data: res.optionsM4 || [] },
+      { className: ".optionsM5", data: res.optionsM5 || [] },
+      { className: ".optionsM6", data: res.optionsM6 || [] },
+      { className: ".optionsM7", data: res.optionsM7 || [] },
+      { className: ".optionsM8", data: res.optionsM8 || [] },
+    ];
+
+    sections.forEach((section) => {
+      const el = document.querySelector(section.className);
+      if (el) {
+        el.innerHTML = makeOptionCards(section.data);
+      }
+    });
   } catch (error) {
     console.log(error.message);
   }
