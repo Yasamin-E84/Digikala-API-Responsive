@@ -506,7 +506,7 @@ ${l.text}                </p>
               <div class="flex flex-col justify-center items-center">
                 <div class="flex justify-center items-center gap-1">
                   <span class="font-number text-sm">${o.newPrice}</span>
-                  <img src="./src/img/inc/toman.svg" alt="">
+                  <img src="/Digikala-API-Responsive/img/inc/toman.svg" alt="">
                 </div>
                 <span class="font-number text-sm text-[#cdced1] line-through ml-4">
                   ${o.oldPrice}
@@ -546,7 +546,7 @@ ${l.text}                </p>
               <div class="flex flex-col justify-center items-center">
                 <div class="flex justify-center items-center gap-1">
                   <span class="font-number text-sm">${o.newPrice}</span>
-                  <img src="./src/img/inc/toman.svg" alt="">
+                  <img src="/Digikala-API-Responsive/img/inc/toman.svg" alt="">
                 </div>
                 <span class="font-number text-sm text-[#cdced1] line-through ml-4">
                   ${o.oldPrice}
@@ -702,7 +702,7 @@ ${l.text}                </p>
                   </div>
                   <div class="w-full flex justify-start items-center gap-1">
                     <span class="font-number text-[22px] text-[#3f4064] font-bold">${i.newPrice}</span>
-                    <img src="./src/img/inc/toman.svg" alt="" class="w-4" />
+                    <img src="/Digikala-API-Responsive/img/inc/toman.svg" alt="" class="w-4" />
                   </div>
                 </div>
                 </div>
@@ -781,7 +781,7 @@ ${l.text}                </p>
               <span class="font-number text-white bg-[#d32f2f] rounded-full min-w-10 h-6 px-2 text-[14px] leading-6 text-center ${t.discount?"block":"hidden"}">${t.discount||""}</span>
               <div class="flex justify-end items-end gap-1">
                 <span class="font-number text-[18px] leading-none text-[#2f2f56] font-bold">${t.newPrice}</span>
-<img src="./src/img/inc/toman.svg" alt="" class="w-5">             
+<img src="/Digikala-API-Responsive/img/inc/toman.svg" alt="" class="w-5">             
  </div>
             </div>
             <span class="font-number text-[13px] text-[#c7c9ce] line-through self-end ml-6 ${t.oldPrice?"block":"hidden"}">${t.oldPrice||""}</span>
