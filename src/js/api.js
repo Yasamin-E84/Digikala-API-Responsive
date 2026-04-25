@@ -1,5 +1,5 @@
 const BASE_URL = import.meta.env.DEV
-  ? "http://localhost:5173"
+  ? "https://yasamin-e84.github.io/Digikala-API-Responsive/db.json"
   : "";
 
 export async function getDB() {
