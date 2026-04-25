@@ -5195,22 +5195,22 @@
   "navbar": [
     {
       "title": "شگفت‌انگیزها",
-      "img": "./src/img/Header/nav/img-1.svg",
+      "img": "./img/Header/nav/img-1.svg",
       "link": "#"
     },
     {
       "title": "سوپرمارکت",
-      "img": "./src/img/Header/nav/img-2.svg",
+      "img": "./img/Header/nav/img-2.svg",
       "link": "#"
     },
     {
       "title": "طلای دیجیتال",
-      "img": "./src/img/Header/nav/img-3.svg",
+      "img": "./img/Header/nav/img-3.svg",
       "link": "#"
     },
     {
       "title": "پرفروش‌ترین‌ها",
-      "img": "./src/img/Header/nav/img-4.svg",
+      "img": "./img/Header/nav/img-4.svg",
       "link": "#"
     }
   ],
@@ -5366,32 +5366,32 @@
   "services": [
     {
       "active": false,
-      "Simg": "./src/img/Header/mobile/s-1.png",
+      "Simg": "./img/Header/mobile/s-1.png",
       "Stitle": "سرویس‌ها"
     },
     {
       "active": true,
-      "Simg": "./src/img/Header/mobile/s-2.png",
+      "Simg": "./img/Header/mobile/s-2.png",
       "Stitle": "دیجی‌کالا"
     },
     {
       "active": false,
-      "Simg": "./src/img/Header/mobile/s-3.png",
+      "Simg": "./img/Header/mobile/s-3.png",
       "Stitle": "۴۵ دقیقه‌ای"
     },
     {
       "active": false,
-      "Simg": "./src/img/Header/mobile/s-4.png",
+      "Simg": "./img/Header/mobile/s-4.png",
       "Stitle": "طلای دیجیتال"
     },
     {
       "active": false,
-      "Simg": "./src/img/Header/mobile/s-5.png",
+      "Simg": "./img/Header/mobile/s-5.png",
       "Stitle": "سوپرمارکت"
     },
     {
       "active": false,
-      "Simg": "./src/img/Header/mobile/s-6.png",
+      "Simg": "./img/Header/mobile/s-6.png",
       "Stitle": "اعتبار خرید"
     }
   ],
@@ -5410,305 +5410,305 @@
   "Story": [
     {
       "text": "بالش طبی هوشمند مدل ...",
-      "img": "./src/img/Story/img-1.jpg"
+      "img": "./img/Story/img-1.jpg"
     },
     {
       "text": "انواع ماسک اتومات جو...",
-      "img": "./src/img/Story/img-2.jpg"
+      "img": "./img/Story/img-2.jpg"
     },
     {
       "text": "پروژکتور انکر مدل A2...",
-      "img": "./src/img/Story/img-3.jpg"
+      "img": "./img/Story/img-3.jpg"
     },
     {
       "text": "تا قبل عید پوستتو نج...",
-      "img": "./src/img/Story/img-4.jpg"
+      "img": "./img/Story/img-4.jpg"
     },
     {
       "text": "چرا لانچر نت باکس مت...",
-      "img": "./src/img/Story/img-5.jpg"
+      "img": "./img/Story/img-5.jpg"
     },
     {
       "text": "جارو شارژی ارزون!",
-      "img": "./src/img/Story/img-6.jpg"
+      "img": "./img/Story/img-6.jpg"
     },
     {
       "text": "منقل روزینکس",
-      "img": "./src/img/Story/img-7.jpg"
+      "img": "./img/Story/img-7.jpg"
     },
     {
       "text": "یه بخاری بخاری دوقول...",
-      "img": "./src/img/Story/img-8.jpg"
+      "img": "./img/Story/img-8.jpg"
     },
     {
       "text": "ساخت فلش انگشتی!",
-      "img": "./src/img/Story/img-9.jpg"
+      "img": "./img/Story/img-9.jpg"
     },
     {
       "text": "مراحل پاک کردن آرایش",
-      "img": "./src/img/Story/img-10.jpg"
+      "img": "./img/Story/img-10.jpg"
     },
     {
       "text": "انواع منگنه‌کوب دستی",
-      "img": "./src/img/Story/img-11.jpg"
+      "img": "./img/Story/img-11.jpg"
     },
     {
       "text": "مقایسه‌ی نت باکس پرس",
-      "img": "./src/img/Story/img-12.jpg"
+      "img": "./img/Story/img-12.jpg"
     }
   ],
   "slider": [
     {
       "id": 207493,
-      "src": "./src/img/slider/img-1.gif",
-      "Msrc": "./src/img/slider/M1.gif",
+      "src": "./img/slider/img-1.gif",
+      "Msrc": "./img/slider/M1.gif",
       "title": "طلا بدون سود بدون اجرت",
       "link": "#"
     },
     {
       "id": 207110,
-      "src": "./src/img/slider/img-2.jpg",
-      "Msrc": "./src/img/slider/M2.jpg",
+      "src": "./img/slider/img-2.jpg",
+      "Msrc": "./img/slider/M2.jpg",
       "title": "پارتنرشیپ-چرم مشهد",
       "link": "#"
     },
     {
       "id": 207170,
-      "src": "./src/img/slider/img-3.jpg",
-      "Msrc": "./src/img/slider/M3.jpg",
+      "src": "./img/slider/img-3.jpg",
+      "Msrc": "./img/slider/M3.jpg",
       "title": "پارتنرشیپ-ادز",
       "link": "#"
     },
     {
       "id": 205248,
-      "src": "./src/img/slider/img-4.jpg",
-      "Msrc": "./src/img/slider/M4.jpg",
+      "src": "./img/slider/img-4.jpg",
+      "Msrc": "./img/slider/M4.jpg",
       "title": "اقلام ضروری",
       "link": "#"
     },
     {
       "id": 207476,
-      "src": "./src/img/slider/img-5.jpg",
-      "Msrc": "./src/img/slider/M5.jpg",
+      "src": "./img/slider/img-5.jpg",
+      "Msrc": "./img/slider/M5.jpg",
       "title": "انواع پوشاک زنانه و مردانه",
       "link": "#"
     },
     {
       "id": 206747,
-      "src": "./src/img/slider/img-6.jpg",
-      "Msrc": "./src/img/slider/M6.jpg",
+      "src": "./img/slider/img-6.jpg",
+      "Msrc": "./img/slider/M6.jpg",
       "title": "خرید طلای دیجیتال",
       "link": "#"
     },
     {
       "id": 206919,
-      "src": "./src/img/slider/img-7.jpg",
-      "Msrc": "./src/img/slider/M7.jpg",
+      "src": "./img/slider/img-7.jpg",
+      "Msrc": "./img/slider/M7.jpg",
       "title": "بهترین گوشی‌های شیائومی",
       "link": "#"
     },
     {
       "id": 207477,
-      "src": "./src/img/slider/img-8.jpg",
-      "Msrc": "./src/img/slider/M8.jpg",
+      "src": "./img/slider/img-8.jpg",
+      "Msrc": "./img/slider/M8.jpg",
       "title": "خرید سرماه سلامت پزشکی",
       "link": "#"
     },
     {
       "id": 207481,
-      "src": "./src/img/slider/img-9.jpg",
-      "Msrc": "./src/img/slider/M9.jpg",
+      "src": "./img/slider/img-9.jpg",
+      "Msrc": "./img/slider/M9.jpg",
       "title": "موبایل اقتصادی",
       "link": "#"
     },
     {
       "id": 207483,
-      "src": "./src/img/slider/img-10.jpg",
-      "Msrc": "./src/img/slider/M10.jpg",
+      "src": "./img/slider/img-10.jpg",
+      "Msrc": "./img/slider/M10.jpg",
       "title": "لپ‌تاپ‌های متناسب",
       "link": "#"
     },
     {
       "id": 207427,
-      "src": "./src/img/slider/img-11.jpg",
-      "Msrc": "./src/img/slider/M11.jpg",
+      "src": "./img/slider/img-11.jpg",
+      "Msrc": "./img/slider/M11.jpg",
       "title": "خانه سبز - وب",
       "link": "#"
     },
     {
       "id": 207431,
-      "src": "./src/img/slider/img-12.jpg",
-      "Msrc": "./src/img/slider/M12.jpg",
+      "src": "./img/slider/img-12.jpg",
+      "Msrc": "./img/slider/M12.jpg",
       "title": "خونه مینیمال - وب",
       "link": "#"
     }
   ],
   "list": [
     {
-      "icon": "./src/img/category/img-1.png",
+      "icon": "./img/category/img-1.png",
       "text": "ارسال‌فوری خواربار",
       "url": "#"
     },
     {
-      "icon": "./src/img/category/img-2.png",
+      "icon": "./img/category/img-2.png",
       "text": "طلای دیجیتال",
       "url": "#"
     },
     {
-      "icon": "./src/img/category/img-3.png",
+      "icon": "./img/category/img-3.png",
       "text": "پلاس",
       "url": "#"
     },
     {
-      "icon": "./src/img/category/img-4.png",
+      "icon": "./img/category/img-4.png",
       "text": "وام‌بانکی دیجی‌پی",
       "url": "#"
     },
     {
-      "icon": "./src/img/category/img-5.png",
+      "icon": "./img/category/img-5.png",
       "text": "استایل بهاری",
       "url": "#"
     },
     {
-      "icon": "./src/img/category/img-6.png",
+      "icon": "./img/category/img-6.png",
       "text": "انتخاب پاوربانک",
       "url": "#"
     },
     {
-      "icon": "./src/img/category/img-8.png",
+      "icon": "./img/category/img-8.png",
       "text": "تقویم 1405",
       "url": "#"
     },
     {
-      "icon": "./src/img/category/img-9.png",
+      "icon": "./img/category/img-9.png",
       "text": "نصب اپ",
       "url": "#"
     },
     {
-      "icon": "./src/img/category/img-10.png",
+      "icon": "./img/category/img-10.png",
       "text": "فروشنده شوید",
       "url": "#"
     }
   ],
   "listModal": [
     {
-      "icon": "./src/img/category/modal/img-1.png",
+      "icon": "./img/category/modal/img-1.png",
       "text": "ارسال فوری خواربار",
       "link": "#"
     },
     {
-      "icon": "./src/img/category/modal/img-2.png",
+      "icon": "./img/category/modal/img-2.png",
       "text": "وام‌بانکی دیجی‌پی",
       "link": "#"
     },
     {
-      "icon": "./src/img/category/modal/img-3.png",
+      "icon": "./img/category/modal/img-3.png",
       "text": "استایل بهاری",
       "link": "#"
     },
     {
-      "icon": "./src/img/category/modal/img-4.png",
+      "icon": "./img/category/modal/img-4.png",
       "text": "انتخاب پاوربانک",
       "link": "#"
     },
     {
-      "icon": "./src/img/category/modal/img-5.png",
+      "icon": "./img/category/modal/img-5.png",
       "text": "تقویم 1405",
       "link": "#"
     },
     {
-      "icon": "./src/img/category/modal/img-6.png",
+      "icon": "./img/category/modal/img-6.png",
       "text": "نصب اپ",
       "link": "#"
     },
     {
-      "icon": "./src/img/category/modal/img-7.png",
+      "icon": "./img/category/modal/img-7.png",
       "text": "فروشنده شوید",
       "link": "#"
     },
     {
-      "icon": "./src/img/category/modal/img-8.png",
+      "icon": "./img/category/modal/img-8.png",
       "text": "پیشنهاد هفته",
       "link": "#"
     },
     {
-      "icon": "./src/img/category/modal/img-9.png",
+      "icon": "./img/category/modal/img-9.png",
       "text": "برق و شارژی",
       "link": "#"
     },
     {
-      "icon": "./src/img/category/modal/img-10.png",
+      "icon": "./img/category/modal/img-10.png",
       "text": "خریدحضوری ازدیجی‌کالا",
       "link": "#"
     },
     {
-      "icon": "./src/img/category/modal/img-11.png",
+      "icon": "./img/category/modal/img-11.png",
       "text": "سوپرمارکت",
       "link": "#"
     },
     {
-      "icon": "./src/img/category/modal/img-12.png",
+      "icon": "./img/category/modal/img-12.png",
       "text": "دیجی‌کلاب",
       "link": "#"
     }
   ],
   "modalService": [
     {
-      "pic": "./src/img/category/modal/pic-1.png",
+      "pic": "./img/category/modal/pic-1.png",
       "title": "طلای دیجیتال",
       "text": "",
       "link": "#"
     },
     {
-      "pic": "./src/img/category/modal/pic-2.png",
+      "pic": "./img/category/modal/pic-2.png",
       "title": "پلاس",
       "text": "خریدی سریع‌تر و راحت‌تر و ارزان‌تر از دیجی‌کالا",
       "link": "#"
     },
     {
-      "pic": "./src/img/category/modal/pic-3.png",
+      "pic": "./img/category/modal/pic-3.png",
       "title": "خرید قسطی",
       "text": "خرید قسطی گوشی موبایل، لپ‌تاپ، طلا و لوازم خانگی",
       "link": "#"
     },
     {
-      "pic": "./src/img/category/modal/pic-4.png",
+      "pic": "./img/category/modal/pic-4.png",
       "title": "دیجی‌کالا مهر",
       "text": "همه چیز برای این روزا",
       "link": "#"
     },
     {
-      "pic": "./src/img/category/modal/pic-5.png",
+      "pic": "./img/category/modal/pic-5.png",
       "title": "همکاری در فروش دیجی کالا",
       "text": "کسب درآمد از همکاری در فروش محصولات دیجی‌کالا از طریق تولید محتوا",
       "link": "#"
     },
     {
-      "pic": "./src/img/category/modal/pic-6.png",
+      "pic": "./img/category/modal/pic-6.png",
       "title": "دیجی‌کالا بیزینس",
       "text": "پلتفرم اختصاصی فروش عمده موبایل و کالای دیجیتال",
       "link": "#"
     },
     {
-      "pic": "./src/img/category/modal/pic-7.png",
+      "pic": "./img/category/modal/pic-7.png",
       "title": "پیندو",
       "text": "ثبت آگهی برای کالا و خدمات",
       "link": "#"
     },
     {
-      "pic": "./src/img/category/modal/pic-8.png",
+      "pic": "./img/category/modal/pic-8.png",
       "title": "بومی‌محلی",
       "text": "محصولات بومی و محلی با هدف توانمندسازی کسب‌وکارهای خرد شهری و روستایی در خانواده دیجی‌کالا ایجاد شده و میزبان محصولات اصیل و متفاوتی از چهارگوشه ایران است.",
       "link": "#"
     },
     {
-      "pic": "./src/img/category/modal/pic-9.png",
+      "pic": "./img/category/modal/pic-9.png",
       "title": "دیجی‌کالا سرویس",
       "text": "گارانتی و خدمات پس از فروش دیجی‌کالا",
       "link": "#"
     },
     {
-      "pic": "./src/img/category/modal/pic-10.png",
+      "pic": "./img/category/modal/pic-10.png",
       "title": "فیدیبو",
       "text": "خرید کتاب و دانلود کتاب الکترونیک",
       "link": "#"
@@ -5717,7 +5717,7 @@
   "incredible": [
     {
       "border": true,
-      "img": "./src/img/inc/img-1.jpg",
+      "img": "./img/inc/img-1.jpg",
       "title": "ساندبار هیسکا مدل B203",
       "discount": "۲۴٪",
       "newPrice": "۸,۹۹۰,۰۰۰",
@@ -5725,7 +5725,7 @@
     },
     {
       "border": false,
-      "img": "./src/img/inc/img-2.jpg",
+      "img": "./img/inc/img-2.jpg",
       "title": "ماساژور برقی ریمکس مدل RM-8787",
       "discount": "۴۵٪",
       "newPrice": "۶,۶۰۰,۰۰۰",
@@ -5733,7 +5733,7 @@
     },
     {
       "border": false,
-      "img": "./src/img/inc/img-3.jpg",
+      "img": "./img/inc/img-3.jpg",
       "title": "کنسول بازی سونی مدل PlayStation 5 Slim Digital",
       "discount": "۱۱٪",
       "newPrice": "۹۷,۹۹۹,۰۰۰",
@@ -5741,7 +5741,7 @@
     },
     {
       "border": false,
-      "img": "./src/img/inc/img-4.jpg",
+      "img": "./img/inc/img-4.jpg",
       "title": "ماشین لباسشویی ۹ کیلوگرم اتوماتیک دیپوینت",
       "discount": "۳۰٪",
       "newPrice": "۶۵,۵۰۰,۰۰۰",
@@ -5749,7 +5749,7 @@
     },
     {
       "border": false,
-      "img": "./src/img/inc/img-5.jpg",
+      "img": "./img/inc/img-5.jpg",
       "title": "گردنبند طلا ۱۸ عیار زنانه با زنجیر حلقه‌ای",
       "discount": "۱۴٪",
       "newPrice": "۱۴,۹۵۵,۵۵۰",
@@ -5757,7 +5757,7 @@
     },
     {
       "border": false,
-      "img": "./src/img/inc/img-6.jpg",
+      "img": "./img/inc/img-6.jpg",
       "title": "هواپز فیلیپس مدل NA230/00",
       "discount": "۱۳٪",
       "newPrice": "۱۴,۷۹۰,۰۰۰",
@@ -5766,7 +5766,7 @@
 
     {
       "border": false,
-      "img": "./src/img/inc/img-7.jpg",
+      "img": "./img/inc/img-7.jpg",
       "title": "جارو رباتیک شیائومی مدل S40",
       "discount": "۷٪",
       "newPrice": "۳۱,۴۹۹,۰۰۰",
@@ -5774,7 +5774,7 @@
     },
     {
       "border": false,
-      "img": "./src/img/inc/img-8.jpg",
+      "img": "./img/inc/img-8.jpg",
       "title": "ماشین اصلاح موی صورت و بدن بانوان مدل T1",
       "discount": "۴۰٪",
       "newPrice": "۸۳۷,۰۰۰",
@@ -5782,7 +5782,7 @@
     },
     {
       "border": false,
-      "img": "./src/img/inc/img-9.jpg",
+      "img": "./img/inc/img-9.jpg",
       "title": "خمیر دندان سفیدکننده میسویک مدل X-13",
       "discount": "۳۴٪",
       "newPrice": "۲۷۷,۷۰۰",
@@ -5790,7 +5790,7 @@
     },
     {
       "border": false,
-      "img": "./src/img/inc/img-10.jpg",
+      "img": "./img/inc/img-10.jpg",
       "title": "جارو رباتیک شیائومی مدل H40",
       "discount": "۴٪",
       "newPrice": "۴۳,۹۹۰,۰۰۰",
@@ -5798,7 +5798,7 @@
     },
     {
       "border": false,
-      "img": "./src/img/inc/img-11.jpg",
+      "img": "./img/inc/img-11.jpg",
       "title": "تونر پاک‌کننده صورت لورآل مدل مولتی اکتیو",
       "discount": "۴۰٪",
       "newPrice": "۱۷۵,۶۸۰",
@@ -5806,7 +5806,7 @@
     },
     {
       "border": false,
-      "img": "./src/img/inc/img-12.jpg",
+      "img": "./img/inc/img-12.jpg",
       "title": "تبلت اپل مدل iPad 11 2025 Wi-Fi 128GB",
       "discount": "۳٪",
       "newPrice": "۵۸,۹۹۹,۰۰۰",
@@ -5816,44 +5816,44 @@
   "ads": [
     {
       "title": "پارتنرشیپ کاسیو",
-      "img": "./src/img/ads/img-1.jpg"
+      "img": "./img/ads/img-1.jpg"
     },
     {
       "title": "پارتنرشیپ سافتلن",
-      "img": "./src/img/ads/img-2.jpg"
+      "img": "./img/ads/img-2.jpg"
     },
     {
       "title": "همراه اول",
-      "img": "./src/img/ads/img-3.jpg"
+      "img": "./img/ads/img-3.jpg"
     },
     {
       "title": "محبوب ترین کنسول بازی در دیجی کالا",
-      "img": "./src/img/ads/img-4.jpg"
+      "img": "./img/ads/img-4.jpg"
     }
   ],
   "amazing": [
     {
-      "img": "./src/img/amazing/img-1.png",
+      "img": "./img/amazing/img-1.png",
       "discount": "35%"
     },
     {
-      "img": "./src/img/amazing/img-2.png",
+      "img": "./img/amazing/img-2.png",
       "discount": "30%"
     },
     {
-      "img": "./src/img/amazing/img-3.png",
+      "img": "./img/amazing/img-3.png",
       "discount": "30%"
     },
     {
-      "img": "./src/img/amazing/img-4.png",
+      "img": "./img/amazing/img-4.png",
       "discount": "30%"
     },
     {
-      "img": "./src/img/amazing/img-5.png",
+      "img": "./img/amazing/img-5.png",
       "discount": "30%"
     },
     {
-      "img": "./src/img/amazing/img-6.png",
+      "img": "./img/amazing/img-6.png",
       "discount": "25%"
     }
   ],
@@ -5861,29 +5861,29 @@
     {
       "id": 1,
       "title": "خرید سرماه آرایش و بهداشتی",
-      "img": "./src/img/ads/img-5.jpg"
+      "img": "./img/ads/img-5.jpg"
     },
     {
       "id": 2,
       "title": "پارتنرشیپ تی سی اچ",
-      "img": "./src/img/ads/img-6.jpg"
+      "img": "./img/ads/img-6.jpg"
     },
     {
       "id": 3,
       "title": "انواع کفش های مردانه و زنانه",
-      "img": "./src/img/ads/img-7.jpg"
+      "img": "./img/ads/img-7.jpg"
     },
     {
       "id": 4,
       "title": "کولر اقتصادی",
-      "img": "./src/img/ads/img-8.jpg"
+      "img": "./img/ads/img-8.jpg"
     }
   ],
   "amazingmobile": [
     {
       "border": true,
       "title": "شامپو تقویت کننده و ضد ریزش مو آرت وینا مدل کافئین حجم 250 میلی لیتر",
-      "img": "./src/img/amazing/mobile/img-1.jpg",
+      "img": "./img/amazing/mobile/img-1.jpg",
       "discount": "۶۸٪",
       "newPrice": "۴۷۳,۳۰۰",
       "oldPrice": "۱,۴۸۰,۰۰۰"
@@ -5891,7 +5891,7 @@
     {
       "border": false,
       "title": "شامپو مو آنالوکس مدل Hydrolyzed Milk مناسب انواع مو حجم 500 میلی لیتر",
-      "img": "./src/img/amazing/mobile/img-2.jpg",
+      "img": "./img/amazing/mobile/img-2.jpg",
       "discount": "۶۸٪",
       "newPrice": "۵۳۳,۰۰۰",
       "oldPrice": "۱,۶۸۵,۰۰۰"
@@ -5899,7 +5899,7 @@
     {
       "border": false,
       "title": "مسواک اسپارکل مدل s4 با برس متوسط مجموعه 4 عددی",
-      "img": "./src/img/amazing/mobile/img-3.jpg",
+      "img": "./img/amazing/mobile/img-3.jpg",
       "discount": "۶۸٪",
       "newPrice": "۱۸۹,۰۰۰",
       "oldPrice": "۵۹۰,۰۰۰"
@@ -5907,7 +5907,7 @@
     {
       "border": false,
       "title": "شامپو ضد شوره مو آرت وینا مدل جوانه گندم حجم 250 میلی لیتر",
-      "img": "./src/img/amazing/mobile/img-4.jpg",
+      "img": "./img/amazing/mobile/img-4.jpg",
       "discount": "۶۶٪",
       "newPrice": "۴۷۹,۹۰۰",
       "oldPrice": "۱,۴۳۰,۰۰۰"
@@ -5915,7 +5915,7 @@
     {
       "border": false,
       "title": "سمنو سنتر - 499 گرم",
-      "img": "./src/img/amazing/mobile/img-5.jpg",
+      "img": "./img/amazing/mobile/img-5.jpg",
       "discount": "۵۷٪",
       "newPrice": "۱۰۹,۵۰۰",
       "oldPrice": "۲۵۳,۰۰۰"
@@ -5923,7 +5923,7 @@
     {
       "border": false,
       "title": "کیسه زباله مدل ضخیم 140.120 بسته 20 عددی",
-      "img": "./src/img/amazing/mobile/img-6.jpg",
+      "img": "./img/amazing/mobile/img-6.jpg",
       "discount": "۵۶٪",
       "newPrice": "۹۶۳,۸۰۰",
       "oldPrice": "۲,۱۹۸,۹۰۰"
@@ -5931,7 +5931,7 @@
     {
       "border": false,
       "title": "نمک صورتی هیمالیا پودر شادراج - 1100 گرم",
-      "img": "./src/img/amazing/mobile/img-7.jpg",
+      "img": "./img/amazing/mobile/img-7.jpg",
       "discount": "۵۵٪",
       "newPrice": "۱۰۰,۰۰۰",
       "oldPrice": "۲۲۰,۰۰۰"
@@ -5939,7 +5939,7 @@
     {
       "border": false,
       "title": "سمنو سنتر - 299 گرم",
-      "img": "./src/img/amazing/mobile/img-8.jpg",
+      "img": "./img/amazing/mobile/img-8.jpg",
       "discount": "۵۳٪",
       "newPrice": "۷۹,۵۰۰",
       "oldPrice": "۱۶۹,۰۰۰"
@@ -5947,7 +5947,7 @@
     {
       "border": false,
       "title": "کرم محافظ پای کودک الوینا مدل زینک اکساید 14% حجم 75 میلی لیتر",
-      "img": "./src/img/amazing/mobile/img-9.jpg",
+      "img": "./img/amazing/mobile/img-9.jpg",
       "discount": "۵۲٪",
       "newPrice": "۲۰۸,۹۸۰",
       "oldPrice": "۴۳۳,۹۰۰"
@@ -5955,7 +5955,7 @@
     {
       "border": false,
       "title": "سوهان گزی با جوانه گندم حاج محمد قربانی - 1000 گرم",
-      "img": "./src/img/amazing/mobile/img-10.jpg",
+      "img": "./img/amazing/mobile/img-10.jpg",
       "discount": "۴۸٪",
       "newPrice": "۴۲۵,۰۰۰",
       "oldPrice": "۸۲۵,۰۰۰"
@@ -5963,7 +5963,7 @@
     {
       "border": false,
       "title": "شامپو تقویت کننده مو وچه مدل CYSTEINE B6 مناسب برای موهای خشک حجم 250 میلی لیتر",
-      "img": "./src/img/amazing/mobile/img-11.jpg",
+      "img": "./img/amazing/mobile/img-11.jpg",
       "discount": "۴۶٪",
       "newPrice": "۲۵۷,۰۴۰",
       "oldPrice": "۴۷۶,۰۰۰"
@@ -5971,7 +5971,7 @@
     {
       "border": false,
       "title": "خوشبوکننده هوا مدل WINTER حجم 250 میلی لیتر",
-      "img": "./src/img/amazing/mobile/img-12.jpg",
+      "img": "./img/amazing/mobile/img-12.jpg",
       "discount": "۴۵٪",
       "newPrice": "۶۸۷,۵۰۰",
       "oldPrice": "۱,۲۵۰,۰۰۰"
@@ -5979,7 +5979,7 @@
     {
       "border": false,
       "title": "مسواک زبان پاک کن جی یو ام",
-      "img": "./src/img/amazing/mobile/img-13.jpg",
+      "img": "./img/amazing/mobile/img-13.jpg",
       "discount": "۴۵٪",
       "newPrice": "۱,۳۶۹,۰۰۰",
       "oldPrice": "۲,۴۹۰,۰۰۰"
@@ -5987,7 +5987,7 @@
     {
       "border": false,
       "title": "نقل ساده سوجوق طاها - 245 گرم مجموعه 2 عددی",
-      "img": "./src/img/amazing/mobile/img-14.jpg",
+      "img": "./img/amazing/mobile/img-14.jpg",
       "discount": "۴۴٪",
       "newPrice": "۱۶۸,۰۰۰",
       "oldPrice": "۳۰۰,۰۰۰"
@@ -5995,7 +5995,7 @@
     {
       "border": false,
       "title": "عسل پت پارس کندو - 1 کیلوگرم",
-      "img": "./src/img/amazing/mobile/img-15.jpg",
+      "img": "./img/amazing/mobile/img-15.jpg",
       "discount": "۴۴٪",
       "newPrice": "۶۹۹,۰۰۰",
       "oldPrice": "۱,۲۵۰,۰۰۰"
@@ -6003,7 +6003,7 @@
     {
       "border": false,
       "title": "نمک آبی سمنان آسیابدار شادراج - 160 گرم",
-      "img": "./src/img/amazing/mobile/img-16.jpg",
+      "img": "./img/amazing/mobile/img-16.jpg",
       "discount": "۴۳٪",
       "newPrice": "۳۹۰,۰۰۰",
       "oldPrice": "۶۹۰,۰۰۰"
@@ -6011,7 +6011,7 @@
     {
       "border": false,
       "title": "چای ماچا فلوریست - 1 کیلوگرم",
-      "img": "./src/img/amazing/mobile/img-17.jpg",
+      "img": "./img/amazing/mobile/img-17.jpg",
       "discount": "۴۲٪",
       "newPrice": "۶,۹۶۰,۰۰۰",
       "oldPrice": "۱۲,۰۰۰,۰۰۰"
@@ -6019,7 +6019,7 @@
     {
       "border": false,
       "title": "شامپو مو لافارر مدل کراتینه مناسب برای موهای رنگ شده و کراتین شده حجم 200 میلی‌لیتر",
-      "img": "./src/img/amazing/mobile/img-18.jpg",
+      "img": "./img/amazing/mobile/img-18.jpg",
       "discount": "۴۲٪",
       "newPrice": "۴۹۳,۵۲۰",
       "oldPrice": "۸۵۰,۹۰۰"
@@ -6027,7 +6027,7 @@
     {
       "border": false,
       "title": "شامپو تقویت‌کننده و ضد ریزش مو فولیکا حجم 200 میلی‌لیتر",
-      "img": "./src/img/amazing/mobile/img-19.jpg",
+      "img": "./img/amazing/mobile/img-19.jpg",
       "discount": "۴۱٪",
       "newPrice": "۱۴۷,۰۰۰",
       "oldPrice": "۲۵۰,۰۰۰"
@@ -6035,198 +6035,198 @@
     {
       "border": false,
       "title": "نقل دارچینی سوجوق طاها - 250 گرم بسته 2 عددی",
-      "img": "./src/img/amazing/mobile/img-20.jpg",
+      "img": "./img/amazing/mobile/img-20.jpg",
       "discount": "۴۰٪",
       "newPrice": "۱۸۰,۰۰۰",
       "oldPrice": "۳۰۰,۰۰۰"
     }
   ],
   "grouping": [
-    { "id": 1, "title": "موبایل", "img": "./src/img/grouping/img-1.jpg" },
+    { "id": 1, "title": "موبایل", "img": "./img/grouping/img-1.jpg" },
     {
       "id": 2,
       "title": "سلامت و پزشکی",
-      "img": "./src/img/grouping/img-2.jpg"
+      "img": "./img/grouping/img-2.jpg"
     },
 
-    { "id": 3, "title": "لپ تاپ", "img": "./src/img/grouping/img-3.jpg" },
+    { "id": 3, "title": "لپ تاپ", "img": "./img/grouping/img-3.jpg" },
     {
       "id": 4,
       "title": "ابزارآلات و تجهیزات",
-      "img": "./src/img/grouping/img-4.jpg"
+      "img": "./img/grouping/img-4.jpg"
     },
 
     {
       "id": 5,
       "title": "کالای دیجیتال",
-      "img": "./src/img/grouping/img-5.jpg"
+      "img": "./img/grouping/img-5.jpg"
     },
-    { "id": 6, "title": "کتاب و هنر", "img": "./src/img/grouping/img-6.jpg" },
+    { "id": 6, "title": "کتاب و هنر", "img": "./img/grouping/img-6.jpg" },
 
     {
       "id": 7,
       "title": "خانه و آشپزخانه",
-      "img": "./src/img/grouping/img-7.jpg"
+      "img": "./img/grouping/img-7.jpg"
     },
-    { "id": 8, "title": "ورزش و سفر", "img": "./src/img/grouping/img-8.jpg" },
+    { "id": 8, "title": "ورزش و سفر", "img": "./img/grouping/img-8.jpg" },
 
     {
       "id": 9,
       "title": "لوازم خانگی برقی",
-      "img": "./src/img/grouping/img-9.jpg"
+      "img": "./img/grouping/img-9.jpg"
     },
     {
       "id": 10,
       "title": "کارت هدیه و گیفت کارت",
-      "img": "./src/img/grouping/img-10.jpg"
+      "img": "./img/grouping/img-10.jpg"
     },
 
     {
       "id": 11,
       "title": "آرایشی بهداشتی",
-      "img": "./src/img/grouping/img-11.jpg"
+      "img": "./img/grouping/img-11.jpg"
     },
     {
       "id": 12,
       "title": "سوپر مارکت آنلاین",
-      "img": "./src/img/grouping/img-12.jpg"
+      "img": "./img/grouping/img-12.jpg"
     },
 
-    { "id": 13, "title": "مد و پوشاک", "img": "./src/img/grouping/img-13.jpg" },
+    { "id": 13, "title": "مد و پوشاک", "img": "./img/grouping/img-13.jpg" },
     {
       "id": 14,
       "title": "اسباب بازی، کودک و نوزاد",
-      "img": "./src/img/grouping/img-14.jpg"
+      "img": "./img/grouping/img-14.jpg"
     },
 
-    { "id": 15, "title": "طلا و نقره", "img": "./src/img/grouping/img-15.jpg" },
+    { "id": 15, "title": "طلا و نقره", "img": "./img/grouping/img-15.jpg" },
     {
       "id": 16,
       "title": "محصولات بومی و محلی",
-      "img": "./src/img/grouping/img-16.jpg"
+      "img": "./img/grouping/img-16.jpg"
     },
 
     {
       "id": 17,
       "title": "خودرو و موتورسیکلت",
-      "img": "./src/img/grouping/img-17.jpg"
+      "img": "./img/grouping/img-17.jpg"
     },
-    { "id": 18, "title": "پت شاپ", "img": "./src/img/grouping/img-18.jpg" }
+    { "id": 18, "title": "پت شاپ", "img": "./img/grouping/img-18.jpg" }
   ],
   "partner": [
     {
       "id": 1,
       "mobile": true,
       "title": "پارتنرشیپ ری بن",
-      "img": "./src/img/partner/img-1.jpg"
+      "img": "./img/partner/img-1.jpg"
     },
     {
       "id": 2, 
       "mobile": false,
       "title": "پارتنرشیپ نوآکسا",
-      "img": "./src/img/partner/img-2.jpg"
+      "img": "./img/partner/img-2.jpg"
     }
   ],
   "partner2": [
     {
       "id": 1,
       "title": "پارتنرشیپ مایا ماهک",
-      "img": "./src/img/partner/img-3.jpg"
+      "img": "./img/partner/img-3.jpg"
     },
     {
       "id": 2,
       "title": "چراغ قوه، چراغ اضطراری و هدلامپ",
-      "img": "./src/img/partner/img-4.jpg"
+      "img": "./img/partner/img-4.jpg"
     }
   ],
   "brands": [
     {
       "title": "پریل",
-      "img": "./src/img/brands/img-1.png"
+      "img": "./img/brands/img-1.png"
     },
     {
       "title": "پرسیل",
-      "img": "./src/img/brands/img-2.png"
+      "img": "./img/brands/img-2.png"
     },
     {
       "title": "چرم مشهد",
-      "img": "./src/img/brands/img-3.png"
+      "img": "./img/brands/img-3.png"
     },
     {
       "title": "آداتا",
-      "img": "./src/img/brands/img-4.png"
+      "img": "./img/brands/img-4.png"
     },
     {
       "title": "چینی زرین ایران",
-      "img": "./src/img/brands/img-6.png"
+      "img": "./img/brands/img-6.png"
     },
     {
       "title": "پنتر",
-      "img": "./src/img/brands/img-7.png"
+      "img": "./img/brands/img-7.png"
     },
     {
       "title": "ایکس ویژن",
-      "img": "./src/img/brands/img-8.png"
+      "img": "./img/brands/img-8.png"
     },
     {
       "title": "پمینا",
-      "img": "./src/img/brands/img-9.png"
+      "img": "./img/brands/img-9.png"
     },
     {
       "title": "نتربیت",
-      "img": "./src/img/brands/img-10.png"
+      "img": "./img/brands/img-10.png"
     },
     {
       "title": "هوآوی",
-      "img": "./src/img/brands/img-11.png"
+      "img": "./img/brands/img-11.png"
     },
     {
       "title": "یوروویتال",
-      "img": "./src/img/brands/img-12.png"
+      "img": "./img/brands/img-12.png"
     },
     {
       "title": "لافارر",
-      "img": "./src/img/brands/img-13.png"
+      "img": "./img/brands/img-13.png"
     },
     {
       "title": "شیائومی",
-      "img": "./src/img/brands/img-14.png"
+      "img": "./img/brands/img-14.png"
     },
     {
       "title": "مای",
-      "img": "./src/img/brands/img-15.png"
+      "img": "./img/brands/img-15.png"
     },
     {
       "title": "سامسونگ",
-      "img": "./src/img/brands/img-16.png"
+      "img": "./img/brands/img-16.png"
     },
     {
       "title": "اکتیو",
-      "img": "./src/img/brands/img-17.png"
+      "img": "./img/brands/img-17.png"
     },
     {
       "title": "ساعی",
-      "img": "./src/img/brands/img-18.png"
+      "img": "./img/brands/img-18.png"
     },
     {
       "title": "کاله",
-      "img": "./src/img/brands/img-19.png"
+      "img": "./img/brands/img-19.png"
     },
     {
       "title": "ویتالیر",
-      "img": "./src/img/brands/img-20.png"
+      "img": "./img/brands/img-20.png"
     },
     {
       "title": "فولیکا",
-      "img": "./src/img/brands/img-21.png"
+      "img": "./img/brands/img-21.png"
     },
     {
       "title": "",
-      "img": "./src/img/brands/img-22.png"
+      "img": "./img/brands/img-22.png"
     },
     {
       "title": "",
-      "img": "./src/img/brands/img-23.png"
+      "img": "./img/brands/img-23.png"
     }
   ],
   "options": [
@@ -6235,10 +6235,10 @@
       "subtitle": "بر اساس سلیقه شما",
       "url": "#",
       "images": [
-        "./src/img/options/img-1.jpg",
-        "./src/img/options/img-2.jpg",
-        "./src/img/options/img-3.jpg",
-        "./src/img/options/img-4.jpg"
+        "./img/options/img-1.jpg",
+        "./img/options/img-2.jpg",
+        "./img/options/img-3.jpg",
+        "./img/options/img-4.jpg"
       ]
     },
     {
@@ -6246,10 +6246,10 @@
       "subtitle": "بر اساس سلیقه شما",
       "url": "#",
       "images": [
-        "./src/img/options/img-5.jpg",
-        "./src/img/options/img-6.jpg",
-        "./src/img/options/img-7.jpg",
-        "./src/img/options/img-8.jpg"
+        "./img/options/img-5.jpg",
+        "./img/options/img-6.jpg",
+        "./img/options/img-7.jpg",
+        "./img/options/img-8.jpg"
       ]
     },
     {
@@ -6257,10 +6257,10 @@
       "subtitle": "بر اساس سلیقه شما",
       "url": "#",
       "images": [
-        "./src/img/options/img-9.jpg",
-        "./src/img/options/img-10.jpg",
-        "./src/img/options/img-11.jpg",
-        "./src/img/options/img-12.jpg"
+        "./img/options/img-9.jpg",
+        "./img/options/img-10.jpg",
+        "./img/options/img-11.jpg",
+        "./img/options/img-12.jpg"
       ]
     },
     {
@@ -6268,69 +6268,69 @@
       "subtitle": "بر اساس سلیقه شما",
       "url": "#",
       "images": [
-        "./src/img/options/img-13.jpg",
-        "./src/img/options/img-14.jpg",
-        "./src/img/options/img-15.jpg",
-        "./src/img/options/img-16.jpg"
+        "./img/options/img-13.jpg",
+        "./img/options/img-14.jpg",
+        "./img/options/img-15.jpg",
+        "./img/options/img-16.jpg"
       ]
     }
   ],
   "optionsM1": [
     {
       "title": "جوراب ساق بلند مردانه لنتر مدل ساده کد orkid - 012 رنگ سفید بسته 12 عددی",
-      "img": "./src/img/options/mobile/1/img-1.jpg",
+      "img": "./img/options/mobile/1/img-1.jpg",
       "discount": "۵٪",
       "oldPrice": "۹۰۰,۰۰۰",
       "newPrice": "۸۵۵,۰۰۰"
     },
     {
       "title": "جوراب ساق بلند مردانه سیرداش مدل 110 بسته 6 عددی",
-      "img": "./src/img/options/mobile/1/img-2.jpg",
+      "img": "./img/options/mobile/1/img-2.jpg",
       "discount": "۶۵٪",
       "oldPrice": "۲,۶۸۹,۰۰۰",
       "newPrice": "۹۴۹,۰۰۰"
     },
     {
       "title": "جوراب ساق بلند مردانه لنتر مدل ساده کد SAM رنگ مشکی مجموعه 12 عددی",
-      "img": "./src/img/options/mobile/1/img-3.jpg",
+      "img": "./img/options/mobile/1/img-3.jpg",
       "discount": "۵٪",
       "oldPrice": "۸۸۰,۰۰۰",
       "newPrice": "۸۳۵,۰۰۰"
     },
     {
       "title": "جوراب ساق بلند مردانه سیرداش مدل 134 بسته 6 عددی",
-      "img": "./src/img/options/mobile/1/img-4.jpg",
+      "img": "./img/options/mobile/1/img-4.jpg",
       "discount": "۶۵٪",
       "oldPrice": "۲,۶۸۹,۰۰۰",
       "newPrice": "۹۴۹,۰۰۰"
     },
     {
       "title": "جوراب ساق بلند مردانه سیرداش مدل 185 بسته 6 عددی",
-      "img": "./src/img/options/mobile/1/img-5.jpg",
+      "img": "./img/options/mobile/1/img-5.jpg",
       "discount": "۶۵٪",
       "oldPrice": "۲,۶۸۹,۰۰۰",
       "newPrice": "۹۴۹,۰۰۰"
     },
     {
       "title": "جوراب ساق کوتاه مردانه لنتر مدل مچی کد RING-06 مجموعه 6 عددی",
-      "img": "./src/img/options/mobile/1/img-6.jpg",
+      "img": "./img/options/mobile/1/img-6.jpg",
       "discount": "۹٪",
       "oldPrice": "۴۸۰,۰۰۰",
       "newPrice": "۴۳۵,۰۰۰"
     },
     {
       "title": "جوراب ساق بلند مردانه تن پوش هنگامه مدل کش اسپرت حوله‌ای کد TO01",
-      "img": "./src/img/options/mobile/1/img-7.jpg",
+      "img": "./img/options/mobile/1/img-7.jpg",
       "newPrice": "۲۹۰,۰۰۰"
     },
     {
       "title": "جوراب مچی مردانه پاوین مدل میکس مجموعه 6 عددی",
-      "img": "./src/img/options/mobile/1/img-8.jpg",
+      "img": "./img/options/mobile/1/img-8.jpg",
       "newPrice": "۳۸۰,۰۰۰"
     },
     {
       "title": "جوراب ساق بلند مردانه سیرداش مدل 008 بسته 6 عددی",
-      "img": "./src/img/options/mobile/1/img-9.jpg",
+      "img": "./img/options/mobile/1/img-9.jpg",
       "discount": "۶۵٪",
       "oldPrice": "۲,۶۸۹,۰۰۰",
       "newPrice": "۹۴۹,۰۰۰"
@@ -6339,206 +6339,206 @@
   "optionsM2": [
     {
       "title": "لپ تاپ 15.6 اینچی لنوو مدل V15 G2 IJL-Celeron N4500-8GB DDR4-256GB SSD-TN - کاستوم شده",
-      "img": "./src/img/options/mobile/2/img-1.jpg",
+      "img": "./img/options/mobile/2/img-1.jpg",
       "newPrice": "۴۵,۹۰۰,۰۰۰"
     },
     {
       "title": "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad Slim 3 15IRU8-i3 1315U-8GB LPDDR5 4800MHz-256GB SSD-TN",
-      "img": "./src/img/options/mobile/2/img-2.jpg",
+      "img": "./img/options/mobile/2/img-2.jpg",
       "discount": "۶٪",
       "oldPrice": "۶۳,۰۰۰,۰۰۰",
       "newPrice": "۵۸,۹۹۹,۰۰۰"
     },
     {
       "title": "لپ تاپ 15.6 اینچی لنوو مدل V15 G2 IJL-Celeron N4500-4GB DDR4-256GB SSD-TN",
-      "img": "./src/img/options/mobile/2/img-3.jpg",
+      "img": "./img/options/mobile/2/img-3.jpg",
       "discount": "۳٪",
       "oldPrice": "۴۸,۰۰۰,۰۰۰",
       "newPrice": "۴۶,۵۶۰,۰۰۰"
     },
     {
       "title": "لپ تاپ 15.6 اینچی لنوو مدل LOQ 15IRX9-i7 13650HX-24GB DDR5 4800MHz-512GB SSD-RTX3050 6GB-FHD 144Hz",
-      "img": "./src/img/options/mobile/2/img-4.jpg",
+      "img": "./img/options/mobile/2/img-4.jpg",
       "newPrice": "۱۷۵,۹۰۰,۰۰۰"
     },
     {
       "title": "لپ تاپ 15.6 اینچی لنوو مدل V15 G4 IRU-i3 1315U-8GB DDR4 3200MHz-256GB SSD-TN",
-      "img": "./src/img/options/mobile/2/img-5.jpg",
+      "img": "./img/options/mobile/2/img-5.jpg",
       "newPrice": "۶۵,۷۰۰,۰۰۰"
     },
     {
       "title": "لپ تاپ 15.6 اینچی ایسوس مدل Vivobook 15 F1504VA-NJ826-i7 1355U-16GB DDR4 3200MHz-512GB SSD-TN-Fingerprint-Backlit",
-      "img": "./src/img/options/mobile/2/img-6.jpg",
+      "img": "./img/options/mobile/2/img-6.jpg",
       "newPrice": "۱۰۷,۹۹۰,۰۰۰"
     },
     {
       "title": "لپ تاپ 15.6 اینچی لنوو مدل V15 G4 AMN-Athlon Silver 7120U-8GB LPDDR5-256GB SSD-TN",
-      "img": "./src/img/options/mobile/2/img-7.jpg",
+      "img": "./img/options/mobile/2/img-7.jpg",
       "newPrice": "۵۴,۵۰۰,۰۰۰"
     },
     {
       "title": "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad 1 15IJL7-Celeron N4500-8GB DDR4 2933MHz-256GB SSD-TN FHD",
-      "img": "./src/img/options/mobile/2/img-8.jpg",
+      "img": "./img/options/mobile/2/img-8.jpg",
       "discount": "۴٪",
       "oldPrice": "۴۶,۲۰۰,۰۰۰",
       "newPrice": "۴۴,۴۹۹,۰۰۰"
     },
     {
       "title": "لپ تاپ 14 اینچی ایسوس مدل Vivobook Go 14 E410KA-CL464-Celeron N4500-4GB DDR4 3200MHz-64GB eMMC-TN-W",
-      "img": "./src/img/options/mobile/2/img-9.jpg",
+      "img": "./img/options/mobile/2/img-9.jpg",
       "newPrice": "۳۷,۵۰۰,۰۰۰"
     }
   ],
   "optionsM3": [
     {
       "title": "سوییچ یاب آی کیو مدل Key Finder کد Smart-25",
-      "img": "./src/img/options/mobile/3/img-1.jpg",
+      "img": "./img/options/mobile/3/img-1.jpg",
       "discount": "۲۶٪",
       "oldPrice": "۴,۰۰۰,۰۰۰",
       "newPrice": "۲,۹۶۰,۰۰۰"
     },
     {
       "title": "سوییچ یاب آی کیو مدل Key Finder کد Smart-b25",
-      "img": "./src/img/options/mobile/3/img-2.jpg",
+      "img": "./img/options/mobile/3/img-2.jpg",
       "discount": "۲۶٪",
       "oldPrice": "۴,۰۰۰,۰۰۰",
       "newPrice": "۲,۹۶۰,۰۰۰"
     },
     {
       "title": "کلید یاب آی کیو مدل Key Finder کد Smart-r25",
-      "img": "./src/img/options/mobile/3/img-3.jpg",
+      "img": "./img/options/mobile/3/img-3.jpg",
       "newPrice": "۵,۰۰۰,۰۰۰"
     },
     {
       "title": "آینه وسط خودرو مدل استیل کد 54",
-      "img": "./src/img/options/mobile/3/img-4.jpg",
+      "img": "./img/options/mobile/3/img-4.jpg",
       "newPrice": "۹۹۹,۰۰۰"
     },
     {
       "title": "لوله خرطومی سیم کشی خودرو طاووس کابل پارسیان مدل تی 130/5",
-      "img": "./src/img/options/mobile/3/img-5.jpg",
+      "img": "./img/options/mobile/3/img-5.jpg",
       "newPrice": "۳۳۰,۰۰۰"
     },
     {
       "title": "خار میل جک صندوق خودرو مدل per02 مناسب برای پراید بسته چهار عددی",
-      "img": "./src/img/options/mobile/3/img-6.jpg",
+      "img": "./img/options/mobile/3/img-6.jpg",
       "newPrice": "۹۵,۰۰۰"
     },
     {
       "title": "استیکر خودرو کد 427",
-      "img": "./src/img/options/mobile/3/img-7.jpg",
+      "img": "./img/options/mobile/3/img-7.jpg",
       "newPrice": "۸۵,۰۰۰"
     },
     {
       "title": "کابل اتصال باتری خودرو طاووس کابل پارسیان مدل 110 دابل پلاس اف 7",
-      "img": "./src/img/options/mobile/3/img-8.jpg",
+      "img": "./img/options/mobile/3/img-8.jpg",
       "newPrice": "۴,۵۰۰,۰۰۰"
     },
     {
       "title": "کاردک شیشه دودی خودرو کد k110110",
-      "img": "./src/img/options/mobile/3/img-9.jpg",
+      "img": "./img/options/mobile/3/img-9.jpg",
       "newPrice": "۴۱۸,۰۰۰"
     }
   ],
   "optionsM4": [
     {
       "title": "مایع پولیش بدنه خودرو ساب سازان مدل K74 حجم 1000 میلی لیتر",
-      "img": "./src/img/options/mobile/4/img-1.jpg",
+      "img": "./img/options/mobile/4/img-1.jpg",
       "newPrice": "۱,۶۵۰,۰۰۰"
     },
     {
       "title": "اسپری پولیش داشبورد خودرو کاسپین مدل کوهستان جدید حجم 300 میلی‌ لیتر",
-      "img": "./src/img/options/mobile/4/img-2.jpg",
+      "img": "./img/options/mobile/4/img-2.jpg",
       "newPrice": "۲۳۹,۰۰۰"
     },
     {
       "title": "اسپری تمیز کننده و براق کننده لاستیک جردن حجم 650 میلی لیتر",
-      "img": "./src/img/options/mobile/4/img-3.jpg",
+      "img": "./img/options/mobile/4/img-3.jpg",
       "newPrice": "۲۶۰,۰۰۰"
     },
     {
       "title": "اسپری داشبورد خودرو کاسپین مدل Lavender حجم 300 میلی لیتر بسته 3 عددی",
-      "img": "./src/img/options/mobile/4/img-4.jpg",
+      "img": "./img/options/mobile/4/img-4.jpg",
       "newPrice": "۷۴۴,۶۵۰"
     },
     {
       "title": "اسپری تمیز کننده و براق کننده لاستیک خودرو گتسان مدل G-7130 حجم 500 میلی لیتر",
-      "img": "./src/img/options/mobile/4/img-5.jpg",
+      "img": "./img/options/mobile/4/img-5.jpg",
       "newPrice": "۶۵۵,۹۱۰"
     },
     {
       "title": "ژل براق کننده لاستیک خودرو فونیکس مدل WET_BLACK حجم 500 میلی لیتر",
-      "img": "./src/img/options/mobile/4/img-6.jpg",
+      "img": "./img/options/mobile/4/img-6.jpg",
       "newPrice": "۳۲۰,۰۰۰"
     },
     {
       "title": "اسپری تمیز کننده لاستیک خودرو جردن کد r1j1 به همراه واکس داشبورد",
-      "img": "./src/img/options/mobile/4/img-7.jpg",
+      "img": "./img/options/mobile/4/img-7.jpg",
       "newPrice": "۳۹۲,۵۰۰"
     },
     {
       "title": "واکس داشبورد ماشین رستاک حجم 150 میلی لیتر",
-      "img": "./src/img/options/mobile/4/img-8.jpg",
+      "img": "./img/options/mobile/4/img-8.jpg",
       "newPrice": "۲۱۰,۰۰۰"
     },
     {
       "title": "واکس و محافظ لاستیک خودرو مدل نانو حجم 300 میلی لیتر",
-      "img": "./src/img/options/mobile/4/img-9.jpg",
+      "img": "./img/options/mobile/4/img-9.jpg",
       "newPrice": "۷۳۰,۰۰۰"
     }
   ],
   "optionsM5": [
     {
       "title": "تی‌شرت آستین کوتاه مردانه رانژ مدل ساده 23RA05 - 420",
-      "img": "./src/img/options/mobile/5/img-1.jpg",
+      "img": "./img/options/mobile/5/img-1.jpg",
       "newPrice": "۱,۴۹۰,۰۰۰"
     },
     {
       "title": "تی شرت آستین کوتاه مردانه آریان نخ باف مدل z1861",
-      "img": "./src/img/options/mobile/5/img-2.jpg",
+      "img": "./img/options/mobile/5/img-2.jpg",
       "discount": "۱۷٪",
       "oldPrice": "۱,۱۰۰,۰۰۰",
       "newPrice": "۹۰۸,۰۰۰"
     },
     {
       "title": "تی‌شرت آستین کوتاه مردانه باینت مدل 373-14",
-      "img": "./src/img/options/mobile/5/img-3.jpg",
+      "img": "./img/options/mobile/5/img-3.jpg",
       "discount": "۲۹٪",
       "oldPrice": "۱,۴۰۰,۰۰۰",
       "newPrice": "۹۹۸,۰۰۰"
     },
     {
       "title": "تی‌شرت آستین بلند مردانه رانژ مدل ساده 23RA05 - 412",
-      "img": "./src/img/options/mobile/5/img-4.jpg",
+      "img": "./img/options/mobile/5/img-4.jpg",
       "newPrice": "۱,۵۹۰,۰۰۰"
     },
     {
       "title": "تی‌شرت آستین کوتاه مردانه باینت مدل 536-3",
-      "img": "./src/img/options/mobile/5/img-5.jpg",
+      "img": "./img/options/mobile/5/img-5.jpg",
       "discount": "۳۰٪",
       "oldPrice": "۱,۶۸۹,۰۰۰",
       "newPrice": "۱,۱۸۹,۰۰۰"
     },
     {
       "title": "تی شرت آستین بلند مردانه رانژ مدل 21RA29D09M-1409-01",
-      "img": "./src/img/options/mobile/5/img-6.jpg",
+      "img": "./img/options/mobile/5/img-6.jpg",
       "newPrice": "۱,۵۹۰,۰۰۰"
     },
     {
       "title": "تی شرت آستین کوتاه مردانه رانژ مدل 22RA07D04M-2426-01",
-      "img": "./src/img/options/mobile/5/img-7.jpg",
+      "img": "./img/options/mobile/5/img-7.jpg",
       "newPrice": "۱,۴۹۰,۰۰۰"
     },
     {
       "title": "تی‌شرت کلاه‌دار آستین کوتاه مردانه باینت مدل 323-11",
-      "img": "./src/img/options/mobile/5/img-8.jpg",
+      "img": "./img/options/mobile/5/img-8.jpg",
       "discount": "۳۰٪",
       "oldPrice": "۱,۶۸۹,۰۰۰",
       "newPrice": "۱,۱۸۹,۰۰۰"
     },
     {
       "title": "تی‌شرت آستین کوتاه مردانه باینت مدل 552-1",
-      "img": "./src/img/options/mobile/5/img-9.jpg",
+      "img": "./img/options/mobile/5/img-9.jpg",
       "discount": "۳۰٪",
       "oldPrice": "۱,۶۸۹,۰۰۰",
       "newPrice": "۱,۱۸۹,۰۰۰"
@@ -6547,282 +6547,282 @@
   "optionsM6": [
     {
       "title": "جوراب زنانه پاوین مدل توت فرنگی مجموعه 6 عددی",
-      "img": "./src/img/options/mobile/6/img-1.jpg",
+      "img": "./img/options/mobile/6/img-1.jpg",
       "newPrice": "۳۶۰,۰۰۰"
     },
     {
       "title": "جوراب زنانه پاوین مدل قلب مجموعه 6 عددی",
-      "img": "./src/img/options/mobile/6/img-2.jpg",
+      "img": "./img/options/mobile/6/img-2.jpg",
       "newPrice": "۳۰۸,۰۰۰"
     },
     {
       "title": "جوراب زنانه مدل خرسی مجموعه 5 عددی",
-      "img": "./src/img/options/mobile/6/img-3.jpg",
+      "img": "./img/options/mobile/6/img-3.jpg",
       "newPrice": "۲۸۰,۰۰۰"
     },
     {
       "title": "جوراب زنانه پاوین مدل گاوی مجموعه 5 عددی",
-      "img": "./src/img/options/mobile/6/img-4.jpg",
+      "img": "./img/options/mobile/6/img-4.jpg",
       "newPrice": "۲۸۰,۰۰۰"
     },
     {
       "title": "جوراب زنانه پاوین مدل توت فرنگی نیم ساق بسته 5 عددی",
-      "img": "./src/img/options/mobile/6/img-5.jpg",
+      "img": "./img/options/mobile/6/img-5.jpg",
       "newPrice": "۴۴۰,۰۰۰"
     },
     {
       "title": "جوراب زنانه پاوین مدل زرافه ای ساقدار",
-      "img": "./src/img/options/mobile/6/img-6.jpg",
+      "img": "./img/options/mobile/6/img-6.jpg",
       "newPrice": "۱۳۰,۰۰۰"
     },
     {
       "title": "جوراب زنانه مدل پاوین خرسی بسته 5 عددی",
-      "img": "./src/img/options/mobile/6/img-7.jpg",
+      "img": "./img/options/mobile/6/img-7.jpg",
       "newPrice": "۲۵۰,۰۰۰"
     },
     {
       "title": "جوراب زنانه ال سون مدل هفت سین کد PH628",
-      "img": "./src/img/options/mobile/6/img-8.jpg",
+      "img": "./img/options/mobile/6/img-8.jpg",
       "newPrice": "۲۸۷,۰۰۰"
     },
     {
       "title": "جوراب زنانه پاوین مدل گوش دار مجموعه 4 عددی",
-      "img": "./src/img/options/mobile/6/img-9.jpg",
+      "img": "./img/options/mobile/6/img-9.jpg",
       "newPrice": "۳۰۰,۰۰۰"
     }
   ],
   "optionsM7": [
     {
       "title": "پایه نگهدارنده گوشی موبایل و تبلت بیسوس مدل LUSZ000013",
-      "img": "./src/img/options/mobile/7/img-1.jpg",
+      "img": "./img/options/mobile/7/img-1.jpg",
       "newPrice": "۳,۹۹۰,۰۰۰"
     },
     {
       "title": "پایه نگهدارنده گوشی موبایل و تبلت یوسمز مدل ZJ073",
-      "img": "./src/img/options/mobile/7/img-2.jpg",
+      "img": "./img/options/mobile/7/img-2.jpg",
       "discount": "۲۲٪",
       "oldPrice": "۹۸۷,۰۰۰",
       "newPrice": "۷۷۰,۰۰۰"
     },
     {
       "title": "نگهدارنده موبایل در هنگام شارژ جهان الکتریک مدل Si8 بسته 4 عددی",
-      "img": "./src/img/options/mobile/7/img-3.jpg",
+      "img": "./img/options/mobile/7/img-3.jpg",
       "newPrice": "۱۹۹,۰۰۰"
     },
     {
       "title": "پایه نگهدارنده گوشی موبایل یسیدو مدل C83",
-      "img": "./src/img/options/mobile/7/img-4.jpg",
+      "img": "./img/options/mobile/7/img-4.jpg",
       "discount": "۸٪",
       "oldPrice": "۴۲۰,۰۰۰",
       "newPrice": "۳۸۵,۰۰۰"
     },
     {
       "title": "پایه نگهدارنده گوشی موبایل و تبلت ارلدام مدل ET-EH70",
-      "img": "./src/img/options/mobile/7/img-5.jpg",
+      "img": "./img/options/mobile/7/img-5.jpg",
       "newPrice": "۵۱۴,۰۰۰"
     },
     {
       "title": "پایه نگهدارنده گوشی موبایل و تبلت یسیدو مدل C141 کد MS",
-      "img": "./src/img/options/mobile/7/img-6.jpg",
+      "img": "./img/options/mobile/7/img-6.jpg",
       "discount": "۱۵٪",
       "oldPrice": "۳۵۰,۰۰۰",
       "newPrice": "۲۹۷,۵۰۰"
     },
     {
       "title": "پایه نگهدارنده گوشی موبایل و تبلت یسیدو مدل گردنی C291",
-      "img": "./src/img/options/mobile/7/img-7.jpg",
+      "img": "./img/options/mobile/7/img-7.jpg",
       "newPrice": "۲,۴۵۰,۰۰۰"
     },
     {
       "title": "پایه نگهدارنده گوشی موبایل و تبلت آرسون مدل AN-C45",
-      "img": "./src/img/options/mobile/7/img-8.jpg",
+      "img": "./img/options/mobile/7/img-8.jpg",
       "newPrice": "۳۸۰,۰۰۰"
     },
     {
       "title": "پایه نگهدارنده گوشی موبایل و تبلت مدل PRO",
-      "img": "./src/img/options/mobile/7/img-9.jpg",
+      "img": "./img/options/mobile/7/img-9.jpg",
       "newPrice": "۳۵۰,۰۰۰"
     }
   ],
   "optionsM8": [
     {
       "title": "بازی آموزشی مدل کتاب پارچه ای سیاه و سفید نوزاد - دنیا را ببین",
-      "img": "./src/img/options/mobile/8/img-1.jpg",
+      "img": "./img/options/mobile/8/img-1.jpg",
       "discount": "۷٪",
       "oldPrice": "۲۹۰,۰۰۰",
       "newPrice": "۲۶۹,۷۰۰"
     },
     {
       "title": "بازی آموزشی انگلیسی باروچین مدل پازل حیوانات مزرعه کد p-2",
-      "img": "./src/img/options/mobile/8/img-2.jpg",
+      "img": "./img/options/mobile/8/img-2.jpg",
       "newPrice": "۲۹۵,۵۰۰"
     },
     {
       "title": "خمیربازی آریا مدل آدمکی 1027",
-      "img": "./src/img/options/mobile/8/img-3.jpg",
+      "img": "./img/options/mobile/8/img-3.jpg",
       "newPrice": "۸۲۰,۰۰۰"
     },
     {
       "title": "بازی آموزشی انتشارات ماه کوچولو مدل مکعب ابری پارچه ای بسته 2 عددی",
-      "img": "./src/img/options/mobile/8/img-4.jpg",
+      "img": "./img/options/mobile/8/img-4.jpg",
       "newPrice": "۲۳۰,۰۰۰"
     },
     {
       "title": "بازی آموزشی هوکیا مدل مونتی بازی پاستلی",
-      "img": "./src/img/options/mobile/8/img-5.jpg",
+      "img": "./img/options/mobile/8/img-5.jpg",
       "newPrice": "۴۰۵,۹۱۰"
     },
     {
       "title": "بازی آموزشی حیوانات مدل اشکال ماهیگیری",
-      "img": "./src/img/options/mobile/8/img-6.jpg",
+      "img": "./img/options/mobile/8/img-6.jpg",
       "newPrice": "۱,۰۰۰,۰۰۰"
     },
     {
       "title": "بازی آموزشی رنگ آمیزی اسلایم تپلی مدل 2000 بسته 25 عددی",
-      "img": "./src/img/options/mobile/8/img-7.jpg",
+      "img": "./img/options/mobile/8/img-7.jpg",
       "newPrice": "۱,۲۱۷,۷۰۰"
     },
     {
       "title": "بازی آموزشی مدل کتاب پارچه ای سیاه و سفید نوزاد",
-      "img": "./src/img/options/mobile/8/img-8.jpg",
+      "img": "./img/options/mobile/8/img-8.jpg",
       "newPrice": "۲۱۲,۰۰۰"
     },
     {
       "title": "خمیر بازی آریا مدل سطلی کد 1068",
-      "img": "./src/img/options/mobile/8/img-9.jpg",
+      "img": "./img/options/mobile/8/img-9.jpg",
       "newPrice": "۳۲۰,۰۰۰"
     }
   ],
   "chosen": [
-    { "title": "محصول منتخب شماره ۱", "img": "./src/img/chosen/img-1.jpg", "discount": "۲۰٪", "oldPrice": "۲,۳۰۰,۰۰۰", "newPrice": "۱,۸۴۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۲", "img": "./src/img/chosen/img-2.jpg", "discount": "۲۰٪", "oldPrice": "۱,۵۰۰,۰۰۰", "newPrice": "۱,۲۰۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۳", "img": "./src/img/chosen/img-3.jpg", "discount": "۲۰٪", "oldPrice": "۱,۲۲۷,۵۰۰", "newPrice": "۹۸۲,۰۰۰" },
-    { "title": "محصول منتخب شماره ۴", "img": "./src/img/chosen/img-4.jpg", "discount": "۲۰٪", "oldPrice": "۳,۰۰۰,۰۰۰", "newPrice": "۲,۴۰۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۵", "img": "./src/img/chosen/img-5.jpg", "discount": "۲۰٪", "oldPrice": "۱,۲۱۲,۰۰۰", "newPrice": "۹۷۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۶", "img": "./src/img/chosen/img-6.jpg", "discount": "۲۰٪", "oldPrice": "۲,۳۰۰,۰۰۰", "newPrice": "۱,۸۴۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۷", "img": "./src/img/chosen/img-7.jpg", "discount": "۲۰٪", "oldPrice": "۲,۲۵۰,۰۰۰", "newPrice": "۱,۸۰۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۸", "img": "./src/img/chosen/img-8.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۹", "img": "./src/img/chosen/img-9.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۱۰", "img": "./src/img/chosen/img-10.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۱۱", "img": "./src/img/chosen/img-11.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۱۲", "img": "./src/img/chosen/img-12.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۱۳", "img": "./src/img/chosen/img-13.jpg", "discount": "۲۰٪", "oldPrice": "۲,۳۰۰,۰۰۰", "newPrice": "۱,۸۴۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۱۴", "img": "./src/img/chosen/img-14.jpg", "discount": "۲۰٪", "oldPrice": "۳,۰۰۰,۰۰۰", "newPrice": "۲,۴۰۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۱۵", "img": "./src/img/chosen/img-15.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۱۶", "img": "./src/img/chosen/img-16.jpg", "discount": "۲۰٪", "oldPrice": "۲,۳۰۰,۰۰۰", "newPrice": "۱,۸۴۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۱۷", "img": "./src/img/chosen/img-17.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" },
-    { "title": "محصول منتخب شماره ۱۸", "img": "./src/img/chosen/img-18.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" }
+    { "title": "محصول منتخب شماره ۱", "img": "./img/chosen/img-1.jpg", "discount": "۲۰٪", "oldPrice": "۲,۳۰۰,۰۰۰", "newPrice": "۱,۸۴۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۲", "img": "./img/chosen/img-2.jpg", "discount": "۲۰٪", "oldPrice": "۱,۵۰۰,۰۰۰", "newPrice": "۱,۲۰۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۳", "img": "./img/chosen/img-3.jpg", "discount": "۲۰٪", "oldPrice": "۱,۲۲۷,۵۰۰", "newPrice": "۹۸۲,۰۰۰" },
+    { "title": "محصول منتخب شماره ۴", "img": "./img/chosen/img-4.jpg", "discount": "۲۰٪", "oldPrice": "۳,۰۰۰,۰۰۰", "newPrice": "۲,۴۰۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۵", "img": "./img/chosen/img-5.jpg", "discount": "۲۰٪", "oldPrice": "۱,۲۱۲,۰۰۰", "newPrice": "۹۷۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۶", "img": "./img/chosen/img-6.jpg", "discount": "۲۰٪", "oldPrice": "۲,۳۰۰,۰۰۰", "newPrice": "۱,۸۴۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۷", "img": "./img/chosen/img-7.jpg", "discount": "۲۰٪", "oldPrice": "۲,۲۵۰,۰۰۰", "newPrice": "۱,۸۰۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۸", "img": "./img/chosen/img-8.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۹", "img": "./img/chosen/img-9.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۱۰", "img": "./img/chosen/img-10.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۱۱", "img": "./img/chosen/img-11.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۱۲", "img": "./img/chosen/img-12.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۱۳", "img": "./img/chosen/img-13.jpg", "discount": "۲۰٪", "oldPrice": "۲,۳۰۰,۰۰۰", "newPrice": "۱,۸۴۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۱۴", "img": "./img/chosen/img-14.jpg", "discount": "۲۰٪", "oldPrice": "۳,۰۰۰,۰۰۰", "newPrice": "۲,۴۰۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۱۵", "img": "./img/chosen/img-15.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۱۶", "img": "./img/chosen/img-16.jpg", "discount": "۲۰٪", "oldPrice": "۲,۳۰۰,۰۰۰", "newPrice": "۱,۸۴۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۱۷", "img": "./img/chosen/img-17.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" },
+    { "title": "محصول منتخب شماره ۱۸", "img": "./img/chosen/img-18.jpg", "discount": "۲۰٪", "oldPrice": "۱,۷۵۰,۰۰۰", "newPrice": "۱,۴۰۰,۰۰۰" }
   ],
   "hot": [
-    { "id": "۱", "title": "دستبند زنانه مدل ماری کد B1000", "img": "./src/img/hot/img-1.jpg" },
-    { "id": "۲", "title": "کفش پیاده‌روی زنانه هامتو مدل 360759B-3", "img": "./src/img/hot/img-2.jpg" },
-    { "id": "۳", "title": "زیر نشیمنی طبی هوشمند مدل Authentic Material", "img": "./src/img/hot/img-3.jpg" },
-    { "id": "۴", "title": "کتری برقی سانی مدل SN-007", "img": "./src/img/hot/img-4.jpg" },
-    { "id": "۵", "title": "کرم مرطوب‌کننده ام کیو مدل Hydratante حجم 55 میلی‌لیتر", "img": "./src/img/hot/img-5.jpg" },
-    { "id": "۶", "title": "رژ لب مایع اولی بولا مدل h22 شماره 03", "img": "./src/img/hot/img-6.jpg" },
-    { "id": "۷", "title": "دوربین ثبت وقایع خودرو مدل 4 لنز Y99-GPS-WiFi به همراه دوربین دنده عقب", "img": "./src/img/hot/img-7.jpg" },
-    { "id": "۸", "title": "ساعت مچی دیجیتال کاسیو مدل W-218H-3AVDF", "img": "./src/img/hot/img-8.jpg" },
-    { "id": "۹", "title": "مجموعه 45 عددی ابزار کد 0045", "img": "./src/img/hot/img-9.jpg" },
-    { "id": "۱۰", "title": "موس مو بیول مدل 4 FINE CURLS مناسب موهای فر حجم 200 میلی لیتر", "img": "./src/img/hot/img-10.jpg" },
-    { "id": "۱۱", "title": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming F16 FX607VU-RL081-Core 5 210H-RTX4050 6GB-16GB DDR5 4800MHz-1TB SSD-FHD 144Hz", "img": "./src/img/hot/img-11.jpg" },
-    { "id": "۱۲", "title": "اتو صورت مدل HD-7067", "img": "./src/img/hot/img-12.jpg" },
-    { "id": "۱۳", "title": "سرویس غذاخوری اوپال 25 پارچه 6 نفره دینو مدل 634", "img": "./src/img/hot/img-13.jpg" },
-    { "id": "۱۴", "title": "ساعت هوشمند 46 میلی متری گلوریمی مدل Loop با بند سیلیکونی", "img": "./src/img/hot/img-14.jpg" },
-    { "id": "۱۵", "title": "کاور ریموت و سوئیچ خودرو مدل MC-PG-A مناسب برای پژو 206 و 207", "img": "./src/img/hot/img-15.jpg" },
-    { "id": "۱۶", "title": "گردنبند طلا 18 عیار زنانه با زنجیر فیگارو مایا ماهک مدل MM2154", "img": "./src/img/hot/img-16.jpg" },
-    { "id": "۱۷", "title": "کفش روزمره زنانه چرم مشهد مدل j2658", "img": "./src/img/hot/img-17.jpg" },
-    { "id": "۱۸", "title": "کفش پیاده‌روی مردانه هامتو مدل 860244A-1", "img": "./src/img/hot/img-18.jpg" }
+    { "id": "۱", "title": "دستبند زنانه مدل ماری کد B1000", "img": "./img/hot/img-1.jpg" },
+    { "id": "۲", "title": "کفش پیاده‌روی زنانه هامتو مدل 360759B-3", "img": "./img/hot/img-2.jpg" },
+    { "id": "۳", "title": "زیر نشیمنی طبی هوشمند مدل Authentic Material", "img": "./img/hot/img-3.jpg" },
+    { "id": "۴", "title": "کتری برقی سانی مدل SN-007", "img": "./img/hot/img-4.jpg" },
+    { "id": "۵", "title": "کرم مرطوب‌کننده ام کیو مدل Hydratante حجم 55 میلی‌لیتر", "img": "./img/hot/img-5.jpg" },
+    { "id": "۶", "title": "رژ لب مایع اولی بولا مدل h22 شماره 03", "img": "./img/hot/img-6.jpg" },
+    { "id": "۷", "title": "دوربین ثبت وقایع خودرو مدل 4 لنز Y99-GPS-WiFi به همراه دوربین دنده عقب", "img": "./img/hot/img-7.jpg" },
+    { "id": "۸", "title": "ساعت مچی دیجیتال کاسیو مدل W-218H-3AVDF", "img": "./img/hot/img-8.jpg" },
+    { "id": "۹", "title": "مجموعه 45 عددی ابزار کد 0045", "img": "./img/hot/img-9.jpg" },
+    { "id": "۱۰", "title": "موس مو بیول مدل 4 FINE CURLS مناسب موهای فر حجم 200 میلی لیتر", "img": "./img/hot/img-10.jpg" },
+    { "id": "۱۱", "title": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming F16 FX607VU-RL081-Core 5 210H-RTX4050 6GB-16GB DDR5 4800MHz-1TB SSD-FHD 144Hz", "img": "./img/hot/img-11.jpg" },
+    { "id": "۱۲", "title": "اتو صورت مدل HD-7067", "img": "./img/hot/img-12.jpg" },
+    { "id": "۱۳", "title": "سرویس غذاخوری اوپال 25 پارچه 6 نفره دینو مدل 634", "img": "./img/hot/img-13.jpg" },
+    { "id": "۱۴", "title": "ساعت هوشمند 46 میلی متری گلوریمی مدل Loop با بند سیلیکونی", "img": "./img/hot/img-14.jpg" },
+    { "id": "۱۵", "title": "کاور ریموت و سوئیچ خودرو مدل MC-PG-A مناسب برای پژو 206 و 207", "img": "./img/hot/img-15.jpg" },
+    { "id": "۱۶", "title": "گردنبند طلا 18 عیار زنانه با زنجیر فیگارو مایا ماهک مدل MM2154", "img": "./img/hot/img-16.jpg" },
+    { "id": "۱۷", "title": "کفش روزمره زنانه چرم مشهد مدل j2658", "img": "./img/hot/img-17.jpg" },
+    { "id": "۱۸", "title": "کفش پیاده‌روی مردانه هامتو مدل 860244A-1", "img": "./img/hot/img-18.jpg" }
   ],
   "indemand": [
     {
       "id": "۱",
       "title": "روغن سرخ کردنی اویلا - 810 گرم",
-      "img": "./src/img/indemand/img-1.jpg"
+      "img": "./img/indemand/img-1.jpg"
     },
     {
       "id": "۲",
       "title": "روغن مایع آفتابگردان حاوی ویتامین دی و ای - 1.35 کیلوگرم",
-      "img": "./src/img/indemand/img-2.jpg"
+      "img": "./img/indemand/img-2.jpg"
     },
     {
       "id": "۳",
       "title": "مرغ منجمد سمین - 1100 گرم",
-      "img": "./src/img/indemand/img-3.jpg"
+      "img": "./img/indemand/img-3.jpg"
     },
     {
       "id": "۴",
       "title": "رب گوجه فرنگی روژین مقدار 800 گرم",
-      "img": "./src/img/indemand/img-4.jpg"
+      "img": "./img/indemand/img-4.jpg"
     },
     {
       "id": "۵",
       "title": "قرص کافئین پروویتال - 200 میلی گرم بسته 60 عددی",
-      "img": "./src/img/indemand/img-5.jpg"
+      "img": "./img/indemand/img-5.jpg"
     },
     {
       "id": "۶",
       "title": "کپسول زینک پلاس یوروویتال بسته 40 عددی",
-      "img": "./src/img/indemand/img-6.jpg"
+      "img": "./img/indemand/img-6.jpg"
     },
     {
       "id": "۷",
       "title": "شکر سفید الماس دانه - 1 کیلوگرم",
-      "img": "./src/img/indemand/img-7.jpg"
+      "img": "./img/indemand/img-7.jpg"
     },
     {
       "id": "۸",
       "title": "کرم ضدآفتاب و ضدلک پرتیژنت لافار مدل SPF50 مناسب پوست‌های چرب",
-      "img": "./src/img/indemand/img-8.jpg"
+      "img": "./img/indemand/img-8.jpg"
     },
     {
       "id": "۹",
       "title": "قرص منیزیم پلاس آیزن و ویتامینه 60 عددی",
-      "img": "./src/img/indemand/img-9.jpg"
+      "img": "./img/indemand/img-9.jpg"
     },
     {
       "id": "۱۰",
       "title": "کپسول نرم پری بیوتیکال بسته 30 عددی",
-      "img": "./src/img/indemand/img-10.jpg"
+      "img": "./img/indemand/img-10.jpg"
     },
     {
       "id": "۱۱",
       "title": "کرم آبرسان لاکون مدل biotic حجم 50 میلی‌لیتر",
-      "img": "./src/img/indemand/img-11.jpg"
+      "img": "./img/indemand/img-11.jpg"
     },
     {
       "id": "۱۲",
       "title": "اسپاگتی قطر 1.2 زر ماکارون مقدار 700 گرم",
-      "img": "./src/img/indemand/img-12.jpg"
+      "img": "./img/indemand/img-12.jpg"
     },
     {
       "id": "۱۳",
       "title": "مایع سفیدکننده غلیظ سطوح دامستوس مدل Mountain Breeze حجم 750 میلی‌لیتر",
-      "img": "./src/img/indemand/img-13.jpg"
+      "img": "./img/indemand/img-13.jpg"
     },
     {
       "id": "۱۴",
       "title": "روغن آفتابگردان فامیلا - 1.35 لیتر",
-      "img": "./src/img/indemand/img-14.jpg"
+      "img": "./img/indemand/img-14.jpg"
     },
     {
       "id": "۱۵",
       "title": "شویو وی روکش‌دار کرانچی اولیپن 180 گرمی بسته 6 عددی",
-      "img": "./src/img/indemand/img-15.jpg"
+      "img": "./img/indemand/img-15.jpg"
     },
     {
       "id": "۱6",
       "title": "مایع لباسشویی جنرال اکتیو مدل سبز حجم  2500 میلی لیتر",
-      "img": "./src/img/indemand/img-16.jpg"
+      "img": "./img/indemand/img-16.jpg"
     },
     {
       "id": "۱7",
       "title": "کره حیوانی هراز - 50 گرم ",
-      "img": "./src/img/indemand/img-17.jpg"
+      "img": "./img/indemand/img-17.jpg"
     },
     {
       "id": "۱8",
       "title": "پودر رختشویی دستی سافتلن مقدار 500 گرم",
-      "img": "./src/img/indemand/img-18.jpg"
+      "img": "./img/indemand/img-18.jpg"
     }
   ],
     "options2": [
@@ -6831,10 +6831,10 @@
         "subtitle": "بر اساس سلیقه شما",
         "url": "#",
         "images": [
-          "./src/img/options/2/img-1.jpg",
-          "./src/img/options/2/img-2.jpg",
-          "./src/img/options/2/img-3.jpg",
-          "./src/img/options/2/img-4.jpg"
+          "./img/options/2/img-1.jpg",
+          "./img/options/2/img-2.jpg",
+          "./img/options/2/img-3.jpg",
+          "./img/options/2/img-4.jpg"
         ]
       },
       {
@@ -6842,10 +6842,10 @@
         "subtitle": "بر اساس سلیقه شما",
         "url": "#",
         "images": [
-          "./src/img/options/2/img-5.jpg",
-          "./src/img/options/2/img-6.jpg",
-          "./src/img/options/2/img-7.jpg",
-          "./src/img/options/2/img-8.jpg"
+          "./img/options/2/img-5.jpg",
+          "./img/options/2/img-6.jpg",
+          "./img/options/2/img-7.jpg",
+          "./img/options/2/img-8.jpg"
         ]
       },
       {
@@ -6853,10 +6853,10 @@
         "subtitle": "بر اساس سلیقه شما",
         "url": "#",
         "images": [
-          "./src/img/options/2/img-9.jpg",
-          "./src/img/options/2/img-10.jpg",
-          "./src/img/options/2/img-11.jpg",
-          "./src/img/options/2/img-12.jpg"
+          "./img/options/2/img-9.jpg",
+          "./img/options/2/img-10.jpg",
+          "./img/options/2/img-11.jpg",
+          "./img/options/2/img-12.jpg"
         ]
       },
       {
@@ -6864,10 +6864,10 @@
         "subtitle": "بر اساس سلیقه شما",
         "url": "#",
         "images": [
-          "./src/img/options/2/img-13.jpg",
-          "./src/img/options/2/img-14.jpg",
-          "./src/img/options/2/img-15.jpg",
-          "./src/img/options/2/img-16.jpg"
+          "./img/options/2/img-13.jpg",
+          "./img/options/2/img-14.jpg",
+          "./img/options/2/img-15.jpg",
+          "./img/options/2/img-16.jpg"
         ]
       }
     ],
@@ -6875,30 +6875,30 @@
         {
           "mobile": true,
           "title": "آیا لوازم جانبی گران‌تر واقعا بهتر و بادوام‌تر است؟",
-          "img": "./src/img/blog/blog1.jpg"
+          "img": "./img/blog/blog1.jpg"
         },
         {
           "mobile": true,
           "title": "ظرفیت باتری یا سرعت شارژ؛ کدام در گوشی موبایل مهم‌تر است؟",
-          "img": "./src/img/blog/blog2.jpg"
+          "img": "./img/blog/blog2.jpg"
         },
         {
           "mobile": false,
           "title": "بهترین سریال‌های اکشن دیستوپیایی؛ از «مردگان متحرک» تا «آخرین بازمانده از ما»",
-          "img": "./src/img/blog/blog3.jpg"
+          "img": "./img/blog/blog3.jpg"
         },
         {
           "mobile": false,
           "title": "چگونه گیاهان آپارتمانی را در بهار نجات دهیم؛ ۷ مرحله احیای گیاه نیمه‌جان",
-          "img": "./src/img/blog/blog4.jpg"
+          "img": "./img/blog/blog4.jpg"
         }
       ],
   "footer": {
   "topBadges": [
-    { "img": "./src/img/footer/badge-1.svg", "text": "تحویل سریع دیجی کالا" },
-    { "img": "./src/img/footer/badge-2.svg", "text": "ساعت 24، 7 روز هفته" },
-    { "img": "./src/img/footer/badge-3.svg", "text": "امکان پرداخت در محل" },
-    { "img": "./src/img/footer/badge-4.svg", "text": "هفت روز ضمانت بازگشت" }
+    { "img": "./img/footer/badge-1.svg", "text": "تحویل سریع دیجی کالا" },
+    { "img": "./img/footer/badge-2.svg", "text": "ساعت 24، 7 روز هفته" },
+    { "img": "./img/footer/badge-3.svg", "text": "امکان پرداخت در محل" },
+    { "img": "./img/footer/badge-4.svg", "text": "هفت روز ضمانت بازگشت" }
   ],
   "linkColumns": [
     {
@@ -6933,90 +6933,90 @@
     }
   ],
   "social": [
-    { "img": "./src/img/footer/insta.svg", "href": "#" },
-    { "img": "./src/img/footer/twitter.svg", "href": "#" },
-    { "img": "./src/img/footer/linkedin.svg", "href": "#" },
-    { "img": "./src/img/footer/aparat.svg", "href": "#" }
+    { "img": "./img/footer/insta.svg", "href": "#" },
+    { "img": "./img/footer/twitter.svg", "href": "#" },
+    { "img": "./img/footer/linkedin.svg", "href": "#" },
+    { "img": "./img/footer/aparat.svg", "href": "#" }
   ],
   "downloadBanner": {
     "title": "همیشه به‌دست آوردن موبایل با اپلیکیشن‌های دیجی‌کالا",
-    "appIcon": "./src/img/footer/footer-app.png",
+    "appIcon": "./img/footer/footer-app.png",
     "stores": [
-      { "img": "./src/img/footer/store-bazaar.svg", "href": "#" },
-      { "img": "./src/img/footer/store-sib.svg", "href": "#" },
-      { "img": "./src/img/footer/store-myket.svg", "href": "#" }
+      { "img": "./img/footer/store-bazaar.svg", "href": "#" },
+      { "img": "./img/footer/store-sib.svg", "href": "#" },
+      { "img": "./img/footer/store-myket.svg", "href": "#" }
     ],
-    "moreStore": { "img": "./src/img/footer/store-more.svg", "href": "#" }
+    "moreStore": { "img": "./img/footer/store-more.svg", "href": "#" }
   },
   "bragging": {
     "title": "دیجی کالا؛ بزرگترین فروشگاه اینترنتی ایران",
     "bodyHtml": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
   },
   "trustStrip": [
-    { "img": "./src/img/footer/sep-1.png", "href": "#" },
-    { "img": "./src/img/footer/sep-2.png", "href": "#" }
+    { "img": "./img/footer/sep-1.png", "href": "#" },
+    { "img": "./img/footer/sep-2.png", "href": "#" }
   ],
   "copyright": "تقدیم به عشق برندهایی چون سامسونگ، ال‌جی و اسنوا که با امید زندگی می‌کنند.",
   "partners": {
     "title": "شرکای تجاری",
     "logos": [
-      { "img": "./src/img/footer/badge-1.svg", "href": "#" },
-      { "img": "./src/img/footer/badge-2.svg", "href": "#" },
-      { "img": "./src/img/footer/badge-3.svg", "href": "#" },
-      { "img": "./src/img/footer/badge-4.svg", "href": "#" },
-      { "img": "./src/img/footer/badge-5.svg", "href": "#" }
+      { "img": "./img/footer/badge-1.svg", "href": "#" },
+      { "img": "./img/footer/badge-2.svg", "href": "#" },
+      { "img": "./img/footer/badge-3.svg", "href": "#" },
+      { "img": "./img/footer/badge-4.svg", "href": "#" },
+      { "img": "./img/footer/badge-5.svg", "href": "#" }
     ]
   },
   "perks": [
-    { "img": "./src/img/footer/img1.svg", "href": "#" },
-    { "img": "./src/img/footer/img2.svg", "href": "#" },
-    { "img": "./src/img/footer/img3.svg", "href": "#" },
-    { "img": "./src/img/footer/img4.svg", "href": "#" },
-    { "img": "./src/img/footer/img5.svg", "href": "#" },
-    { "img": "./src/img/footer/img6.svg", "href": "#" },
-    { "img": "./src/img/footer/img7.svg", "href": "#" },
-    { "img": "./src/img/footer/img8.svg", "href": "#" },
-    { "img": "./src/img/footer/img9.svg", "href": "#" },
-    { "img": "./src/img/footer/img10.svg", "href": "#" },
-    { "img": "./src/img/footer/img11.svg", "href": "#" },
-    { "img": "./src/img/footer/img12.svg", "href": "#" },
-    { "img": "./src/img/footer/img13.svg", "href": "#" },
-    { "img": "./src/img/footer/img14.svg", "href": "#" }
+    { "img": "./img/footer/img1.svg", "href": "#" },
+    { "img": "./img/footer/img2.svg", "href": "#" },
+    { "img": "./img/footer/img3.svg", "href": "#" },
+    { "img": "./img/footer/img4.svg", "href": "#" },
+    { "img": "./img/footer/img5.svg", "href": "#" },
+    { "img": "./img/footer/img6.svg", "href": "#" },
+    { "img": "./img/footer/img7.svg", "href": "#" },
+    { "img": "./img/footer/img8.svg", "href": "#" },
+    { "img": "./img/footer/img9.svg", "href": "#" },
+    { "img": "./img/footer/img10.svg", "href": "#" },
+    { "img": "./img/footer/img11.svg", "href": "#" },
+    { "img": "./img/footer/img12.svg", "href": "#" },
+    { "img": "./img/footer/img13.svg", "href": "#" },
+    { "img": "./img/footer/img14.svg", "href": "#" }
   ]
   },
   "fixedSupermarket": {
     "buttonTitle": "سوپرمارکت",
     "buttonTagline": "تنوع بالا و پرتخفیف",
-    "basketIcon": "./src/img/fixed-button/basket-svgrepo-com.svg",
+    "basketIcon": "./img/fixed-button/basket-svgrepo-com.svg",
     "modalTitle": "یکی از سوپرمارکت های زیر را انتخاب کنید",
     "modalSubtitle": "فقط در شهر های تهران و کرج",
     "cards": [
       {
         "href": "#",
         "title": "پرتخفیف و متنوع",
-        "titleIcon": "./src/img/fixed-button/svgexport-24.svg",
+        "titleIcon": "./img/fixed-button/svgexport-24.svg",
         "tag": {
-          "icon": "./src/img/fixed-button/truck.svg",
+          "icon": "./img/fixed-button/truck.svg",
           "text": "ارسال سریع",
           "variant": "green"
         },
-        "illustration": "./src/img/fixed-button/right.png"
+        "illustration": "./img/fixed-button/right.png"
       },
       {
         "href": "#",
         "title": "ارسال فوری",
-        "titleIcon": "./src/img/fixed-button/svgexport-24.svg",
+        "titleIcon": "./img/fixed-button/svgexport-24.svg",
         "tag": {
-          "icon": "./src/img/fixed-button/clock.svg",
+          "icon": "./img/fixed-button/clock.svg",
           "text": "۴۵ دقیقه‌ای",
           "variant": "orange"
         },
-        "illustration": "./src/img/fixed-button/left.png"
+        "illustration": "./img/fixed-button/left.png"
       }
     ]
   },
   "fixedHelp": {
-    "icon": "./src/img/fixed-button/svgexport-27.svg",
+    "icon": "./img/fixed-button/svgexport-27.svg",
     "mobileFloatingText": "پشتیبانی آنلاین",
     "headerTitle": "پشتیبانی آنلاین",
     "greeting": "سلام 👋👋",
@@ -7039,28 +7039,28 @@
   },
   "menu": [
     {
-      "icon": "./src/img/menu/home.svg",
+      "icon": "./img/menu/home.svg",
       "text": "خانه",
       "href": "index.html"
     },    
     {
-      "icon": "./src/img/menu/menu.svg",
+      "icon": "./img/menu/menu.svg",
       "text": "دسته‌بندی",
       "href": ""
     },
     {
-      "icon": "./src/img/menu/cart.svg",
+      "icon": "./img/menu/cart.svg",
       "text": "سبد خرید",
       "href": "#"
     },
     
     {
-      "icon": "./src/img/menu/magnet.svg",
+      "icon": "./img/menu/magnet.svg",
       "text": "مگنت",
       "href": "#"
     },
     {
-      "icon": "./src/img/menu/profile.svg",
+      "icon": "./img/menu/profile.svg",
       "text": "دیجی‌کالای من",
       "href": "#"
     }
