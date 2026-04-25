@@ -6892,6 +6892,96 @@
           "title": "چگونه گیاهان آپارتمانی را در بهار نجات دهیم؛ ۷ مرحله احیای گیاه نیمه‌جان",
           "img": "./src/img/blog/blog4.jpg"
         }
+      ],
+  "footer": {
+  "topBadges": [
+    { "img": "./src/img/footer/badge-1.svg", "text": "تحویل سریع دیجی کالا" },
+    { "img": "./src/img/footer/badge-2.svg", "text": "ساعت 24، 7 روز هفته" },
+    { "img": "./src/img/footer/badge-3.svg", "text": "امکان پرداخت در محل" },
+    { "img": "./src/img/footer/badge-4.svg", "text": "هفت روز ضمانت بازگشت" }
+  ],
+  "linkColumns": [
+    {
+      "title": "با دیجی‌کالا",
+      "links": [
+        { "text": "درباره دیجی‌کالا", "href": "#" },
+        { "text": "زندگی و اکوسیستم", "href": "#" },
+        { "text": "فرصت‌های شغلی", "href": "#" }
       ]
-
+    },
+    {
+      "title": "خدمات مشتریان",
+      "links": [
+        { "text": "راهنمای پرداخت", "href": "#" },
+        { "text": "راهنمای ارسال", "href": "#" },
+        { "text": "راهنمای کالا", "href": "#" }
+      ]
+    },
+    {
+      "title": "راهنما",
+      "links": [
+        { "text": "نحوه خرید", "href": "#" },
+        { "text": "نحوه ثبت سفارش", "href": "#" },
+        { "text": "نحوه پیگیری سفارش", "href": "#" }
+      ]
+    },
+    {
+      "title": "از تخفیف جا نمانید",
+      "links": [],
+      "isNewsletter": true,
+      "newsletterPlaceholder": "ایمیل شما"
+    }
+  ],
+  "social": [
+    { "img": "./src/img/footer/insta.svg", "href": "#" },
+    { "img": "./src/img/footer/twitter.svg", "href": "#" },
+    { "img": "./src/img/footer/linkedin.svg", "href": "#" },
+    { "img": "./src/img/footer/aparat.svg", "href": "#" }
+  ],
+  "downloadBanner": {
+    "title": "همیشه به‌دست آوردن موبایل با اپلیکیشن‌های دیجی‌کالا",
+    "appIcon": "./src/img/footer/footer-app.png",
+    "stores": [
+      { "img": "./src/img/footer/store-bazaar.svg", "href": "#" },
+      { "img": "./src/img/footer/store-sib.svg", "href": "#" },
+      { "img": "./src/img/footer/store-myket.svg", "href": "#" }
+    ],
+    "moreStore": { "img": "./src/img/footer/store-more.svg", "href": "#" }
+  },
+  "bragging": {
+    "title": "دیجی کالا؛ بزرگترین فروشگاه اینترنتی ایران",
+    "bodyHtml": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+  },
+  "trustStrip": [
+    { "img": "./src/img/footer/sep-1.png", "href": "#" },
+    { "img": "./src/img/footer/sep-2.png", "href": "#" }
+  ],
+  "copyright": "تقدیم به عشق برندهایی چون سامسونگ، ال‌جی و اسنوا که با امید زندگی می‌کنند.",
+  "partners": {
+    "title": "شرکای تجاری",
+    "logos": [
+      { "img": "./src/img/footer/badge-1.svg", "href": "#" },
+      { "img": "./src/img/footer/badge-2.svg", "href": "#" },
+      { "img": "./src/img/footer/badge-3.svg", "href": "#" },
+      { "img": "./src/img/footer/badge-4.svg", "href": "#" },
+      { "img": "./src/img/footer/badge-5.svg", "href": "#" }
+    ]
+  },
+  "perks": [
+    { "img": "./src/img/footer/img1.svg", "href": "#" },
+    { "img": "./src/img/footer/img2.svg", "href": "#" },
+    { "img": "./src/img/footer/img3.svg", "href": "#" },
+    { "img": "./src/img/footer/img4.svg", "href": "#" },
+    { "img": "./src/img/footer/img5.svg", "href": "#" },
+    { "img": "./src/img/footer/img6.svg", "href": "#" },
+    { "img": "./src/img/footer/img7.svg", "href": "#" },
+    { "img": "./src/img/footer/img8.svg", "href": "#" },
+    { "img": "./src/img/footer/img9.svg", "href": "#" },
+    { "img": "./src/img/footer/img10.svg", "href": "#" },
+    { "img": "./src/img/footer/img11.svg", "href": "#" },
+    { "img": "./src/img/footer/img12.svg", "href": "#" },
+    { "img": "./src/img/footer/img13.svg", "href": "#" },
+    { "img": "./src/img/footer/img14.svg", "href": "#" }
+  ]
+}
 }
