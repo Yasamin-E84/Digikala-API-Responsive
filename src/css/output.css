@@ -2479,6 +2479,11 @@
       min-height: calc(var(--spacing) * 30);
     }
   }
+  .desktop\:\!w-\[90\%\] {
+    @media (width >= 1024px) {
+      width: 90% !important;
+    }
+  }
   .desktop\:\!w-\[95\%\] {
     @media (width >= 1024px) {
       width: 95% !important;
@@ -2512,6 +2517,11 @@
   .desktop\:w-\[49\%\] {
     @media (width >= 1024px) {
       width: 49%;
+    }
+  }
+  .desktop\:w-\[90\%\] {
+    @media (width >= 1024px) {
+      width: 90%;
     }
   }
   .desktop\:w-\[95\%\] {
