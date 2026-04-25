@@ -7036,5 +7036,34 @@
       }
     ],
     "callUs": { "label": "تماس با ما", "href": "#" }
-  }
+  },
+  "menu": [
+    {
+      "icon": "./src/img/menu/home.svg",
+      "text": "خانه",
+      "href": "index.html"
+    },    
+    {
+      "icon": "./src/img/menu/menu.svg",
+      "text": "دسته‌بندی",
+      "href": ""
+    },
+    {
+      "icon": "./src/img/menu/cart.svg",
+      "text": "سبد خرید",
+      "href": "#"
+    },
+    
+    {
+      "icon": "./src/img/menu/magnet.svg",
+      "text": "مگنت",
+      "href": "#"
+    },
+    {
+      "icon": "./src/img/menu/profile.svg",
+      "text": "دیجی‌کالای من",
+      "href": "#"
+    }
+
+  ]
 }

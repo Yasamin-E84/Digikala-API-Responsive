@@ -2262,19 +2262,61 @@
       <!--#endregion footer-->
       <!--#region tab-menu-->
       <div
-        class="tab-menu w-full h-18 flex justify-evenly bg-white border-t border-[#eaeaec] items-center mobile:flex desktop:hidden fixed bottom-0 left-0 right-0"
+        class="w-full h-18 flex justify-between items-center bg-white border-t border-[#eaeaec] mobile:flex desktop:hidden fixed bottom-0 left-0 right-0 z-100"
       >
-        <div class="tab-menu-item flex flex-col items-center justify-center gap-1 h-full">
-          <a href="index.html" class="tab-menu-item flex flex-col items-center h-full justify-center gap-1">
-            <img src="./src/img/menu/home.svg" alt="" class="w-8" />
-            <span class="font-Iran text-[12px] text-[#3f4064]">خانه</span>
-          </a>
-        </div>
+        <div class="w-[90%] mx-auto flex justify-between items-center tab-menu"></div>
       </div>
       <!--#endregion tab-menu-->
     </main>
 
     <!--#region essentials-->
+    <!--#region mobile-tabs-category-->
+<div class="fixed inset-0 z-[200] hidden font-Iran desktop:hidden" data-tabs>
+<div
+  class="absolute inset-0 bg-black/40 opacity-0 transition-opacity duration-300"
+  data-tabs-backdrop
+></div>
+<div
+  class="absolute inset-x-0 bottom-0 h-[88vh] max-h-[88vh] translate-y-full rounded-t-2xl bg-white transition-transform duration-300"
+  data-tabs-sheet
+>
+<div class="flex h-full w-full flex-col">
+  <div
+    class="flex h-14 shrink-0 items-center justify-between border-b border-[#e0e0e2] px-4"
+  >
+    <span class="font-Iran text-base font-bold text-[#23254e]">
+      دسته‌بندی کالاها
+    </span>
+
+    <button
+      type="button"
+      class="flex h-10 w-10 items-center justify-center"
+      data-tabs-close
+      aria-label="بستن"
+    >
+      <img
+        src="./src/img/fixed-button/svgexport-32.svg"
+        alt=""
+        class="h-6 w-6"
+      />
+    </button>
+  </div>
+
+  <div class="flex min-h-0 flex-1">
+    <div
+      class="h-full w-[105px] shrink-0 overflow-y-auto bg-[#f0f0f1] [scrollbar-width:none]"
+      data-tabs-list
+    ></div>
+
+    <div
+      class="min-w-0 flex-1 overflow-y-auto bg-white px-4 py-3"
+      data-tabs-content
+    ></div>
+  </div>
+</div>
+</div>
+</div>
+<!--#endregion mobile-tabs-category-->
     <!--#region fixed-supermarket-->
     <div
       class="font-Iran desktop:block mobile:hidden"
@@ -2365,22 +2407,22 @@
       <!-- MOBILE ONLY -->
       <div class="desktop:hidden">
         <div
-          class="fixed bottom-[5.2rem] right-4 z-[60] rounded-full bg-white px-3 py-1 text-[12px] text-[#3f4064] shadow-md"
+          class="fixed bottom-45 left-4 z-[60] rounded-full bg-[#3f4064] px-3 py-2 text-[12px] text-white shadow-md translate-y-full"
           data-help-mobile-bubble
         >
-          <span data-help-mobile-bubble-text>پشتیبانی آنلاین</span>
+          <span data-help-mobile-bubble-text>پشتیبانی دیجی‌کالا اینجاست</span>
         </div>
 
         <div
-          class="fixed bottom-[5.2rem] right-4 z-[60] hidden rounded-full bg-white px-3 py-1 text-[12px] text-[#3f4064] shadow-md"
-          data-help-mobile-float
+          class="fixed bottom-45 left-4 z-[60] rounded-full bg-[#3f4064] px-3 py-2 text-[12px] text-white shadow-md translate-y-full"
+          data-help-mobile-bubble
         >
-          <span data-help-mobile-float-text>پشتیبانی آنلاین</span>
+          <span data-help-mobile-bubble-text>پشتیبانی دیجی‌کالا اینجاست</span>
         </div>
 
         <a
           href="#"
-          class="fixed bottom-6 right-4 z-[60] flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#7659f1] to-[#3a7afb] p-2.5 text-white shadow-sm"
+          class="fixed bottom-20 left-4 z-[60] flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#7659f1] to-[#3a7afb] p-2.5 text-white shadow-sm"
           data-help-mobile-link
           aria-label="پشتیبانی"
         >

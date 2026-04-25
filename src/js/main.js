@@ -24,6 +24,8 @@ import Hot from "./Body/Hot";
 import Blog from "./Body/Blog";
 import Footer from "./Body/Footer";
 import "./fixedButton";
+import Menu from "./Body/Menu";
+import Tabs from "./Body/Tabs";
 
 Annoying();
 Setting();
@@ -49,3 +51,5 @@ chosen();
 Hot();
 Blog();
 Footer();
+Menu();
+Tabs();
