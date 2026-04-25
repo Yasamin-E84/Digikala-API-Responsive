@@ -3,7 +3,7 @@ import { Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import { getDB } from "../api";
+import { getDB } from "../api.js";
 
 async function Ads() {
   try {

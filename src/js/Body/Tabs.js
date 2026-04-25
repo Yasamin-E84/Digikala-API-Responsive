@@ -1,4 +1,4 @@
-import { getDB } from "../api";
+import { getDB } from "../api.js";
 
 async function Tabs() {
   try {

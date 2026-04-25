@@ -1,4 +1,4 @@
-import { getDB } from "../api";
+import { getDB } from "../api.js";
 const res = await getDB();
 
 async function Blog() {

@@ -1,4 +1,4 @@
-import { getDB } from "../api";
+import { getDB } from "./api";
 
 function cardHtml(card) {
   const isOrange = card.tag?.variant === "orange";

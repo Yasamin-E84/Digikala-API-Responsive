@@ -1,4 +1,4 @@
-import { getDB } from "../api";
+import { getDB } from "../api.js";
 import Swiper from "swiper";
 import { Navigation } from "swiper/modules";
 
