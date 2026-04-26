@@ -229,7 +229,7 @@
     </svg>
   `},Q="/Digikala-API-Responsive/",Ss=await A();async function Ts(){try{let e=function(i){t.forEach(o=>{const a=o.querySelector(".pain-subject"),d=o.querySelector(".menu-title"),h=o.querySelector(".menu");a.classList.remove("block"),a.classList.add("hidden"),d.classList.remove("text-[#ed1944]"),d.classList.add("text-[#574a6d]"),h.classList.remove("bg-white","!bg-white"),h.classList.add("bg-[#f0f0f1]")});const n=i.querySelector(".pain-subject"),r=i.querySelector(".menu-title"),l=i.querySelector(".menu");n.classList.remove("hidden"),n.classList.add("block"),r.classList.remove("text-[#574a6d]"),r.classList.add("text-[#ed1944]"),l.classList.remove("bg-[#f0f0f1]"),l.classList.add("bg-white")};const s=`
       <div
-        class="annoying hidden group-hover/grand:block transition-all duration-200 h-[65vh] absolute top-full right-0 overflow-x-visible z-10"
+        class="annoying hidden group-hover/grand:block transition-all duration-200 h-[65vh] absolute top-full right-0 overflow-x-visible z-[230]"
       >
         <div
           class="direction direction-ltr h-full overflow-y-scroll scroll-smooth overflow-x-visible"
@@ -400,7 +400,7 @@
             </span>
           </a>
           <div class="underline w-3 h-0.5 opacity-0 bg-[#ed1944] rounded-full group-hover:opacity-100 group-hover:w-full transition-all duration-300"></div>
-        </div>`);document.querySelector(".navigation").innerHTML=e.join(" "),document.querySelectorAll(".nav-items").forEach(t=>{t.addEventListener("mouseenter",function(i){const n=i.currentTarget.getBoundingClientRect(),r=i.clientX-n.left,l=n.width,o=i.currentTarget;o.classList.remove("items-start","items-end"),r<l/2?o.classList.add("items-end"):o.classList.add("items-start")})})}catch(e){console.error(e.message)}}function Ps(){const e=document.querySelector("[data-desktop-header]"),s=document.querySelector("[data-header-category]");if(!e||!s)return;const t=window.matchMedia("(min-width: 1024px)");let i=window.scrollY;function n(l){s.classList.toggle("-translate-y-full",l),s.style.height=l?"0px":"40px",s.style.opacity=l?"0":"1",s.style.pointerEvents=l?"none":""}function r(){if(!t.matches){n(!1),s.style.height="",s.style.opacity="",s.style.pointerEvents="",i=window.scrollY;return}const l=window.scrollY,o=l-i;l<=0?n(!1):o>0?n(!0):o<0&&n(!1),i=l}window.addEventListener("scroll",r,{passive:!0}),window.addEventListener("resize",r),s.style.transition="transform 280ms ease, height 280ms ease, opacity 220ms ease",s.style.overflow="hidden",s.style.height="40px",r()}Re();Ps();async function Is(){let e=document.querySelector(".cover-bg"),s=document.querySelector(".items-categories");s.addEventListener("mouseenter",function(){e.classList.add("!block")}),s.addEventListener("mouseleave",function(){e.classList.remove("!block")})}async function We(){try{const s=(await A()).slider.map(i=>`
+        </div>`);document.querySelector(".navigation").innerHTML=e.join(" "),document.querySelectorAll(".nav-items").forEach(t=>{t.addEventListener("mouseenter",function(i){const n=i.currentTarget.getBoundingClientRect(),r=i.clientX-n.left,l=n.width,o=i.currentTarget;o.classList.remove("items-start","items-end"),r<l/2?o.classList.add("items-end"):o.classList.add("items-start")})})}catch(e){console.error(e.message)}}function Ps(){const e=document.querySelector("[data-desktop-header]"),s=document.querySelector("[data-header-category]");if(!e||!s)return;const t=window.matchMedia("(min-width: 1024px)");let i=window.scrollY;function n(l){s.classList.toggle("-translate-y-full",l),s.style.height=l?"0px":"40px",s.style.opacity=l?"0":"1",s.style.pointerEvents=l?"none":"",s.style.overflow=l?"hidden":"visible"}function r(){if(!t.matches){n(!1),s.style.height="",s.style.opacity="",s.style.pointerEvents="",i=window.scrollY;return}const l=window.scrollY,o=l-i;l<=0?n(!1):o>0?n(!0):o<0&&n(!1),i=l}window.addEventListener("scroll",r,{passive:!0}),window.addEventListener("resize",r),s.style.transition="transform 280ms ease, height 280ms ease, opacity 220ms ease",s.style.overflow="visible",s.style.height="40px",r()}Re();Ps();async function Is(){}async function We(){try{const s=(await A()).slider.map(i=>`
       <div class="swiper-slide">
         <a href="${i.link}" class="block w-full h-full">
           <img
@@ -413,7 +413,7 @@
             src="${i.Msrc}"
             alt="${i.title}"
             title="${i.title}"
-            class="h-full block object-cover desktop:hidden mobile:block w-110 rounded-xl"
+            class="h-full block object-cover desktop:hidden mobile:block min-w-107 !w-[90%] mx-auto rounded-xl"
           />
         </a>
       </div>
@@ -492,7 +492,7 @@
 ${l.text}                </p>
               </div>
             </div>
-            `);document.querySelector(".list-modal-services").innerHTML=r.join("")}catch(n){console.log(n.message)}const e=document.querySelector(".closelist"),s=document.querySelector(".list-modal"),t=document.querySelector(".more-list"),i=document.querySelector(".cover-bg-loc-full");t.addEventListener("click",()=>{s.classList.remove("hidden"),s.classList.add("flex"),i.classList.remove("hidden"),document.body.classList.add("overflow-hidden")}),e.addEventListener("click",()=>{s.classList.add("hidden"),s.classList.remove("flex"),i.classList.add("hidden"),document.body.classList.remove("overflow-hidden")})}const Te="/Digikala-API-Responsive/";async function Hs(){try{let s=(await A()).amazingmobile.map(i=>`
+            `);document.querySelector(".list-modal-services").innerHTML=r.join("")}catch(n){console.log(n.message)}const e=document.querySelector(".closelist"),s=document.querySelector(".list-modal"),t=document.querySelector(".more-list"),i=document.querySelector(".cover-bg-loc-full");t.addEventListener("click",()=>{s.classList.remove("hidden"),s.classList.add("flex"),i.classList.remove("hidden"),document.body.classList.add("overflow-hidden")}),e.addEventListener("click",()=>{s.classList.add("hidden"),s.classList.remove("flex"),i.classList.add("hidden"),document.body.classList.remove("overflow-hidden")}),i.addEventListener("click",()=>{s.classList.add("hidden"),s.classList.remove("flex"),i.classList.add("hidden"),document.body.classList.remove("overflow-hidden")})}const Te="/Digikala-API-Responsive/";async function Hs(){try{let s=(await A()).amazingmobile.map(i=>`
         <div class="cursor-pointer shrink-0 ${i.border?"rounded-tr-lg rounded-br-lg":""} h-60 overflow-hidden !w-[130px]">
           <div class="w-full h-full flex flex-col bg-white justify-center items-center gap-1 p-2">
             <img src="${i.img}" alt="" />
