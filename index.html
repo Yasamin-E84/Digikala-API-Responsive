@@ -9,17 +9,18 @@
       href="/Digikala-API-Responsive/img/favicon.ico"
       type="image/x-icon"
     />
-    <script type="module" crossorigin src="/Digikala-API-Responsive/assets/index-C5XsDJ0X.js"></script>
-    <link rel="stylesheet" crossorigin href="/Digikala-API-Responsive/assets/index-Dy6Lvl59.css">
+    <script type="module" crossorigin src="/Digikala-API-Responsive/assets/index-DPOO15tZ.js"></script>
+    <link rel="stylesheet" crossorigin href="/Digikala-API-Responsive/assets/index-DgYWss99.css">
   </head>
 
   <body>
     <main
-      class="absolute z-1 w-full flex justify-center items-center flex-col desktop:gap-4 overflow-hidden"
+      class="absolute z-1 h-auto w-full flex justify-center items-center flex-col desktop:gap-4 overflow-hidden desktop:pt-40"
     >
       <!--#region header-desktop-->
       <header
-        class="w-full h-40 mobile:hidden desktop:block bg-white shadow shadow-slate-400 relative"
+        class="w-full mobile:hidden desktop:block bg-white shadow shadow-slate-400 fixed top-0 left-0 z-[120] overflow-hidden"
+        data-desktop-header
       >
         <!--#region header-banner-->
         <div class="banner h-15 w-full">
@@ -36,7 +37,7 @@
         >
           <!--#region header-search-->
           <div
-            class="search flex py-2 w-full relative px-4 gap-6 justify-start items-center"
+            class="search flex py-2 w-full relative z-10 bg-white px-4 gap-6 justify-start items-center"
           >
             <!--#region header-search-logo-->
             <div class="logo w-48.75 h-7.5">
@@ -55,7 +56,10 @@
               <div
                 class="console bg-[#f0f0f1] h-11 w-150 gap-4 flex justify-start items-center px-4 rounded-sm"
               >
-                <img src="/Digikala-API-Responsive/img/Header/searchbar-logo.svg" alt="" />
+                <img
+                  src="/Digikala-API-Responsive/img/Header/searchbar-logo.svg"
+                  alt=""
+                />
                 <span class="text-[#a2a3a8] font-Iran text-sm">جستجو</span>
               </div>
               <!--#endregion header-search-searchbar-console-->
@@ -89,7 +93,10 @@
                   <div
                     class="hot-search-title flex gap-4 cursor-pointer justify-center items-center"
                   >
-                    <img src="/Digikala-API-Responsive/img/Header/search-hot.svg" alt="" />
+                    <img
+                      src="/Digikala-API-Responsive/img/Header/search-hot.svg"
+                      alt=""
+                    />
                     <span class="font-Iran font-bold text-[#4b4c6e]"
                       >جستجوهای پرطرفدار</span
                     >
@@ -360,7 +367,8 @@
           <!--#endregion header-search-->
           <!--#region header-category-->
           <div
-            class="category h-10 w-full bg-white px-4 flex justify-between items-center"
+            class="category w-full bg-white px-4 flex justify-between items-center relative z-0 transform-gpu transition-transform duration-300 ease-out"
+            data-header-category
           >
             <!--#region header-category-navbar-->
             <div class="w-204.25 px py-0 flex justify-start items-center gap-4">
@@ -444,7 +452,11 @@
               <div
                 class="location-choose w-33.25 h-full flex justify-between items-center cursor-pointer"
               >
-                <img src="/Digikala-API-Responsive/img/Header/location.svg" alt="" class="w-5" />
+                <img
+                  src="/Digikala-API-Responsive/img/Header/location.svg"
+                  alt=""
+                  class="w-5"
+                />
                 <span class="font-Iran text-xs text-[#574a6d]">
                   ارسال به تهران، تهران
                 </span>
@@ -488,7 +500,10 @@
             class="MSearch-console rounded-full w-full bg-white h-10 p-4 flex justify-between items-center"
           >
             <div class="flex justify-center items-center gap-2">
-              <img src="/Digikala-API-Responsive/img/Header/searchbar-logo.svg" alt="" />
+              <img
+                src="/Digikala-API-Responsive/img/Header/searchbar-logo.svg"
+                alt=""
+              />
               <div class="flex justify-center items-center p-1 gap-1">
                 <span
                   class="font-Iran text-sm font-bold text-[#a7aaae] cursor-default"
@@ -501,23 +516,38 @@
                 />
               </div>
             </div>
-            <img src="/Digikala-API-Responsive/img/Header/mobile/camera.png" alt="" class="h-6" />
+            <img
+              src="/Digikala-API-Responsive/img/Header/mobile/camera.png"
+              alt=""
+              class="h-6"
+            />
           </div>
           <div
             class="notif p-2.5 rounded-full bg-white border border-[#d7d7d7]"
           >
-            <img src="/Digikala-API-Responsive/img/Header/mobile/notif.svg" alt="" />
+            <img
+              src="/Digikala-API-Responsive/img/Header/mobile/notif.svg"
+              alt=""
+            />
           </div>
         </div>
         <!--#endregion header-MSearch-->
         <div
           class="MLocation w-full flex justify-start items-center px-2 gap-1 my-2"
         >
-          <img src="/Digikala-API-Responsive/img/Header/location.svg" alt="" class="w-4" />
+          <img
+            src="/Digikala-API-Responsive/img/Header/location.svg"
+            alt=""
+            class="w-4"
+          />
           <span class="font-Iran text-xs text-[#574a6d]"
             >تحویل به به استان تهران، شهر تهران</span
           >
-          <img src="/Digikala-API-Responsive/img/Header/left-black.svg" alt="" class="w-4" />
+          <img
+            src="/Digikala-API-Responsive/img/Header/left-black.svg"
+            alt=""
+            class="w-4"
+          />
         </div>
       </header>
       <!--#endregion header-mobile-->
@@ -559,7 +589,11 @@
           <div
             class="rounded-full bg-[#f2f3f5] w-12 h-12 flex justify-center items-center"
           >
-            <img src="/Digikala-API-Responsive/img/category/more.svg" alt="" class="w-8" />
+            <img
+              src="/Digikala-API-Responsive/img/category/more.svg"
+              alt=""
+              class="w-8"
+            />
           </div>
           <span class="w-16 font-Iran text-[12px] text-center leading-6"
             >بیشتر</span
@@ -615,7 +649,11 @@
                   class="flex justify-center items-center font-Iran text-white text-[12px]"
                 >
                   مشاهده همه
-                  <img src="/Digikala-API-Responsive/img/left-white.svg" alt="" class="w-6" />
+                  <img
+                    src="/Digikala-API-Responsive/img/left-white.svg"
+                    alt=""
+                    class="w-6"
+                  />
                 </a>
               </div>
             </div>
@@ -638,30 +676,41 @@
       <div
         class="amazing mobile:hidden desktop:block rounded-2xl bg-[#ebeeed] max-w-420 mobile:mt-6 desktop:mt-0 w-[90%] justify-evenly items-center py-6 mobile:overflow-x-scroll overflow-y-hidden desktop:overflow-hidden no-scrollbar"
       >
-      <div class="flex justify-between items-center w-full px-4">
-        <div class="flex justify-center items-center gap-2">
-          <img src="/Digikala-API-Responsive/img/amazing/fresh.png" alt="" class="w-20" />
-          <img src="/Digikala-API-Responsive/img/amazing/fresh-incredible-offer.png" alt="" />
-          <div
-            class="font-Iran text-[14px] text-white bg-[#029a49] px-3.5 py-1.5 font-bold rounded-full"
-          >
-            تا ۳۵٪ تخفیف
-          </div>
-        </div>
-        <div class="flex justify-center items-center gap-2">
-          <div
-            class="flex justify-center items-center gap-2 amazing-items"
-          ></div>
-          <div
-            class="bg-white rounded-full p-4 flex justify-between items-center gap-2"
-          >
-            <span class="font-Iran text-[16px] text-[#029a49]"
-              >بیش از ۵۰ کالا</span
+        <div class="flex justify-between items-center w-full px-4">
+          <div class="flex justify-center items-center gap-2">
+            <img
+              src="/Digikala-API-Responsive/img/amazing/fresh.png"
+              alt=""
+              class="w-20"
+            />
+            <img
+              src="/Digikala-API-Responsive/img/amazing/fresh-incredible-offer.png"
+              alt=""
+            />
+            <div
+              class="font-Iran text-[14px] text-white bg-[#029a49] px-3.5 py-1.5 font-bold rounded-full"
             >
-            <img src="/Digikala-API-Responsive/img/amazing/leftgreen.svg" alt="" class="w-6" />
+              تا ۳۵٪ تخفیف
+            </div>
+          </div>
+          <div class="flex justify-center items-center gap-2">
+            <div
+              class="flex justify-center items-center gap-2 amazing-items"
+            ></div>
+            <div
+              class="bg-white rounded-full p-4 flex justify-between items-center gap-2"
+            >
+              <span class="font-Iran text-[16px] text-[#029a49]"
+                >بیش از ۵۰ کالا</span
+              >
+              <img
+                src="/Digikala-API-Responsive/img/amazing/leftgreen.svg"
+                alt=""
+                class="w-6"
+              />
+            </div>
           </div>
         </div>
-      </div>
       </div>
       <!--#endregion amazing-->
       <!--#region amazing-mobile-->
@@ -711,7 +760,11 @@
               class="flex justify-center items-center font-Iran text-white text-[12px]"
             >
               همه
-              <img src="/Digikala-API-Responsive/img/left-white.svg" alt="" class="w-6" />
+              <img
+                src="/Digikala-API-Responsive/img/left-white.svg"
+                alt=""
+                class="w-6"
+              />
             </a>
           </div>
         </div>
@@ -846,7 +899,11 @@
               class="font-Iran text-[#4e535b] text-sm flex justify-center items-center gap-1"
             >
               مشاهده همه
-              <img src="/Digikala-API-Responsive/img/leftgray.svg" alt="" class="w-6" />
+              <img
+                src="/Digikala-API-Responsive/img/leftgray.svg"
+                alt=""
+                class="w-6"
+              />
             </a>
           </div>
           <div class="w-full overflow-x-scroll overflow-y-hidden no-scrollbar">
@@ -880,7 +937,11 @@
               class="font-Iran text-[#4e535b] text-sm flex justify-center items-center gap-1"
             >
               مشاهده همه
-              <img src="/Digikala-API-Responsive/img/leftgray.svg" alt="" class="w-6" />
+              <img
+                src="/Digikala-API-Responsive/img/leftgray.svg"
+                alt=""
+                class="w-6"
+              />
             </a>
           </div>
           <div class="w-full overflow-x-scroll overflow-y-hidden no-scrollbar">
@@ -914,7 +975,11 @@
               class="font-Iran text-[#4e535b] text-sm flex justify-center items-center gap-1"
             >
               مشاهده همه
-              <img src="/Digikala-API-Responsive/img/leftgray.svg" alt="" class="w-6" />
+              <img
+                src="/Digikala-API-Responsive/img/leftgray.svg"
+                alt=""
+                class="w-6"
+              />
             </a>
           </div>
           <div class="w-full overflow-x-scroll overflow-y-hidden no-scrollbar">
@@ -950,7 +1015,11 @@
               class="font-Iran text-[#4e535b] text-sm flex justify-center items-center gap-1"
             >
               مشاهده همه
-              <img src="/Digikala-API-Responsive/img/leftgray.svg" alt="" class="w-6" />
+              <img
+                src="/Digikala-API-Responsive/img/leftgray.svg"
+                alt=""
+                class="w-6"
+              />
             </a>
           </div>
           <div class="w-full overflow-x-scroll overflow-y-hidden no-scrollbar">
@@ -989,7 +1058,11 @@
               class="font-Iran text-[#4e535b] text-sm flex justify-center items-center gap-1"
             >
               مشاهده همه
-              <img src="/Digikala-API-Responsive/img/leftgray.svg" alt="" class="w-6" />
+              <img
+                src="/Digikala-API-Responsive/img/leftgray.svg"
+                alt=""
+                class="w-6"
+              />
             </a>
           </div>
           <div class="w-full overflow-x-scroll overflow-y-hidden no-scrollbar">
@@ -1023,7 +1096,11 @@
               class="font-Iran text-[#4e535b] text-sm flex justify-center items-center gap-1"
             >
               مشاهده همه
-              <img src="/Digikala-API-Responsive/img/leftgray.svg" alt="" class="w-6" />
+              <img
+                src="/Digikala-API-Responsive/img/leftgray.svg"
+                alt=""
+                class="w-6"
+              />
             </a>
           </div>
           <div class="w-full overflow-x-scroll overflow-y-hidden no-scrollbar">
@@ -1064,7 +1141,11 @@
               class="font-Iran text-[#4e535b] text-sm flex justify-center items-center gap-1"
             >
               مشاهده همه
-              <img src="/Digikala-API-Responsive/img/leftgray.svg" alt="" class="w-6" />
+              <img
+                src="/Digikala-API-Responsive/img/leftgray.svg"
+                alt=""
+                class="w-6"
+              />
             </a>
           </div>
           <div class="w-full overflow-x-scroll overflow-y-hidden no-scrollbar">
@@ -1098,7 +1179,11 @@
               class="font-Iran text-[#4e535b] text-sm flex justify-center items-center gap-1"
             >
               مشاهده همه
-              <img src="/Digikala-API-Responsive/img/leftgray.svg" alt="" class="w-6" />
+              <img
+                src="/Digikala-API-Responsive/img/leftgray.svg"
+                alt=""
+                class="w-6"
+              />
             </a>
           </div>
           <div class="w-full overflow-x-scroll overflow-y-hidden no-scrollbar">
@@ -1175,7 +1260,11 @@
         class="chosen mobile:hidden desktop:flex max-w-420 desktop:w-[90%] w-full mt-4 flex-col justify-start items-center border border-[#eaeaec] rounded-2xl overflow-hidden bg-white"
       >
         <div class="w-full flex justify-center items-center gap-2 py-3">
-          <img src="/Digikala-API-Responsive/img/chosen/chosen.svg" alt="" class="w-8" />
+          <img
+            src="/Digikala-API-Responsive/img/chosen/chosen.svg"
+            alt=""
+            class="w-8"
+          />
           <span class="font-Iran text-[28px] font-semibold"
             >منتخب محصولات تخفیف و حراج</span
           >
@@ -1238,7 +1327,10 @@
               href="#"
               class="font-Iran text-[#19bfd3] text-[14px] flex justify-center items-center"
               >مطالب بیشتر در دیجی‌کالا مگ
-              <img src="/Digikala-API-Responsive/img/blueleftsmall.svg" alt="" class="w-6"
+              <img
+                src="/Digikala-API-Responsive/img/blueleftsmall.svg"
+                alt=""
+                class="w-6"
             /></a>
           </div>
         </div>
@@ -1258,7 +1350,11 @@
             class="footer-back-top font-Iran inline-flex items-center justify-center gap-2 rounded-full bg-[#f0f0f1] px-6 py-3 text-[13px] text-[#3f4064]"
           >
             <span>رفتن به بالا</span>
-            <img src="/Digikala-API-Responsive/img/footer/up.svg" alt="" class="w-4 h-4" />
+            <img
+              src="/Digikala-API-Responsive/img/footer/up.svg"
+              alt=""
+              class="w-4 h-4"
+            />
           </button>
         </div>
 
@@ -2266,59 +2362,64 @@
       <div
         class="w-full h-18 flex justify-between items-center bg-white border-t border-[#eaeaec] mobile:flex desktop:hidden fixed bottom-0 left-0 right-0 z-100"
       >
-        <div class="w-[90%] mx-auto flex justify-between items-center tab-menu"></div>
+        <div
+          class="w-[90%] mx-auto flex justify-between items-center tab-menu"
+        ></div>
       </div>
       <!--#endregion tab-menu-->
     </main>
 
     <!--#region essentials-->
     <!--#region mobile-tabs-category-->
-<div class="fixed inset-0 z-[200] hidden font-Iran desktop:hidden" data-tabs>
-<div
-  class="absolute inset-0 bg-black/40 opacity-0 transition-opacity duration-300"
-  data-tabs-backdrop
-></div>
-<div
-  class="absolute inset-x-0 bottom-0 h-[88vh] max-h-[88vh] translate-y-full rounded-t-2xl bg-white transition-transform duration-300"
-  data-tabs-sheet
->
-<div class="flex h-full w-full flex-col">
-  <div
-    class="flex h-14 shrink-0 items-center justify-between border-b border-[#e0e0e2] px-4"
-  >
-    <span class="font-Iran text-base font-bold text-[#23254e]">
-      دسته‌بندی کالاها
-    </span>
-
-    <button
-      type="button"
-      class="flex h-10 w-10 items-center justify-center"
-      data-tabs-close
-      aria-label="بستن"
+    <div
+      class="fixed inset-0 z-[200] hidden font-Iran desktop:hidden"
+      data-tabs
     >
-      <img
-        src="/Digikala-API-Responsive/img/fixed-button/svgexport-32.svg"
-        alt=""
-        class="h-6 w-6"
-      />
-    </button>
-  </div>
+      <div
+        class="absolute inset-0 bg-black/40 opacity-0 transition-opacity duration-300"
+        data-tabs-backdrop
+      ></div>
+      <div
+        class="absolute inset-x-0 bottom-0 h-[88vh] max-h-[88vh] translate-y-full rounded-t-2xl bg-white transition-transform duration-300"
+        data-tabs-sheet
+      >
+        <div class="flex h-full w-full flex-col">
+          <div
+            class="flex h-14 shrink-0 items-center justify-between border-b border-[#e0e0e2] px-4"
+          >
+            <span class="font-Iran text-base font-bold text-[#23254e]">
+              دسته‌بندی کالاها
+            </span>
 
-  <div class="flex min-h-0 flex-1">
-    <div
-      class="h-full w-[105px] shrink-0 overflow-y-auto bg-[#f0f0f1] [scrollbar-width:none]"
-      data-tabs-list
-    ></div>
+            <button
+              type="button"
+              class="flex h-10 w-10 items-center justify-center"
+              data-tabs-close
+              aria-label="بستن"
+            >
+              <img
+                src="/Digikala-API-Responsive/img/fixed-button/svgexport-32.svg"
+                alt=""
+                class="h-6 w-6"
+              />
+            </button>
+          </div>
 
-    <div
-      class="min-w-0 flex-1 overflow-y-auto bg-white px-4 py-3"
-      data-tabs-content
-    ></div>
-  </div>
-</div>
-</div>
-</div>
-<!--#endregion mobile-tabs-category-->
+          <div class="flex min-h-0 flex-1">
+            <div
+              class="h-full w-[105px] shrink-0 overflow-y-auto bg-[#f0f0f1] [scrollbar-width:none]"
+              data-tabs-list
+            ></div>
+
+            <div
+              class="min-w-0 flex-1 overflow-y-auto bg-white px-4 py-3"
+              data-tabs-content
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--#endregion mobile-tabs-category-->
     <!--#region fixed-supermarket-->
     <div
       class="font-Iran desktop:block mobile:hidden"
@@ -2327,7 +2428,7 @@
     >
       <button
         type="button"
-        class="fixed bottom-6 flex-row-reverse left-4 z-[60] flex h-[60px] w-[160px] cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-full bg-[#029a49] px-3 text-white shadow-sm transition-[width] duration-500 ease-out"
+        class="fixed bottom-6 flex-row-reverse left-4 z-[60] flex h-[50px] w-[140px] cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-full bg-[#029a49] px-2 text-white shadow-sm transition-[width] duration-500 ease-out"
         data-fixed-super-open
         aria-haspopup="dialog"
         aria-expanded="false"
@@ -2363,7 +2464,7 @@
       ></div>
 
       <div
-        class="fixed left-1/2 top-1/2 z-[110] hidden w-[min(460px,calc(100vw-1.5rem))] -translate-x-1/2 -translate-y-1/2 rounded-lg bg-white p-3 text-right shadow-xl sm:px-5"
+        class="fixed left-1/2 top-1/2 z-[110] hidden w-[min(460px,calc(100vw-1.5rem))] -translate-x-1/2 -translate-y-1/2 rounded-lg bg-white p-3 text-right shadow-xl sm:px-5 h-[50vh] overflow-y-auto"
         data-fixed-super-panel
         role="dialog"
         aria-modal="true"
@@ -2398,7 +2499,7 @@
         </div>
 
         <div
-          class="mt-2.5 flex min-h-[20rem] w-full items-stretch justify-center gap-3 max-sm:flex-col"
+          class="mt-2.5 flex min-h-[10rem] w-full items-stretch justify-center gap-3 max-sm:flex-col"
           data-fixed-super-cards
         ></div>
       </div>
@@ -2436,7 +2537,7 @@
       <div class="hidden desktop:block">
         <button
           type="button"
-          class="fixed bottom-6 right-12 z-[60] flex h-16 w-16 cursor-pointer items-center justify-center rounded-full bg-[#ef4056] p-2.5 text-white shadow-sm"
+          class="fixed bottom-6 right-12 z-[60] flex h-14 w-14 cursor-pointer items-center justify-center rounded-full bg-[#ef4056] p-2.5 text-white shadow-sm"
           data-help-open
           aria-label="پشتیبانی"
         >
@@ -2525,7 +2626,10 @@
       <div class="w-full h-18 p-6">
         <div class="flex justify-between items-center">
           <div class="flex justify-center items-center gap-1">
-            <img src="/Digikala-API-Responsive/img/category/modalList.svg" alt="" />
+            <img
+              src="/Digikala-API-Responsive/img/category/modalList.svg"
+              alt=""
+            />
             <span class="font-Iran desktop:text-md mobile:text-sm font-bold"
               >خدمات دیجی‌کالا</span
             >
@@ -2625,7 +2729,10 @@
               class="h-11 w-full gap-4 flex justify-start items-center pb-2 transition-all duration-300 rounded-sm placeholder:text-[#b4b6ba] placeholder:font-Iran placeholder:text-[12px] outline-none border-none"
               placeholder="جستجو در استان‌ها و شهرهای ایران"
             />
-            <img src="/Digikala-API-Responsive/img/Header/searchbar-logo.svg" alt="" />
+            <img
+              src="/Digikala-API-Responsive/img/Header/searchbar-logo.svg"
+              alt=""
+            />
           </div>
           <hr
             class="w-full mt-1.5 border border-[#eaeaec] loc-divider hideen"
@@ -2649,7 +2756,6 @@
               <div class="swiper-button-next city-next"></div>
             </div>
           </section>
-
         </div>
         <div
           class="cities-list w-full flex-col flex gap-2 justify-start items-center"
@@ -2672,7 +2778,11 @@
         <div
           class="w-full h-11 flex justify-start items-center p-4 rounded-full border border-[#d7d7d7] gap-4"
         >
-          <img src="/Digikala-API-Responsive/img/Header/searchbar-logo.svg" alt="" class="w-6" />
+          <img
+            src="/Digikala-API-Responsive/img/Header/searchbar-logo.svg"
+            alt=""
+            class="w-6"
+          />
           <input
             type="text"
             placeholder="جستجو در همه کالاها"
@@ -2686,7 +2796,10 @@
       >
         <div class="flex justify-between items-center w-full">
           <div class="flex justify-center items-center gap-3">
-            <img src="/Digikala-API-Responsive/img/Header/search-hot.svg" alt="" />
+            <img
+              src="/Digikala-API-Responsive/img/Header/search-hot.svg"
+              alt=""
+            />
             <span class="font-Iran text-sm font-semibold text-[#5c5c5c]"
               >جستجوی های پرطرفدار</span
             >
